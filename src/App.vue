@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    @ {{ count }}
     <router-view />
   </div>
 </template>
