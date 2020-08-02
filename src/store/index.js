@@ -22,8 +22,16 @@ export default new Vuex.Store({
     selectedValue: '',
     show1: false,
     show2: false,
+    dlVersion: '',
+    packageVersion: '',
   },
   getters: {
+    getMirai(state) {
+      return state.dlVersion
+    },
+    getFuture(state) {
+      return state.packageVersion
+    },
     getAllProducts(state) {
       return state.products
     },
@@ -69,6 +77,12 @@ export default new Vuex.Store({
     },
     toggleShow2Boolean(state) {
       state.show2 = !state.show2
+    },
+    setDlVersion(state, value) {
+      state.dlVersion = value
+    },
+    setPackageVersion(state, value) {
+      state.packageVersion = value
     },
   },
   actions: {},
