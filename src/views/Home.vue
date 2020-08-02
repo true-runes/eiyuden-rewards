@@ -1,16 +1,16 @@
 <template>
   <div class="home">
-    <Rewards />
+    <TryBuefy :title="'デジタル版'" :value="'hoge'" />
   </div>
 </template>
 
 <script>
-import Rewards from '@/components/Rewards'
+import TryBuefy from '@/components/TryBuefy'
 
 export default {
   name: 'Home',
   components: {
-    Rewards,
+    TryBuefy,
   },
 }
 </script>
