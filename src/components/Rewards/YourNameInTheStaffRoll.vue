@@ -1,21 +1,38 @@
 <template>
   <section>
-    <p>スタッフロールに名前が載る権利</p>
-    <b-field>
-      <b-radio-button v-model="dlVersion" native-value="yes" type="is-success">
-        <b-icon icon="check" size="is-small"></b-icon>
-        <span>ほしい</span>
-      </b-radio-button>
+    <div class="container">
+      <div class="columns">
+        <div class="column is-four-fifths">
+          <p>スタッフロールに名前が載る権利</p>
+        </div>
+      </div>
+    </div>
 
-      <b-radio-button v-model="dlVersion" native-value="no" type="is-danger">
-        <b-icon icon="close"></b-icon>
-        <span>いらない</span>
-      </b-radio-button>
-    </b-field>
-
-    <div>
-      ここに表示される
-      {{ hogeBar }}
+    <div class="container">
+      <div class="columns">
+        <div class="column is-four-fifths">
+          <b-field class="columns">
+            <b-radio-button
+              v-model="dlVersion"
+              native-value="yes"
+              type="is-success"
+              class="column"
+            >
+              <b-icon icon="check" size="is-small"></b-icon>
+              <span>ほしい</span>
+            </b-radio-button>
+            <b-radio-button
+              v-model="dlVersion"
+              native-value="no"
+              type="is-danger"
+              class="column"
+            >
+              <b-icon icon="close"></b-icon>
+              <span>いらない</span>
+            </b-radio-button>
+          </b-field>
+        </div>
+      </div>
     </div>
   </section>
 </template>

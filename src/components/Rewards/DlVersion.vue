@@ -1,18 +1,24 @@
 <template>
-  <section>
-    <p>ダウンロード版</p>
-    <b-field>
-      <b-radio-button v-model="dlVersion" native-value="yes" type="is-success">
-        <b-icon icon="check" size="is-small"></b-icon>
-        <span>ほしい</span>
-      </b-radio-button>
+  <div class="container is-fluid">
+    <section>
+      <p>ダウンロード版</p>
+      <b-field>
+        <b-radio-button
+          v-model="dlVersion"
+          native-value="yes"
+          type="is-success"
+        >
+          <b-icon icon="check" size="is-small"></b-icon>
+          <span>ほしい</span>
+        </b-radio-button>
 
-      <b-radio-button v-model="dlVersion" native-value="no" type="is-danger">
-        <b-icon icon="close"></b-icon>
-        <span>いらない</span>
-      </b-radio-button>
-    </b-field>
-  </section>
+        <b-radio-button v-model="dlVersion" native-value="no" type="is-danger">
+          <b-icon icon="close"></b-icon>
+          <span>いらない</span>
+        </b-radio-button>
+      </b-field>
+    </section>
+  </div>
 </template>
 
 <script>

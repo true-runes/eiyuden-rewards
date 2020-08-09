@@ -1,5 +1,6 @@
 <template>
-  <div class="home">
+  <div>
+    <Header />
     <Title />
 
     <YourNameInTheStaffRoll />
@@ -30,12 +31,16 @@
     <RewardsDlVersion />
     <RewardsPackageVersion />
     <Result />
+
+    <Footer />
   </div>
 </template>
 
 <script>
+import Header from '@/components/Header'
 import Title from '@/components/Title'
 import Result from '@/components/Result'
+import Footer from '@/components/Footer'
 
 import YourNameInTheStaffRoll from '@/components/Rewards/YourNameInTheStaffRoll'
 import DiscordRole from '@/components/Rewards/DiscordRole'
@@ -68,6 +73,7 @@ import RewardsPackageVersion from '@/components/Rewards/PackageVersion'
 export default {
   name: 'Home',
   components: {
+    Header,
     Title,
     RewardsDlVersion,
     RewardsPackageVersion,
@@ -96,6 +102,7 @@ export default {
     CharacterFigure,
     DigitalCd,
     DigitalArtbook,
+    Footer,
   },
 }
 </script>
