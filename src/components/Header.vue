@@ -1,7 +1,9 @@
 <template>
-  <div class="container">
-    <marquee>This site is Japanese only.</marquee>
-  </div>
+  <section class="section">
+    <div class="container">
+      <marquee>This site is Japanese only.</marquee>
+    </div>
+  </section>
 </template>
 
 <script></script>

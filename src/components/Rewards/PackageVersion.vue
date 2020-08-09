@@ -1,6 +1,7 @@
 <template>
-  <section>
+  <section class="section">
     <p>パッケージ版</p>
+    <br />
     <b-field>
       <b-radio-button
         v-model="packageVersion"

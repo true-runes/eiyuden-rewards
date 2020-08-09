@@ -1,14 +1,13 @@
 <template>
-  <section>
+  <section class="section">
     <div class="container">
-      <!-- built files will be auto injected -->
-
       <center>
         <a
           href="https://support.microsoft.com/ja-jp/help/17621/internet-explorer-downloads"
           target="_blank"
           ><img src="/images/msie_now.png" width="140"
         /></a>
+        &nbsp;
         <a href="https://www.mozilla.org/ja/firefox/new/" target="_blank"
           ><img src="/images/netscape_now.gif" width="140"
         /></a>

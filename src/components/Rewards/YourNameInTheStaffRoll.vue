@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="section">
     <div class="container">
       <div class="columns">
         <div class="column is-four-fifths">
@@ -9,8 +9,8 @@
     </div>
 
     <div class="container">
-      <div class="columns">
-        <div class="column is-four-fifths">
+      <div class="columns is-multiline is-mobile is-tablet is-desktop">
+        <div class="column is-12-mobile is-4-tablet is-3-desktop">
           <b-field class="columns">
             <b-radio-button
               v-model="dlVersion"

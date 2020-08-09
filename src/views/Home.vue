@@ -110,5 +110,6 @@ export default {
 <style>
 body {
   background-color: #79cafd;
+  overflow-x: hidden;
 }
 </style>
