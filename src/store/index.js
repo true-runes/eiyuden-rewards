@@ -1,9 +1,14 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
+import rewards from '@/store/rewards'
+
 Vue.use(Vuex)
 
 export default new Vuex.Store({
+  modules: {
+    rewards: rewards,
+  },
   strict: true,
   state: {
     count: 12345,
@@ -86,5 +91,4 @@ export default new Vuex.Store({
     },
   },
   actions: {},
-  modules: {},
 })

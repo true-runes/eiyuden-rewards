@@ -1,56 +1,14 @@
 <template>
   <div>
-    <h1 class="kadlu-sticky">
-      <p>あてはまるプレッジすう</p>
-      <p>れこめんどぷれっじすす</p>
-      <p>あてはまるプレッジすう</p>
-      <p>れこめんどぷれっじすす</p>
-      <p>あてはまるプレッジすう</p>
-      <p>れこめんどぷれっじすす</p>
-      <p>あてはまるプレッジすう</p>
-      <p>れこめんどぷれっじすす</p>
-    </h1>
     Result
     <h1>dlversion: {{ getMirai }}</h1>
     <h1>packageversion: {{ getFuture }}</h1>
 
     <div class="buttons">
-      <button class="button is-medium" @click="toast">
-        Launch toast (default)
+      <button class="button is-small" @click="toast">
+        入力内容をリセットする
       </button>
     </div>
-
-    <h1>ダミー</h1>
-    <h1>ダミー</h1>
-    <h1>ダミー</h1>
-    <h1>ダミー</h1>
-    <h1>ダミー</h1>
-    <h1>ダミー</h1>
-    <h1>ダミー</h1>
-    <h1>ダミー</h1>
-    <h1>ダミー</h1>
-    <h1>ダミー</h1>
-    <h1>ダミー</h1>
-    <h1>ダミー</h1>
-    <h1>ダミー</h1>
-    <h1>ダミー</h1>
-    <h1>ダミー</h1>
-    <h1>ダミー</h1>
-
-    <footer class="footer">
-      <div class="content has-text-centered">
-        <p>
-          <strong>Bulma</strong> by
-          <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is
-          licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
-          website content is licensed
-          <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
-            >CC BY NC SA 4.0</a
-          >.
-        </p>
-      </div>
-    </footer>
   </div>
 </template>
 
