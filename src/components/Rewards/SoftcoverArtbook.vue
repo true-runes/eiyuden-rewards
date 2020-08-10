@@ -25,6 +25,14 @@
             </b-radio-button>
             <b-radio-button
               v-model="softcoverArtbook"
+              native-value="whichever"
+              type="is-info"
+              class="column"
+            >
+              <span>どちらでもいい</span>
+            </b-radio-button>
+            <b-radio-button
+              v-model="softcoverArtbook"
               native-value="false"
               type="is-danger"
               class="column"

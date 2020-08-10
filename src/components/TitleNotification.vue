@@ -7,8 +7,7 @@
             <ul>
               <li>
                 <p class="has-text-weight-bold has-text-left">
-                  「百英雄伝」の「リワード（返礼品）」の「ほしい or
-                  ほしくない」を選んでいくと、それらが含まれた「プレッジ（出資項目）」が分かります
+                  「百英雄伝」の希望の「リワード（返礼品）」が含まれた「プレッジ（出資項目）」が分かります
                 </p>
               </li>
               <li>
@@ -22,6 +21,16 @@
                   (^o^)/
                 </p>
               </li>
+              <dev v-if="false">
+                <li>
+                  <p
+                    class="has-text-weight-bold has-text-left"
+                    @click="initializer"
+                  >
+                    vuex-persistedstate 初期化
+                  </p>
+                </li>
+              </dev>
             </ul>
           </div>
         </div>
@@ -30,7 +39,24 @@
   </section>
 </template>
 
-<script></script>
+<script>
+export default {
+  methods: {
+    initializer: function () {
+      const initialState = {
+        rewards: {},
+        pledges: {},
+      }
+
+      localStorage.setItem('vuex', JSON.stringify(initialState))
+      this.reloadCurrentPage()
+    },
+    reloadCurrentPage: function () {
+      this.$router.go({ path: this.$router.currentRoute.path, force: true })
+    },
+  },
+}
+</script>
 
 <style scoped>
 .columns {

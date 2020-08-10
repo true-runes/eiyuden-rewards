@@ -1,23 +1,31 @@
 <template>
   <section class="section">
     <nav class="navbar is-fixed-bottom level">
-      <p class="level-item is-size-4 has-text-centered navbar-">
+      <p class="level-item is-size-4 has-text-centered" @click="showModal">
         該当するプレッジは {{ numberOfMatchedPledgeNames }}個 です
       </p>
 
-      <div class="modal">
+      <div class="modal" :class="{ 'is-active': modalIsShown }">
         <div class="modal-background"></div>
         <div class="modal-card">
           <header class="modal-card-head">
-            <p class="modal-card-title">Modal title</p>
-            <button class="delete" aria-label="close"></button>
+            <p class="modal-card-title">該当プレッジ</p>
           </header>
-          <section class="modal-card-body">
-            {{ matchedPledgeNames }}
+          <section class="modal-card-body has-text-left">
+            <div class="content">
+              <ul>
+                <div v-for="name in matchedPledgeNames" :key="name">
+                  <li>
+                    {{ name }}
+                  </li>
+                </div>
+              </ul>
+            </div>
           </section>
-          <footer class="modal-card-foot">
-            <button class="button is-success">Save changes</button>
-            <button class="button">Cancel</button>
+          <footer class="modal-card-foot move-button-to-right">
+            <button class="button is-success" @click="pushCloseButton">
+              閉じる
+            </button>
           </footer>
         </div>
       </div>
@@ -27,6 +35,12 @@
 
 <script>
 export default {
+  data: () => {
+    return {
+      modalIsShown: false,
+      closeButtonIsPressed: false,
+    }
+  },
   computed: {
     matchedPledgeNames: function () {
       return Object.keys(this.matchedPledges()).filter(
@@ -38,6 +52,14 @@ export default {
     },
   },
   methods: {
+    showModal() {
+      this.closeButtonIsPressed = false
+      this.modalIsShown = true
+    },
+    pushCloseButton() {
+      this.closeButtonIsPressed = true
+      this.modalIsShown = false
+    },
     matchedPledges: function () {
       return {
         'Digital Version': this.$store.getters['pledges/isDigitalVersion'],
@@ -120,5 +142,9 @@ export default {
 <style>
 .level-item {
   margin: 10px;
+}
+
+.move-button-to-right {
+  justify-content: flex-end;
 }
 </style>
