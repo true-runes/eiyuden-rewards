@@ -13,6 +13,11 @@
               </li>
               <li>
                 <p class="has-text-weight-bold has-text-left">
+                  逆引き結果は「完全一致」で判別しています
+                </p>
+              </li>
+              <li>
+                <p class="has-text-weight-bold has-text-left">
                   できるだけ最新の情報を反映するようにしていますが、情報が正確でない場合があります
                 </p>
               </li>
