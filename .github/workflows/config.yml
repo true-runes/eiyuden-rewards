@@ -1,0 +1,19 @@
+on: [push]
+name: Eiyuden Chronicle Rewards
+jobs:
+  eiyuden_chronicle_rewards_github_actions:
+    name: Eiyuden Chronicle Rewards CI
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Install dependencies
+      run: yarn

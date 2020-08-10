@@ -1,0 +1,63 @@
+<template>
+  <section class="section">
+    <div class="container">
+      <div class="columns is-multiline is-mobile is-tablet is-desktop">
+        <div class="column is-12-mobile is-12-tablet is-12-desktop">
+          <p class="is-size-5 has-text-weight-bold">
+            Discord で "Role" がもらえる
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="columns is-multiline is-mobile is-tablet is-desktop">
+        <div class="column is-12-mobile is-12-tablet is-12-desktop">
+          <b-field class="columns">
+            <b-radio-button
+              v-model="discordRole"
+              native-value="true"
+              type="is-success"
+              class="column"
+            >
+              <b-icon icon="check" size="is-small"></b-icon>
+              <span>全プレッジに含まれます</span>
+            </b-radio-button>
+            <div v-show="false">
+              <b-radio-button
+                v-model="discordRole"
+                native-value="false"
+                type="is-danger"
+                class="column"
+                disabled
+              >
+                <b-icon icon="close"></b-icon>
+                <span>ほしくない</span>
+              </b-radio-button>
+            </div>
+          </b-field>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script>
+export default {
+  computed: {
+    discordRole: {
+      get() {
+        return this.$store.state.rewards.discordRole
+      },
+      set(value) {
+        this.$store.commit('rewards/setdiscordRole', value)
+      },
+    },
+  },
+  watch: {
+    discordRole: function () {
+      this.$store.commit('rewards/setAllRewardsState')
+    },
+  },
+}
+</script>
