@@ -1,6 +1,6 @@
 <template>
   <section class="section">
-    <div v-if="true" class="container">
+    <div v-if="false" class="container">
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <p>デバッグ領域 開始</p>
