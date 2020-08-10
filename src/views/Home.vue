@@ -33,6 +33,8 @@
     <Result />
 
     <Bottom />
+
+    <NavBar />
   </div>
 </template>
 
@@ -42,6 +44,7 @@ import TitleNotification from '@/components/TitleNotification'
 import Title from '@/components/Title'
 import Result from '@/components/Result'
 import Bottom from '@/components/Bottom'
+import NavBar from '@/components/NavBar'
 
 import YourNameInTheStaffRoll from '@/components/Rewards/YourNameInTheStaffRoll'
 import DiscordRole from '@/components/Rewards/DiscordRole'
@@ -100,6 +103,7 @@ export default {
     DigitalCd,
     DigitalArtbook,
     Bottom,
+    NavBar,
   },
   created: function () {
     // Initialize
@@ -120,5 +124,15 @@ section.section {
 
 .b-radio.radio {
   border-radius: 100px;
+}
+
+.page-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.content-wrapper {
+  flex: 1;
 }
 </style>
