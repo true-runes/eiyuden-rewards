@@ -44,16 +44,18 @@
               <b-icon icon="check" size="is-small"></b-icon>
               <span>全プレッジに含まれます</span>
             </b-radio-button>
-            <b-radio-button
-              v-model="yourNameInTheStaffRoll"
-              native-value="false"
-              type="is-danger"
-              class="column"
-              disabled
-            >
-              <b-icon icon="close"></b-icon>
-              <span>ほしくない</span>
-            </b-radio-button>
+            <div v-show="false">
+              <b-radio-button
+                v-model="yourNameInTheStaffRoll"
+                native-value="false"
+                type="is-danger"
+                class="column"
+                disabled
+              >
+                <b-icon icon="close"></b-icon>
+                <span>ほしくない</span>
+              </b-radio-button>
+            </div>
           </b-field>
         </div>
       </div>
