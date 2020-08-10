@@ -2,12 +2,11 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    // TODO: Boolean?
-    yourNameInTheStaffRoll: '',
+    vinylRecord: '',
   },
   mutations: {
-    setYourNameInTheStaffRoll(state, value) {
-      state.yourNameInTheStaffRoll = value
+    setVinylRecord(state, value) {
+      state.vinylRecord = value
     },
   },
 }

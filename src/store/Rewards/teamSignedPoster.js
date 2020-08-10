@@ -2,12 +2,11 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    // TODO: Boolean?
-    yourNameInTheStaffRoll: '',
+    teamSignedPoster: '',
   },
   mutations: {
-    setYourNameInTheStaffRoll(state, value) {
-      state.yourNameInTheStaffRoll = value
+    setTeamSignedPoster(state, value) {
+      state.teamSignedPoster = value
     },
   },
 }

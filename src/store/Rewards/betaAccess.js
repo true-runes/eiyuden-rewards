@@ -2,12 +2,11 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    // TODO: Boolean?
-    yourNameInTheStaffRoll: '',
+    betaAccess: '',
   },
   mutations: {
-    setYourNameInTheStaffRoll(state, value) {
-      state.yourNameInTheStaffRoll = value
+    setBetaAccess(state, value) {
+      state.betaAccess = value
     },
   },
 }

@@ -2,12 +2,11 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    // TODO: Boolean?
-    yourNameInTheStaffRoll: '',
+    sigilButton: '',
   },
   mutations: {
-    setYourNameInTheStaffRoll(state, value) {
-      state.yourNameInTheStaffRoll = value
+    setSigilButton(state, value) {
+      state.sigilButton = value
     },
   },
 }

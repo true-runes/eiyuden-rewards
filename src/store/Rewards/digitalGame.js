@@ -2,12 +2,11 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    // TODO: Boolean?
-    yourNameInTheStaffRoll: '',
+    digitalGame: '',
   },
   mutations: {
-    setYourNameInTheStaffRoll(state, value) {
-      state.yourNameInTheStaffRoll = value
+    setDigitalGame(state, value) {
+      state.digitalGame = value
     },
   },
 }

@@ -15,14 +15,20 @@
       </div>
     </div>
 
+    <div v-if="false">
+      <!-- FIXME: Use props -->
+    </div>
     <div class="container">
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
-          <p>スタッフロールに名前が載る</p>
+          <p class="is-size-5">スタッフロールに名前が載る</p>
         </div>
       </div>
     </div>
 
+    <div v-if="false">
+      <!-- FIXME: Use container -->
+    </div>
     <div class="container">
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">

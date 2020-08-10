@@ -13,7 +13,7 @@
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <b-field class="columns">
             <b-radio-button
-              v-model="yourNameInTheStaffRoll"
+              v-model="characterFigure"
               native-value="yes"
               type="is-success"
               class="column"
@@ -22,7 +22,7 @@
               <span>ほしい</span>
             </b-radio-button>
             <b-radio-button
-              v-model="yourNameInTheStaffRoll"
+              v-model="characterFigure"
               native-value="no"
               type="is-danger"
               class="column"
@@ -40,17 +40,17 @@
 <script>
 export default {
   computed: {
-    yourNameInTheStaffRoll: {
+    characterFigure: {
       get() {
-        return this.$store.state.rewards.yourNameInTheStaffRoll
+        return this.$store.state.rewards.characterFigure
       },
       set(value) {
-        this.$store.commit('rewards/setYourNameInTheStaffRoll', value)
+        this.$store.commit('rewards/setCharacterFigure', value)
       },
     },
   },
   watch: {
-    yourNameInTheStaffRoll: function () {
+    characterFigure: function () {
       this.$store.commit('rewards/setAllRewardsState')
     },
   },
