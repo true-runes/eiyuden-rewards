@@ -2,8 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    // TODO: Boolean?
-    yourNameInTheStaffRoll: 'no',
+    yourNameInTheStaffRoll: 'true',
   },
   mutations: {
     setYourNameInTheStaffRoll(state, value) {

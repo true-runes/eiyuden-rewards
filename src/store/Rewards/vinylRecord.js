@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    vinylRecord: 'no',
+    vinylRecord: 'false',
   },
   mutations: {
     setVinylRecord(state, value) {
