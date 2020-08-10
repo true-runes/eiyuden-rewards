@@ -7,6 +7,7 @@
         </div>
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <p>{{ allRewardsState }}</p>
+          <button class="button" @click="showModal">モーダルを表示する</button>
         </div>
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <p>デバッグ領域 終了</p>
@@ -48,11 +49,38 @@
         </div>
       </div>
     </div>
+
+    <div class="modal" :class="{ 'is-active': showModalFlag }">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">スタッフロールに名前が載る権利</p>
+          <button
+            class="delete"
+            aria-label="close"
+            @click="cancelModal"
+          ></button>
+        </header>
+        <section class="modal-card-body">
+          <p>{{ message }}</p>
+        </section>
+        <footer class="modal-card-foot">
+          <button class="button is-success" @click="okModal">Ok</button>
+        </footer>
+      </div>
+    </div>
   </section>
 </template>
 
 <script>
 export default {
+  data: () => {
+    return {
+      showModalFlag: false,
+      okPressed: false,
+      message: 'あなたの名前がスタッフロールに掲載されます。',
+    }
+  },
   computed: {
     // FIXME: For print debug
     allRewardsState() {
@@ -70,6 +98,20 @@ export default {
   watch: {
     yourNameInTheStaffRoll: function () {
       this.$store.commit('rewards/setAllRewardsState')
+    },
+  },
+  methods: {
+    showModal() {
+      this.okPressed = false
+      this.showModalFlag = true
+    },
+    okModal() {
+      this.okPressed = true
+      this.showModalFlag = false
+    },
+    cancelModal() {
+      this.okPressed = false
+      this.showModalFlag = false
     },
   },
 }

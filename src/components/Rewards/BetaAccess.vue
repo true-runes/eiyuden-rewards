@@ -3,7 +3,7 @@
     <div class="container">
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
-          <p>スタッフロールに名前が載る権利</p>
+          <p>ベータ版をプレイできる</p>
         </div>
       </div>
     </div>
