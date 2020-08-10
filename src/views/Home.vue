@@ -1,7 +1,6 @@
 <template>
   <div>
     <Header />
-
     <Title />
     <TitleNotification />
 
@@ -30,8 +29,6 @@
     <DigitalCd />
     <DigitalArtbook />
 
-    <Result />
-
     <Bottom />
 
     <NavBar />
@@ -42,7 +39,6 @@
 import Header from '@/components/Header'
 import TitleNotification from '@/components/TitleNotification'
 import Title from '@/components/Title'
-import Result from '@/components/Result'
 import Bottom from '@/components/Bottom'
 import NavBar from '@/components/NavBar'
 
@@ -77,7 +73,6 @@ export default {
     Header,
     TitleNotification,
     Title,
-    Result,
     YourNameInTheStaffRoll,
     DiscordRole,
     DigitalGame,
