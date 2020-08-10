@@ -43,22 +43,22 @@
       </div>
     </div>
 
-    <div class="modal" :class="{ 'is-active': showModalFlag }">
+    <div class="modal" :class="{ 'is-active': modalIsShown }">
       <div class="modal-background"></div>
       <div class="modal-card">
         <header class="modal-card-head">
           <p class="modal-card-title">スタッフロールに名前が載る権利</p>
-          <button
-            class="delete"
-            aria-label="close"
-            @click="cancelModal"
-          ></button>
         </header>
         <section class="modal-card-body">
-          <p>{{ message }}</p>
+          <p>あなたの名前がスタッフロールに掲載されます。</p>
+          <p>あなたの名前がスタッフロールに掲載されます。</p>
+          <p>あなたの名前がスタッフロールに掲載されます。</p>
+          <p>あなたの名前がスタッフロールに掲載されます。</p>
+          <p>あなたの名前がスタッフロールに掲載されます。</p>
+          <p>あなたの名前がスタッフロールに掲載されます。</p>
         </section>
         <footer class="modal-card-foot move-button-to-right">
-          <button class="button is-success" @click="okModal">
+          <button class="button is-success" @click="pushCloseButton">
             閉じる
           </button>
         </footer>
@@ -71,9 +71,8 @@
 export default {
   data: () => {
     return {
-      showModalFlag: false,
-      okPressed: false,
-      message: 'あなたの名前がスタッフロールに掲載されます。',
+      modalIsShown: false,
+      closeButtonIsPressed: false,
     }
   },
   computed: {
@@ -93,16 +92,12 @@ export default {
   },
   methods: {
     showModal() {
-      this.okPressed = false
-      this.showModalFlag = true
+      this.closeButtonIsPressed = false
+      this.modalIsShown = true
     },
-    okModal() {
-      this.okPressed = true
-      this.showModalFlag = false
-    },
-    cancelModal() {
-      this.okPressed = false
-      this.showModalFlag = false
+    pushCloseButton() {
+      this.closeButtonIsPressed = true
+      this.modalIsShown = false
     },
   },
 }

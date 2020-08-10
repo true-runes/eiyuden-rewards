@@ -4,6 +4,23 @@
       <p class="level-item is-size-4 has-text-centered navbar-">
         該当するプレッジは {{ numberOfMatchedPledgeNames }}個 です
       </p>
+
+      <div class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head">
+            <p class="modal-card-title">Modal title</p>
+            <button class="delete" aria-label="close"></button>
+          </header>
+          <section class="modal-card-body">
+            {{ matchedPledgeNames }}
+          </section>
+          <footer class="modal-card-foot">
+            <button class="button is-success">Save changes</button>
+            <button class="button">Cancel</button>
+          </footer>
+        </div>
+      </div>
     </nav>
   </section>
 </template>

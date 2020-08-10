@@ -17,7 +17,13 @@
 
           <br />
 
-          <p>「百英雄伝」は</p>
+          <p>
+            「<a
+              href="https://www.kickstarter.com/projects/rabbitandbearstudios/eiyuden-chronicle-hundred-heroes"
+              target="_blank"
+              >百英雄伝</a
+            >」は
+          </p>
           <p>
             <a href="https://rabbitandbearstudios.com/" target="_blank"
               >Rabbit & Bear Studios 株式会社 さん</a
