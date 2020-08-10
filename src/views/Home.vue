@@ -1,7 +1,9 @@
 <template>
   <div>
     <Header />
+
     <Title />
+    <TitleNotification />
 
     <YourNameInTheStaffRoll />
     <DiscordRole />
@@ -36,6 +38,7 @@
 
 <script>
 import Header from '@/components/Header'
+import TitleNotification from '@/components/TitleNotification'
 import Title from '@/components/Title'
 import Result from '@/components/Result'
 import Bottom from '@/components/Bottom'
@@ -69,6 +72,7 @@ export default {
   name: 'Home',
   components: {
     Header,
+    TitleNotification,
     Title,
     Result,
     YourNameInTheStaffRoll,
@@ -108,5 +112,9 @@ export default {
 body {
   background-color: #79cafd;
   overflow-x: hidden;
+}
+
+section.section {
+  padding: 10px;
 }
 </style>
