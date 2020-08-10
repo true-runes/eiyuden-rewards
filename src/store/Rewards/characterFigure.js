@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    characterFigure: 'false',
+    characterFigure: 'whichever',
   },
   mutations: {
     setCharacterFigure(state, value) {

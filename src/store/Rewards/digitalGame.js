@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    digitalGame: 'false',
+    digitalGame: 'whichever',
   },
   mutations: {
     setDigitalGame(state, value) {

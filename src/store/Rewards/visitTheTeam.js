@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    visitTheTeam: 'false',
+    visitTheTeam: 'whichever',
   },
   mutations: {
     setVisitTheTeam(state, value) {

@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    teamSignedPoster: 'false',
+    teamSignedPoster: 'whichever',
   },
   mutations: {
     setTeamSignedPoster(state, value) {

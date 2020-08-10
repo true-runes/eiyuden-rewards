@@ -114,7 +114,7 @@ body {
 }
 
 section.section {
-  padding: 10px;
+  padding: 20px;
 }
 
 .b-radio.radio {

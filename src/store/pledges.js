@@ -5,6 +5,16 @@ function isTrueOrFalseByViaRadioButton(value) {
   return false
 }
 
+function isValidByViaRadioButton(value, isContained) {
+  if (isContained === true) {
+    return value === 'whichever' || isTrueOrFalseByViaRadioButton(value)
+  } else if (isContained === false) {
+    return value === 'whichever' || !isTrueOrFalseByViaRadioButton(value)
+  }
+
+  return false
+}
+
 export default {
   strict: true,
   namespaced: true,
@@ -16,30 +26,55 @@ export default {
       const rewards = rootState.rewards
 
       if (
-        isTrueOrFalseByViaRadioButton(rewards.yourNameInTheStaffRoll) &&
-        isTrueOrFalseByViaRadioButton(rewards.discordRole) &&
-        isTrueOrFalseByViaRadioButton(rewards.digitalGame) &&
-        isTrueOrFalseByViaRadioButton(rewards.betaAccess) &&
-        !isTrueOrFalseByViaRadioButton(rewards.physicalGame) &&
-        !isTrueOrFalseByViaRadioButton(rewards.sigilButton) &&
-        !isTrueOrFalseByViaRadioButton(rewards.ostCd) &&
-        !isTrueOrFalseByViaRadioButton(rewards.tShirt) &&
-        !isTrueOrFalseByViaRadioButton(rewards.vinylRecord) &&
-        !isTrueOrFalseByViaRadioButton(rewards.softcoverArtbook) &&
-        !isTrueOrFalseByViaRadioButton(rewards.jobRewardSet) &&
-        !isTrueOrFalseByViaRadioButton(rewards.nameInArtbook) &&
-        !isTrueOrFalseByViaRadioButton(rewards.teamSignedPoster) &&
-        !isTrueOrFalseByViaRadioButton(rewards.yourNameAsASoldier) &&
-        !isTrueOrFalseByViaRadioButton(rewards.catInTheGame) &&
-        !isTrueOrFalseByViaRadioButton(rewards.petInTheGame) &&
-        !isTrueOrFalseByViaRadioButton(rewards.nameALocation) &&
-        !isTrueOrFalseByViaRadioButton(rewards.createAnEnemy) &&
-        !isTrueOrFalseByViaRadioButton(rewards.becomeAnNpc) &&
-        !isTrueOrFalseByViaRadioButton(rewards.replicaShield) &&
-        !isTrueOrFalseByViaRadioButton(rewards.visitTheTeam) &&
-        !isTrueOrFalseByViaRadioButton(rewards.characterFigure) &&
-        !isTrueOrFalseByViaRadioButton(rewards.digitalCd) &&
-        !isTrueOrFalseByViaRadioButton(rewards.digitalArtbook)
+        isValidByViaRadioButton(rewards.yourNameInTheStaffRoll, true) &&
+        isValidByViaRadioButton(rewards.discordRole, true) &&
+        isValidByViaRadioButton(rewards.digitalGame, true) &&
+        isValidByViaRadioButton(rewards.betaAccess, true) &&
+        isValidByViaRadioButton(rewards.physicalGame, false) &&
+        isValidByViaRadioButton(rewards.sigilButton, false) &&
+        isValidByViaRadioButton(rewards.ostCd, false) &&
+        isValidByViaRadioButton(rewards.tShirt, false) &&
+        isValidByViaRadioButton(rewards.vinylRecord, false) &&
+        isValidByViaRadioButton(rewards.softcoverArtbook, false) &&
+        isValidByViaRadioButton(rewards.jobRewardSet, false) &&
+        isValidByViaRadioButton(rewards.nameInArtbook, false) &&
+        isValidByViaRadioButton(rewards.teamSignedPoster, false) &&
+        isValidByViaRadioButton(rewards.yourNameAsASoldier, false) &&
+        isValidByViaRadioButton(rewards.catInTheGame, false) &&
+        isValidByViaRadioButton(rewards.petInTheGame, false) &&
+        isValidByViaRadioButton(rewards.nameALocation, false) &&
+        isValidByViaRadioButton(rewards.createAnEnemy, false) &&
+        isValidByViaRadioButton(rewards.becomeAnNpc, false) &&
+        isValidByViaRadioButton(rewards.replicaShield, false) &&
+        isValidByViaRadioButton(rewards.visitTheTeam, false) &&
+        isValidByViaRadioButton(rewards.characterFigure, false) &&
+        isValidByViaRadioButton(rewards.digitalCd, false) &&
+        isValidByViaRadioButton(rewards.digitalArtbook, false)
+
+        // isTrueOrFalseByViaRadioButton(rewards.yourNameInTheStaffRoll) &&
+        // isTrueOrFalseByViaRadioButton(rewards.discordRole) &&
+        // isTrueOrFalseByViaRadioButton(rewards.digitalGame) &&
+        // isTrueOrFalseByViaRadioButton(rewards.betaAccess) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.physicalGame) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.sigilButton) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.ostCd) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.tShirt) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.vinylRecord) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.softcoverArtbook) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.jobRewardSet) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.nameInArtbook) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.teamSignedPoster) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.yourNameAsASoldier) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.catInTheGame) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.petInTheGame) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.nameALocation) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.createAnEnemy) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.becomeAnNpc) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.replicaShield) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.visitTheTeam) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.characterFigure) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.digitalCd) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.digitalArtbook)
       ) {
         return true
       }
@@ -49,30 +84,55 @@ export default {
       const rewards = rootState.rewards
 
       if (
-        isTrueOrFalseByViaRadioButton(rewards.yourNameInTheStaffRoll) &&
-        isTrueOrFalseByViaRadioButton(rewards.discordRole) &&
-        !isTrueOrFalseByViaRadioButton(rewards.digitalGame) &&
-        isTrueOrFalseByViaRadioButton(rewards.betaAccess) &&
-        isTrueOrFalseByViaRadioButton(rewards.physicalGame) &&
-        !isTrueOrFalseByViaRadioButton(rewards.sigilButton) &&
-        !isTrueOrFalseByViaRadioButton(rewards.ostCd) &&
-        !isTrueOrFalseByViaRadioButton(rewards.tShirt) &&
-        !isTrueOrFalseByViaRadioButton(rewards.vinylRecord) &&
-        !isTrueOrFalseByViaRadioButton(rewards.softcoverArtbook) &&
-        !isTrueOrFalseByViaRadioButton(rewards.jobRewardSet) &&
-        !isTrueOrFalseByViaRadioButton(rewards.nameInArtbook) &&
-        !isTrueOrFalseByViaRadioButton(rewards.teamSignedPoster) &&
-        !isTrueOrFalseByViaRadioButton(rewards.yourNameAsASoldier) &&
-        !isTrueOrFalseByViaRadioButton(rewards.catInTheGame) &&
-        !isTrueOrFalseByViaRadioButton(rewards.petInTheGame) &&
-        !isTrueOrFalseByViaRadioButton(rewards.nameALocation) &&
-        !isTrueOrFalseByViaRadioButton(rewards.createAnEnemy) &&
-        !isTrueOrFalseByViaRadioButton(rewards.becomeAnNpc) &&
-        !isTrueOrFalseByViaRadioButton(rewards.replicaShield) &&
-        !isTrueOrFalseByViaRadioButton(rewards.visitTheTeam) &&
-        !isTrueOrFalseByViaRadioButton(rewards.characterFigure) &&
-        !isTrueOrFalseByViaRadioButton(rewards.digitalCd) &&
-        !isTrueOrFalseByViaRadioButton(rewards.digitalArtbook)
+        isValidByViaRadioButton(rewards.yourNameInTheStaffRoll, true) &&
+        isValidByViaRadioButton(rewards.discordRole, true) &&
+        isValidByViaRadioButton(rewards.digitalGame, false) &&
+        isValidByViaRadioButton(rewards.betaAccess, true) &&
+        isValidByViaRadioButton(rewards.physicalGame, true) &&
+        isValidByViaRadioButton(rewards.sigilButton, false) &&
+        isValidByViaRadioButton(rewards.ostCd, false) &&
+        isValidByViaRadioButton(rewards.tShirt, false) &&
+        isValidByViaRadioButton(rewards.vinylRecord, false) &&
+        isValidByViaRadioButton(rewards.softcoverArtbook, false) &&
+        isValidByViaRadioButton(rewards.jobRewardSet, false) &&
+        isValidByViaRadioButton(rewards.nameInArtbook, false) &&
+        isValidByViaRadioButton(rewards.teamSignedPoster, false) &&
+        isValidByViaRadioButton(rewards.yourNameAsASoldier, false) &&
+        isValidByViaRadioButton(rewards.catInTheGame, false) &&
+        isValidByViaRadioButton(rewards.petInTheGame, false) &&
+        isValidByViaRadioButton(rewards.nameALocation, false) &&
+        isValidByViaRadioButton(rewards.createAnEnemy, false) &&
+        isValidByViaRadioButton(rewards.becomeAnNpc, false) &&
+        isValidByViaRadioButton(rewards.replicaShield, false) &&
+        isValidByViaRadioButton(rewards.visitTheTeam, false) &&
+        isValidByViaRadioButton(rewards.characterFigure, false) &&
+        isValidByViaRadioButton(rewards.digitalCd, false) &&
+        isValidByViaRadioButton(rewards.digitalArtbook, false)
+
+        // isTrueOrFalseByViaRadioButton(rewards.yourNameInTheStaffRoll) &&
+        // isTrueOrFalseByViaRadioButton(rewards.discordRole) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.digitalGame) &&
+        // isTrueOrFalseByViaRadioButton(rewards.betaAccess) &&
+        // isTrueOrFalseByViaRadioButton(rewards.physicalGame) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.sigilButton) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.ostCd) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.tShirt) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.vinylRecord) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.softcoverArtbook) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.jobRewardSet) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.nameInArtbook) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.teamSignedPoster) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.yourNameAsASoldier) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.catInTheGame) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.petInTheGame) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.nameALocation) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.createAnEnemy) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.becomeAnNpc) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.replicaShield) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.visitTheTeam) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.characterFigure) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.digitalCd) &&
+        // !isTrueOrFalseByViaRadioButton(rewards.digitalArtbook)
       ) {
         return true
       }
