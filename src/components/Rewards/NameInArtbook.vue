@@ -18,7 +18,7 @@
               v-model="nameInArtbook"
               native-value="true"
               type="is-success"
-              class="column"
+              class="column is-4-mobile is-4-tablet is-4-desktop"
             >
               <b-icon icon="check" size="is-small"></b-icon>
               <span>ほしい</span>
@@ -27,15 +27,15 @@
               v-model="nameInArtbook"
               native-value="whichever"
               type="is-info"
-              class="column"
+              class="column is-4-mobile is-4-tablet is-4-desktop"
             >
-              <span>どちらでもいい</span>
+              <span>どちらでも</span>
             </b-radio-button>
             <b-radio-button
               v-model="nameInArtbook"
               native-value="false"
               type="is-danger"
-              class="column"
+              class="column is-4-mobile is-4-tablet is-4-desktop"
             >
               <b-icon icon="close"></b-icon>
               <span>ほしくない</span>
