@@ -1,36 +1,18 @@
 <template>
   <section class="section">
-    <div v-if="false" class="container">
-      <div class="columns is-multiline is-mobile is-tablet is-desktop">
-        <div class="column is-12-mobile is-12-tablet is-12-desktop">
-          <p>デバッグ領域 開始</p>
-        </div>
-        <div class="column is-12-mobile is-12-tablet is-12-desktop">
-          <p>{{ allRewardsState }}</p>
-          <button class="button" @click="showModal">モーダルを表示する</button>
-        </div>
-        <div class="column is-12-mobile is-12-tablet is-12-desktop">
-          <p>デバッグ領域 終了</p>
-        </div>
-      </div>
-    </div>
-
-    <div v-if="false">
-      <!-- FIXME: Use props -->
-    </div>
     <div class="container">
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <p class="is-size-5 has-text-weight-bold">
             スタッフロールに名前が載る
+            <span @click="showModal">
+              <b-icon icon="help-circle-outline" size="is-small"> </b-icon
+            ></span>
           </p>
         </div>
       </div>
     </div>
 
-    <div v-if="false">
-      <!-- FIXME: Use container -->
-    </div>
     <div class="container">
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
@@ -75,8 +57,10 @@
         <section class="modal-card-body">
           <p>{{ message }}</p>
         </section>
-        <footer class="modal-card-foot">
-          <button class="button is-success" @click="okModal">Ok</button>
+        <footer class="modal-card-foot move-button-to-right">
+          <button class="button is-success" @click="okModal">
+            閉じる
+          </button>
         </footer>
       </div>
     </div>
@@ -93,10 +77,6 @@ export default {
     }
   },
   computed: {
-    // FIXME: For print debug so delete if it is unnecessary
-    allRewardsState() {
-      return this.$store.getters['rewards/getAllRewardsState']
-    },
     yourNameInTheStaffRoll: {
       get() {
         return this.$store.state.rewards.yourNameInTheStaffRoll
@@ -127,3 +107,9 @@ export default {
   },
 }
 </script>
+
+<style>
+.move-button-to-right {
+  justify-content: flex-end;
+}
+</style>
