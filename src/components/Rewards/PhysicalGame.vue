@@ -3,7 +3,9 @@
     <div class="container">
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
-          <p>パッケージ版のゲーム</p>
+          <p class="is-size-5 has-text-weight-bold">
+            パッケージ版のゲーム
+          </p>
         </div>
       </div>
     </div>
@@ -28,7 +30,7 @@
               class="column"
             >
               <b-icon icon="close"></b-icon>
-              <span>いらない</span>
+              <span>ほしくない</span>
             </b-radio-button>
           </b-field>
         </div>

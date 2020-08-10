@@ -13,7 +13,7 @@
 
       <b-radio-button v-model="radioButton" native-value="no" type="is-danger">
         <b-icon icon="close"></b-icon>
-        <span>いらない</span>
+        <span>ほしくない</span>
       </b-radio-button>
     </b-field>
   </section>

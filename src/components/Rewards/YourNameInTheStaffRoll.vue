@@ -21,7 +21,9 @@
     <div class="container">
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
-          <p class="is-size-5">スタッフロールに名前が載る</p>
+          <p class="is-size-5 has-text-weight-bold">
+            スタッフロールに名前が載る
+          </p>
         </div>
       </div>
     </div>
@@ -49,7 +51,7 @@
               class="column"
             >
               <b-icon icon="close"></b-icon>
-              <span>いらない</span>
+              <span>ほしくない</span>
             </b-radio-button>
           </b-field>
         </div>
@@ -88,7 +90,7 @@ export default {
     }
   },
   computed: {
-    // FIXME: For print debug
+    // FIXME: For print debug so delete if it is unnecessary
     allRewardsState() {
       return this.$store.getters['rewards/getAllRewardsState']
     },
