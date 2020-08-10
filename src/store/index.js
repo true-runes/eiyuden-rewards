@@ -13,10 +13,14 @@ export default new Vuex.Store({
   },
   strict: true,
   state: {
+    ohayo: 'Hello',
     dlVersion: '',
     packageVersion: '',
   },
   getters: {
+    getOhayo(state) {
+      return state.ohayo
+    },
     getMirai(state) {
       return state.dlVersion
     },

@@ -17,6 +17,9 @@
           >Rabbit & Bear Studios 株式会社 さん</a
         >の作品です。当サイトは、非公式・非公認のファンサイトです。
       </center>
+      <center>
+        BBS（休止中です）
+      </center>
     </div>
   </section>
 </template>
