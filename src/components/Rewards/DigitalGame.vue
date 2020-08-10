@@ -29,7 +29,7 @@
               type="is-info"
               class="column is-4-mobile is-4-tablet is-4-desktop"
             >
-              <span>どちらでもいい</span>
+              <span>どちらでも</span>
             </b-radio-button>
             <b-radio-button
               v-model="digitalGame"
