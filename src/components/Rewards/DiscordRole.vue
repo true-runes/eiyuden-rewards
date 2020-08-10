@@ -3,7 +3,7 @@
     <div class="container">
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
-          <p>Discord で "Role" をもらえる</p>
+          <p>Discord で "Role" がもらえる</p>
         </div>
       </div>
     </div>
@@ -13,7 +13,7 @@
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <b-field class="columns">
             <b-radio-button
-              v-model="yourNameInTheStaffRoll"
+              v-model="discordRole"
               native-value="yes"
               type="is-success"
               class="column"
@@ -22,7 +22,7 @@
               <span>ほしい</span>
             </b-radio-button>
             <b-radio-button
-              v-model="yourNameInTheStaffRoll"
+              v-model="discordRole"
               native-value="no"
               type="is-danger"
               class="column"
@@ -40,17 +40,17 @@
 <script>
 export default {
   computed: {
-    yourNameInTheStaffRoll: {
+    discordRole: {
       get() {
-        return this.$store.state.rewards.yourNameInTheStaffRoll
+        return this.$store.state.rewards.discordRole
       },
       set(value) {
-        this.$store.commit('rewards/setYourNameInTheStaffRoll', value)
+        this.$store.commit('rewards/setdiscordRole', value)
       },
     },
   },
   watch: {
-    yourNameInTheStaffRoll: function () {
+    discordRole: function () {
       this.$store.commit('rewards/setAllRewardsState')
     },
   },
