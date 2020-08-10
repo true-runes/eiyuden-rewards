@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    createAnEnemy: '',
+    createAnEnemy: 'no',
   },
   mutations: {
     setCreateAnEnemy(state, value) {

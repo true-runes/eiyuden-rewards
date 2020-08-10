@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    sigilButton: '',
+    sigilButton: 'no',
   },
   mutations: {
     setSigilButton(state, value) {

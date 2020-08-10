@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    discordRole: '',
+    discordRole: 'no',
   },
   mutations: {
     setdiscordRole(state, value) {
