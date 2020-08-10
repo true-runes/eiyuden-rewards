@@ -6,7 +6,7 @@
           <p>デバッグ領域 開始</p>
         </div>
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
-          <p>{{ oha }}</p>
+          <p>{{ allRewardsState }}</p>
         </div>
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <p>デバッグ領域 終了</p>
@@ -54,8 +54,9 @@
 <script>
 export default {
   computed: {
-    oha() {
-      return this.$store.getters['rewards/getDebug']
+    // FIXME: For print debug
+    allRewardsState() {
+      return this.$store.getters['rewards/getAllRewardsState']
     },
     yourNameInTheStaffRoll: {
       get() {
@@ -64,6 +65,11 @@ export default {
       set(value) {
         this.$store.commit('rewards/setYourNameInTheStaffRoll', value)
       },
+    },
+  },
+  watch: {
+    yourNameInTheStaffRoll: function () {
+      this.$store.commit('rewards/setAllRewardsState')
     },
   },
 }

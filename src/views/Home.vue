@@ -28,11 +28,9 @@
     <DigitalCd />
     <DigitalArtbook />
 
-    <RewardsDlVersion />
-    <RewardsPackageVersion />
     <Result />
 
-    <Footer />
+    <Bottom />
   </div>
 </template>
 
@@ -40,7 +38,7 @@
 import Header from '@/components/Header'
 import Title from '@/components/Title'
 import Result from '@/components/Result'
-import Footer from '@/components/Footer'
+import Bottom from '@/components/Bottom'
 
 import YourNameInTheStaffRoll from '@/components/Rewards/YourNameInTheStaffRoll'
 import DiscordRole from '@/components/Rewards/DiscordRole'
@@ -67,16 +65,11 @@ import CharacterFigure from '@/components/Rewards/CharacterFigure'
 import DigitalCd from '@/components/Rewards/DigitalCd'
 import DigitalArtbook from '@/components/Rewards/DigitalArtbook'
 
-import RewardsDlVersion from '@/components/Rewards/DlVersion'
-import RewardsPackageVersion from '@/components/Rewards/PackageVersion'
-
 export default {
   name: 'Home',
   components: {
     Header,
     Title,
-    RewardsDlVersion,
-    RewardsPackageVersion,
     Result,
     YourNameInTheStaffRoll,
     DiscordRole,
@@ -102,7 +95,11 @@ export default {
     CharacterFigure,
     DigitalCd,
     DigitalArtbook,
-    Footer,
+    Bottom,
+  },
+  created: function () {
+    // Initialize
+    this.$store.commit('rewards/setAllRewardsState')
   },
 }
 </script>

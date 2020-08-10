@@ -1,24 +1,24 @@
 <template>
-  <div>
-    Result
-    <h1>dlversion: {{ getMirai }}</h1>
-    <h1>packageversion: {{ getFuture }}</h1>
-
-    <div class="buttons">
-      <button class="button is-small" @click="toast">
-        入力内容をリセットする
-      </button>
+  <section class="section">
+    <div class="container">
+      <div class="columns is-multiline is-mobile is-tablet is-desktop">
+        <div class="column is-12-mobile is-12-tablet is-12-desktop">
+          <p>結果表示場所</p>
+        </div>
+      </div>
+      <div class="columns is-multiline is-mobile is-tablet is-desktop">
+        <div class="column is-12-mobile is-12-tablet is-12-desktop">
+          <button class="button is-small" @click="toast">
+            入力内容をリセットする
+          </button>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
-
 export default {
-  computed: {
-    ...mapGetters(['getMirai', 'getFuture']),
-  },
   methods: {
     toast() {
       this.$buefy.toast.open('Something happened')
