@@ -117,4 +117,8 @@ body {
 section.section {
   padding: 10px;
 }
+
+.b-radio.radio {
+  border-radius: 100px;
+}
 </style>
