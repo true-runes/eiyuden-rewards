@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    softcoverArtbook: '',
+    softcoverArtbook: 'no',
   },
   mutations: {
     setSoftcoverArtbook(state, value) {

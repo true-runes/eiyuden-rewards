@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    betaAccess: '',
+    betaAccess: 'no',
   },
   mutations: {
     setBetaAccess(state, value) {

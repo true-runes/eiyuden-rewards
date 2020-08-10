@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    digitalCd: '',
+    digitalCd: 'no',
   },
   mutations: {
     setDigitalCd(state, value) {

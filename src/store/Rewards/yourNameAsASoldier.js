@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    yourNameAsASoldier: '',
+    yourNameAsASoldier: 'no',
   },
   mutations: {
     setYourNameAsASoldier(state, value) {
