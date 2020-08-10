@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    becomeAnNpc: 'no',
+    becomeAnNpc: 'false',
   },
   mutations: {
     setBecomeAnNpc(state, value) {

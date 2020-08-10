@@ -2,11 +2,11 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    tShirt: 'no',
+    tShirt: 'false',
   },
   mutations: {
     setTShirt(state, value) {
-      state.yourNametShirtInTheStaffRoll = value
+      state.tShirt = value
     },
   },
 }

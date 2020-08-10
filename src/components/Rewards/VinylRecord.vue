@@ -16,7 +16,7 @@
           <b-field class="columns">
             <b-radio-button
               v-model="vinylRecord"
-              native-value="yes"
+              native-value="true"
               type="is-success"
               class="column"
             >
@@ -25,7 +25,7 @@
             </b-radio-button>
             <b-radio-button
               v-model="vinylRecord"
-              native-value="no"
+              native-value="false"
               type="is-danger"
               class="column"
             >

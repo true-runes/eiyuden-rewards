@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    catInTheGame: 'no',
+    catInTheGame: 'false',
   },
   mutations: {
     setCatInTheGame(state, value) {

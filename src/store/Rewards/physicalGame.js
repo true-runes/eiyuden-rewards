@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    physicalGame: 'no',
+    physicalGame: 'false',
   },
   mutations: {
     setPhysicalGame(state, value) {

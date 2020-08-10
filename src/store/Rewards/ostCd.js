@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    ostCd: 'no',
+    ostCd: 'false',
   },
   mutations: {
     setOstCd(state, value) {

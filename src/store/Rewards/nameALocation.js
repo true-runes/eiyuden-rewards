@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    nameALocation: 'no',
+    nameALocation: 'false',
   },
   mutations: {
     setNameALocation(state, value) {

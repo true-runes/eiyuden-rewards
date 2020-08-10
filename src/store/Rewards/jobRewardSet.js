@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    jobRewardSet: 'no',
+    jobRewardSet: 'false',
   },
   mutations: {
     setJobRewardSet(state, value) {

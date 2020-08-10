@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    digitalArtbook: 'no',
+    digitalArtbook: 'false',
   },
   mutations: {
     setDigitalArtbook(state, value) {
