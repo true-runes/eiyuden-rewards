@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    tShirt: 'false',
+    tShirt: 'whichever',
   },
   mutations: {
     setTShirt(state, value) {

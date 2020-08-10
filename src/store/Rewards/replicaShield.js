@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    replicaShield: 'false',
+    replicaShield: 'whichever',
   },
   mutations: {
     setReplicaShield(state, value) {

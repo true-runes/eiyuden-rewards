@@ -4,7 +4,7 @@
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <p class="is-size-5 has-text-weight-bold">
-            ベータ版をプレイできる
+            ベータ版をプレイ可能
           </p>
         </div>
       </div>
@@ -23,18 +23,6 @@
               <b-icon icon="check" size="is-small"></b-icon>
               <span>全プレッジに含まれます</span>
             </b-radio-button>
-            <div v-show="false">
-              <b-radio-button
-                v-model="betaAccess"
-                native-value="false"
-                type="is-danger"
-                class="column"
-                disabled
-              >
-                <b-icon icon="close"></b-icon>
-                <span>ほしくない</span>
-              </b-radio-button>
-            </div>
           </b-field>
         </div>
       </div>

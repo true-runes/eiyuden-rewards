@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    nameInArtbook: 'false',
+    nameInArtbook: 'whichever',
   },
   mutations: {
     setNameInArtbook(state, value) {
