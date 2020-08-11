@@ -4,7 +4,7 @@
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <p class="is-size-5 has-text-weight-bold">
-            ダウンロード版のサントラ
+            ダウンロード版サントラ
             <span @click="showModal"
               ><b-icon icon="help-circle-outline" size="is-middle"></b-icon
             ></span>

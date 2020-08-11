@@ -12,14 +12,32 @@
             <p class="modal-card-title">該当プレッジ</p>
           </header>
           <section class="modal-card-body has-text-left">
-            <div class="content">
-              <ul>
-                <div v-for="name in matchedPledgeNames" :key="name">
-                  <li>
-                    {{ name }}
-                  </li>
-                </div>
-              </ul>
+            <div v-if="matchedPledgeNames.length === 0">
+              該当プレッジはありません。
+            </div>
+            <div v-else>
+              <div class="block">
+                <ul>
+                  <div v-for="name in matchedPledgeNames" :key="name">
+                    <p class="is-size-5 has-text-weight-bold">
+                      {{ name }}
+                    </p>
+                    <ul>
+                      <!-- FIXME: アイテム一覧を v-for で回す -->
+                      <li>
+                        アイテム
+                      </li>
+                      <li>
+                        アイテム
+                      </li>
+                      <li>
+                        アイテム
+                      </li>
+                    </ul>
+                    <br />
+                  </div>
+                </ul>
+              </div>
             </div>
           </section>
           <footer class="modal-card-foot move-button-to-right">
