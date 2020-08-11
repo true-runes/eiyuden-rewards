@@ -6,7 +6,7 @@
           <p class="is-size-5 has-text-weight-bold">
             スタッフロールに名前が載る
             <span @click="showModal"
-              ><b-icon icon="help-circle-outline" size="is-small"></b-icon
+              ><b-icon icon="help-circle-outline" size="is-middle"></b-icon
             ></span>
           </p>
         </div>
@@ -38,14 +38,13 @@
           <p class="modal-card-title">スタッフロールに名前が載る権利</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <p>あなたの名前がスタッフロールに掲載されます。</p>
           <p>
-            All backers will have their name included in the game's staff roll,
-            readable in all its glory! Don't worry, we have plans to make sure
-            that even with everyone included, the staff roll will still not bog
-            down your Eiyuden experience.
+            すべての支援者のみなさんのお名前がスタッフロールに掲載されます。
           </p>
-          <img src="/images/digital_copy_item.jpg" />
+          <br />
+          <p>
+            全員のお名前が読めるように、また、ゲームの体験を損なわないように配慮した上で掲載させて頂きます。
+          </p>
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">
