@@ -2,7 +2,7 @@
   <section class="section">
     <nav class="navbar is-fixed-bottom level">
       <p class="level-item is-size-4 has-text-centered" @click="showModal">
-        該当するプレッジは {{ numberOfMatchedPledgeNames }}個 です
+        該当プレッジ一覧へ（{{ numberOfMatchedPledgeNames }}個）
       </p>
 
       <div class="modal" :class="{ 'is-active': modalIsShown }">
