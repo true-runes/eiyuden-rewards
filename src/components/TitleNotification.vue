@@ -21,7 +21,16 @@
                   (^o^)/
                 </p>
               </li>
-              <dev v-if="false">
+              <li>
+                <p class="has-text-weight-bold has-text-left">
+                  その他、細かいヘルプは「<span
+                    @click="showModal"
+                    class="kochira-he-dozo"
+                    >こちら</span
+                  >」へどうぞ (^_^)
+                </p>
+              </li>
+              <div v-if="false">
                 <li>
                   <p
                     class="has-text-weight-bold has-text-left"
@@ -30,10 +39,44 @@
                     vuex-persistedstate 初期化
                   </p>
                 </li>
-              </dev>
+              </div>
             </ul>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="modal" :class="{ 'is-active': modalIsShown }">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">ヘルプ</p>
+        </header>
+        <section class="modal-card-body has-text-left">
+          <div class="block">
+            <ul>
+              <li>
+                ・Kickstarter のページは<a
+                  href="https://www.kickstarter.com/projects/rabbitandbearstudios/eiyuden-chronicle-hundred-heroes"
+                  target="_blank"
+                  >こちら</a
+                >です
+              </li>
+              <li>
+                ・情報をまとめている Scrapbox は<a
+                  href="https://scrapbox.io/100heroesstrong/"
+                  target="_blank"
+                  >こちら</a
+                >です
+              </li>
+            </ul>
+          </div>
+        </section>
+        <footer class="modal-card-foot move-button-to-right">
+          <button class="button is-success" @click="pushCloseButton">
+            閉じる
+          </button>
+        </footer>
       </div>
     </div>
   </section>
@@ -41,6 +84,12 @@
 
 <script>
 export default {
+  data: () => {
+    return {
+      modalIsShown: false,
+      closeButtonIsPressed: false,
+    }
+  },
   methods: {
     initializer: function () {
       const initialState = {
@@ -54,6 +103,14 @@ export default {
     reloadCurrentPage: function () {
       this.$router.go({ path: this.$router.currentRoute.path, force: true })
     },
+    showModal() {
+      this.closeButtonIsPressed = false
+      this.modalIsShown = true
+    },
+    pushCloseButton() {
+      this.closeButtonIsPressed = true
+      this.modalIsShown = false
+    },
   },
 }
 </script>
@@ -65,5 +122,10 @@ export default {
 
 .column {
   padding: 1px;
+}
+
+.kochira-he-dozo {
+  cursor: pointer;
+  cursor: hand;
 }
 </style>

@@ -1,7 +1,10 @@
 <template>
   <section class="section">
     <nav class="navbar is-fixed-bottom level">
-      <p class="level-item is-size-4 has-text-centered" @click="showModal">
+      <p
+        class="level-item is-size-4 has-text-centered pledges-list"
+        @click="showModal"
+      >
         該当プレッジ一覧へ（{{ numberOfMatchedPledgeNames }}個）
       </p>
 
@@ -164,5 +167,10 @@ export default {
 
 .move-button-to-right {
   justify-content: flex-end;
+}
+
+.pledges-list {
+  cursor: pointer;
+  cursor: hand;
 }
 </style>
