@@ -49,7 +49,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -82,7 +87,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -116,7 +126,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -150,7 +165,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -183,7 +203,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -216,7 +241,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -249,7 +279,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -282,7 +317,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -315,7 +355,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -348,7 +393,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -381,7 +431,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -415,7 +470,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -448,7 +508,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -481,7 +546,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -514,7 +584,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -549,7 +624,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -583,7 +663,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -617,7 +702,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -651,7 +741,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -686,7 +781,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -720,7 +820,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -754,7 +859,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -788,7 +898,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -821,7 +936,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -854,7 +974,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -887,7 +1012,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -920,7 +1050,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -953,7 +1088,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -986,7 +1126,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -1019,7 +1164,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -1052,7 +1202,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -1086,7 +1241,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -1120,13 +1280,18 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
       return false
     },
-    isAllaraansPantheron(state, gettesr, rootState) {
+    isAllraansPantheron(state, gettesr, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1153,7 +1318,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, true) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -1186,7 +1356,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, true) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -1220,7 +1395,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, true) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -1254,7 +1434,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, true) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -1287,7 +1472,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, true) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -1321,7 +1511,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, true) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -1355,7 +1550,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, true) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -1388,7 +1588,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, true) &&
-        isValidByRadioButton(rewards.digitalArtbook, false)
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -1421,7 +1626,12 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, false) &&
-        isValidByRadioButton(rewards.digitalArtbook, true)
+        isValidByRadioButton(rewards.digitalArtbook, true) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }
@@ -1454,7 +1664,126 @@ export default {
         isValidByRadioButton(rewards.visitTheTeam, false) &&
         isValidByRadioButton(rewards.characterFigure, false) &&
         isValidByRadioButton(rewards.digitalCd, true) &&
-        isValidByRadioButton(rewards.digitalArtbook, true)
+        isValidByRadioButton(rewards.digitalArtbook, true) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
+      ) {
+        return true
+      }
+      return false
+    },
+    isFoodForThought(state, gettesr, rootState) {
+      const rewards = rootState.rewards
+
+      if (
+        isValidByRadioButton(rewards.yourNameInTheStaffRoll, true) &&
+        isValidByRadioButton(rewards.discordRole, true) &&
+        isValidByRadioButton(rewards.digitalGame, false) &&
+        isValidByRadioButton(rewards.betaAccess, true) &&
+        isValidByRadioButton(rewards.physicalGame, true) &&
+        isValidByRadioButton(rewards.sigilButton, true) &&
+        isValidByRadioButton(rewards.ostCd, true) &&
+        isValidByRadioButton(rewards.tShirt, true) &&
+        isValidByRadioButton(rewards.vinylRecord, true) &&
+        isValidByRadioButton(rewards.softcoverArtbook, true) &&
+        isValidByRadioButton(rewards.jobRewardSet, true) &&
+        isValidByRadioButton(rewards.nameInArtbook, false) &&
+        isValidByRadioButton(rewards.teamSignedPoster, false) &&
+        isValidByRadioButton(rewards.yourNameAsASoldier, false) &&
+        isValidByRadioButton(rewards.catInTheGame, false) &&
+        isValidByRadioButton(rewards.petInTheGame, false) &&
+        isValidByRadioButton(rewards.nameALocation, false) &&
+        isValidByRadioButton(rewards.createAnEnemy, false) &&
+        isValidByRadioButton(rewards.becomeAnNpc, false) &&
+        isValidByRadioButton(rewards.replicaShield, false) &&
+        isValidByRadioButton(rewards.visitTheTeam, false) &&
+        isValidByRadioButton(rewards.characterFigure, false) &&
+        isValidByRadioButton(rewards.digitalCd, false) &&
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, true) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
+      ) {
+        return true
+      }
+      return false
+    },
+    isTopTrainer(state, gettesr, rootState) {
+      const rewards = rootState.rewards
+
+      if (
+        isValidByRadioButton(rewards.yourNameInTheStaffRoll, true) &&
+        isValidByRadioButton(rewards.discordRole, true) &&
+        isValidByRadioButton(rewards.digitalGame, false) &&
+        isValidByRadioButton(rewards.betaAccess, true) &&
+        isValidByRadioButton(rewards.physicalGame, true) &&
+        isValidByRadioButton(rewards.sigilButton, true) &&
+        isValidByRadioButton(rewards.ostCd, true) &&
+        isValidByRadioButton(rewards.tShirt, true) &&
+        isValidByRadioButton(rewards.vinylRecord, true) &&
+        isValidByRadioButton(rewards.softcoverArtbook, true) &&
+        isValidByRadioButton(rewards.jobRewardSet, true) &&
+        isValidByRadioButton(rewards.nameInArtbook, false) &&
+        isValidByRadioButton(rewards.teamSignedPoster, false) &&
+        isValidByRadioButton(rewards.yourNameAsASoldier, false) &&
+        isValidByRadioButton(rewards.catInTheGame, false) &&
+        isValidByRadioButton(rewards.petInTheGame, false) &&
+        isValidByRadioButton(rewards.nameALocation, false) &&
+        isValidByRadioButton(rewards.createAnEnemy, false) &&
+        isValidByRadioButton(rewards.becomeAnNpc, false) &&
+        isValidByRadioButton(rewards.replicaShield, false) &&
+        isValidByRadioButton(rewards.visitTheTeam, false) &&
+        isValidByRadioButton(rewards.characterFigure, false) &&
+        isValidByRadioButton(rewards.digitalCd, false) &&
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, true)
+      ) {
+        return true
+      }
+      return false
+    },
+    isEsteemedDecorator(state, gettesr, rootState) {
+      const rewards = rootState.rewards
+
+      if (
+        isValidByRadioButton(rewards.yourNameInTheStaffRoll, true) &&
+        isValidByRadioButton(rewards.discordRole, true) &&
+        isValidByRadioButton(rewards.digitalGame, false) &&
+        isValidByRadioButton(rewards.betaAccess, true) &&
+        isValidByRadioButton(rewards.physicalGame, true) &&
+        isValidByRadioButton(rewards.sigilButton, true) &&
+        isValidByRadioButton(rewards.ostCd, true) &&
+        isValidByRadioButton(rewards.tShirt, true) &&
+        isValidByRadioButton(rewards.vinylRecord, true) &&
+        isValidByRadioButton(rewards.softcoverArtbook, true) &&
+        isValidByRadioButton(rewards.jobRewardSet, true) &&
+        isValidByRadioButton(rewards.nameInArtbook, false) &&
+        isValidByRadioButton(rewards.teamSignedPoster, false) &&
+        isValidByRadioButton(rewards.yourNameAsASoldier, false) &&
+        isValidByRadioButton(rewards.catInTheGame, false) &&
+        isValidByRadioButton(rewards.petInTheGame, false) &&
+        isValidByRadioButton(rewards.nameALocation, false) &&
+        isValidByRadioButton(rewards.createAnEnemy, false) &&
+        isValidByRadioButton(rewards.becomeAnNpc, false) &&
+        isValidByRadioButton(rewards.replicaShield, false) &&
+        isValidByRadioButton(rewards.visitTheTeam, false) &&
+        isValidByRadioButton(rewards.characterFigure, false) &&
+        isValidByRadioButton(rewards.digitalCd, false) &&
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, false) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, true) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false)
       ) {
         return true
       }

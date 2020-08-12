@@ -4,7 +4,7 @@
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <p class="is-size-5 has-text-weight-bold">
-            ゲーム中にネコを登場させられる
+            銅像として登場できる
             <span @click="showModal" class="kochira-he-dozo"
               ><b-icon icon="help-circle-outline" size="is-middle"></b-icon
             ></span>
@@ -18,7 +18,7 @@
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <b-field class="columns">
             <b-radio-button
-              v-model="catInTheGame"
+              v-model="becomeAStatue"
               native-value="false"
               type="is-danger"
               class="column"
@@ -76,17 +76,17 @@ export default {
     },
   },
   computed: {
-    catInTheGame: {
+    becomeAStatue: {
       get() {
-        return this.$store.state.rewards.catInTheGame
+        return this.$store.state.rewards.becomeAStatue
       },
       set(value) {
-        this.$store.commit('rewards/setCatInTheGame', value)
+        this.$store.commit('rewards/setBecomeAStatue', value)
       },
     },
   },
   watch: {
-    catInTheGame: function () {
+    becomeAStatue: function () {
       this.$store.commit('rewards/setAllRewardsState')
     },
   },

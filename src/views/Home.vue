@@ -41,6 +41,11 @@
     <TeamSignedPoster />
     <ReplicaShield />
     <VisitTheTeam />
+    <BecomeAHumanFacedFish />
+    <BecomeAStatue />
+    <CreateATownObject />
+    <NameAnInGameFood />
+    <NameARivalBeigomaTrainer />
 
     <Bottom />
 
@@ -81,6 +86,11 @@ import VisitTheTeam from '@/components/Rewards/VisitTheTeam'
 import CharacterFigure from '@/components/Rewards/CharacterFigure'
 import DigitalCd from '@/components/Rewards/DigitalCd'
 import DigitalArtbook from '@/components/Rewards/DigitalArtbook'
+import BecomeAHumanFacedFish from '@/components/Rewards/BecomeAHumanFacedFish'
+import BecomeAStatue from '@/components/Rewards/BecomeAStatue'
+import CreateATownObject from '@/components/Rewards/CreateATownObject'
+import NameAnInGameFood from '@/components/Rewards/NameAnInGameFood'
+import NameARivalBeigomaTrainer from '@/components/Rewards/NameARivalBeigomaTrainer'
 
 export default {
   name: 'Home',
@@ -115,6 +125,11 @@ export default {
     DigitalArtbook,
     Bottom,
     NavBar,
+    BecomeAHumanFacedFish,
+    BecomeAStatue,
+    CreateATownObject,
+    NameAnInGameFood,
+    NameARivalBeigomaTrainer,
   },
   created: function () {
     // Initialize

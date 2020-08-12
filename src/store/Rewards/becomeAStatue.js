@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    becomeAStatue: 'whichever',
+    becomeAStatue: 'false',
   },
   mutations: {
     setBecomeAStatue(state, value) {
