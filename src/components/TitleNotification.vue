@@ -23,8 +23,8 @@
               </li>
               <li>
                 <p class="has-text-weight-bold has-text-left">
-                  その他、細かいヘルプは<a href="#" @click="showModal">こちら</a
-                  >へどうぞ (^_^)
+                  その他、細かいヘルプは
+                  <a href="#" @click="showModal">こちら</a> へどうぞ (^_^)
                 </p>
               </li>
             </ul>
@@ -42,6 +42,13 @@
         <section class="modal-card-body has-text-left">
           <div class="block">
             <ul>
+              <li class="more-margin">
+                ・同じリワードが複数個含まれるプレッジもあります（例:
+                フィギュア2個）
+              </li>
+              <li class="more-margin">
+                ・すべての画像はイメージで、実際のものとは異なる可能性があります
+              </li>
               <li class="more-margin">
                 ・支援を行うための Kickstarter のページは<a
                   href="https://www.kickstarter.com/projects/rabbitandbearstudios/eiyuden-chronicle-hundred-heroes"
