@@ -42,28 +42,40 @@
         <section class="modal-card-body has-text-left">
           <div class="block">
             <ul>
-              <li>
+              <li class="more-margin">
                 ・支援を行うための Kickstarter のページは<a
                   href="https://www.kickstarter.com/projects/rabbitandbearstudios/eiyuden-chronicle-hundred-heroes"
                   target="_blank"
                   >こちら</a
                 >です
               </li>
-              <li>
+              <li class="more-margin">
                 ・「百英雄伝」の情報をまとめている Scrapbox は<a
                   href="https://scrapbox.io/100heroesstrong/"
                   target="_blank"
                   >こちら</a
                 >です
               </li>
-              <li>
+              <li class="more-margin">
                 ・Kickstarterは「物を購入する場」ではなく「<span
                   class="has-text-weight-bold"
                   >プロジェクトを支援する場</span
                 >」です
               </li>
-              <li>
-                ・選択項目を初期化したい場合は
+              <li class="more-margin">
+                ・「<span class="has-text-weight-bold">スチールブック</span
+                >」、「<span class="has-text-weight-bold"
+                  >ちびキャラ消しゴムフィギュア</span
+                >」、「<span class="has-text-weight-bold">ぬいぐるみ</span
+                >」の各リワードについては「上乗せ」をする必要があります。詳しくは
+                <a
+                  href="https://www.kickstarter.com/projects/rabbitandbearstudios/eiyuden-chronicle-hundred-heroes/posts/2921174"
+                  target="_blank"
+                  >Kickstarter のページ</a
+                >をご覧下さい
+              </li>
+              <li class="more-margin">
+                ・入力した選択項目を初期化したい場合は
                 <a href="#" @click="initializeState">
                   こちら
                 </a>
@@ -123,5 +135,9 @@ export default {
 
 .column {
   padding: 1px;
+}
+
+.more-margin {
+  padding: 1px 1px 10px 1px;
 }
 </style>
