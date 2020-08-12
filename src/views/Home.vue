@@ -18,6 +18,8 @@
     <TShirt />
     <JobRewardSet />
     <CharacterFigure />
+    <ReplicaShield />
+    <TeamSignedPoster />
 
     <RewardsCategory category-name="サウンド" />
     <OstCd />
@@ -28,19 +30,24 @@
     <SoftcoverArtbook />
     <DigitalArtbook />
 
-    <RewardsCategory category-name="名前関連の権利" />
+    <RewardsCategory category-name="名前" />
     <NameInArtbook />
     <YourNameAsASoldier />
-    <NameALocation />
+    <NameAnInGameFood />
+
+    <RewardsCategory category-name="その他" />
+    <CreateATownObject />
+    <NameARivalBeigomaTrainer />
+    <VisitTheTeam />
+
+    <RewardsCategory category-name="規定数終了" />
     <CatInTheGame />
     <PetInTheGame />
-
-    <RewardsCategory category-name="その他権利" />
+    <BecomeAHumanFacedFish />
+    <BecomeAStatue />
+    <NameALocation />
     <CreateAnEnemy />
     <BecomeAnNpc />
-    <TeamSignedPoster />
-    <ReplicaShield />
-    <VisitTheTeam />
 
     <Bottom />
 
@@ -81,6 +88,11 @@ import VisitTheTeam from '@/components/Rewards/VisitTheTeam'
 import CharacterFigure from '@/components/Rewards/CharacterFigure'
 import DigitalCd from '@/components/Rewards/DigitalCd'
 import DigitalArtbook from '@/components/Rewards/DigitalArtbook'
+import BecomeAHumanFacedFish from '@/components/Rewards/BecomeAHumanFacedFish'
+import BecomeAStatue from '@/components/Rewards/BecomeAStatue'
+import CreateATownObject from '@/components/Rewards/CreateATownObject'
+import NameAnInGameFood from '@/components/Rewards/NameAnInGameFood'
+import NameARivalBeigomaTrainer from '@/components/Rewards/NameARivalBeigomaTrainer'
 
 export default {
   name: 'Home',
@@ -115,6 +127,11 @@ export default {
     DigitalArtbook,
     Bottom,
     NavBar,
+    BecomeAHumanFacedFish,
+    BecomeAStatue,
+    CreateATownObject,
+    NameAnInGameFood,
+    NameARivalBeigomaTrainer,
   },
   created: function () {
     // Initialize
