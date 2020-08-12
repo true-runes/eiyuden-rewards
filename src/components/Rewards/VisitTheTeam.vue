@@ -52,17 +52,11 @@
       <div class="modal-background"></div>
       <div class="modal-card">
         <header class="modal-card-head">
-          <p class="modal-card-title">スタッフロールに名前が載る権利</p>
+          <p class="modal-card-title">開発チームと一日を過ごせる</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <p>あなたの名前がスタッフロールに掲載されます。</p>
-          <p>
-            All backers will have their name included in the game's staff roll,
-            readable in all its glory! Don't worry, we have plans to make sure
-            that even with everyone included, the staff roll will still not bog
-            down your Eiyuden experience.
-          </p>
-          <img src="/images/digital_copy_item.jpg" />
+          <p>※旅費や宿泊費はご負担ください</p>
+          <img src="/images/visit_the_team.png" />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

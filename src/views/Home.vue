@@ -18,6 +18,8 @@
     <TShirt />
     <JobRewardSet />
     <CharacterFigure />
+    <ReplicaShield />
+    <TeamSignedPoster />
 
     <RewardsCategory category-name="サウンド" />
     <OstCd />
@@ -28,26 +30,24 @@
     <SoftcoverArtbook />
     <DigitalArtbook />
 
-    <RewardsCategory category-name="名前関連の権利" />
+    <RewardsCategory category-name="名前" />
     <NameInArtbook />
     <YourNameAsASoldier />
-    <NameALocation />
-
-    <RewardsCategory category-name="その他権利" />
-    <CreateAnEnemy />
-    <BecomeAnNpc />
-    <TeamSignedPoster />
-    <ReplicaShield />
-    <VisitTheTeam />
-    <CreateATownObject />
     <NameAnInGameFood />
+
+    <RewardsCategory category-name="その他" />
+    <CreateATownObject />
     <NameARivalBeigomaTrainer />
+    <VisitTheTeam />
 
     <RewardsCategory category-name="規定数終了" />
     <CatInTheGame />
     <PetInTheGame />
     <BecomeAHumanFacedFish />
     <BecomeAStatue />
+    <NameALocation />
+    <CreateAnEnemy />
+    <BecomeAnNpc />
 
     <Bottom />
 

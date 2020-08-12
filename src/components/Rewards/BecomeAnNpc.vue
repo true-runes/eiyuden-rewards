@@ -19,29 +19,12 @@
           <b-field class="columns">
             <b-radio-button
               v-model="becomeAnNpc"
-              native-value="true"
-              type="is-success"
-              class="column is-4-mobile is-4-tablet is-4-desktop"
-            >
-              <b-icon icon="check" size="is-small"></b-icon>
-              <span>ほしい</span>
-            </b-radio-button>
-            <b-radio-button
-              v-model="becomeAnNpc"
-              native-value="whichever"
-              type="is-info"
-              class="column is-4-mobile is-4-tablet is-4-desktop"
-            >
-              <span>どちらでも</span>
-            </b-radio-button>
-            <b-radio-button
-              v-model="becomeAnNpc"
               native-value="false"
               type="is-danger"
-              class="column is-4-mobile is-4-tablet is-4-desktop"
+              class="column"
             >
-              <b-icon icon="close"></b-icon>
-              <span>なし</span>
+              <b-icon icon="close" size="is-small"></b-icon>
+              <span>規定数に達しました</span>
             </b-radio-button>
           </b-field>
         </div>
@@ -52,17 +35,10 @@
       <div class="modal-background"></div>
       <div class="modal-card">
         <header class="modal-card-head">
-          <p class="modal-card-title">スタッフロールに名前が載る権利</p>
+          <p class="modal-card-title">ゲーム中のキャラになれる</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <p>あなたの名前がスタッフロールに掲載されます。</p>
-          <p>
-            All backers will have their name included in the game's staff roll,
-            readable in all its glory! Don't worry, we have plans to make sure
-            that even with everyone included, the staff roll will still not bog
-            down your Eiyuden experience.
-          </p>
-          <img src="/images/digital_copy_item.jpg" />
+          <img src="/images/become_an_npc.png" />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">
