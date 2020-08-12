@@ -93,6 +93,7 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isDigitalVersion'
           ],
+          isAvailable: false,
           pledgeName: {
             english: 'Digital Version',
             japanese: 'デジタル版',
@@ -120,6 +121,7 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isDoubleDigitalPack'
           ],
+          isAvailable: false,
           pledgeName: {
             english: 'Double Digital Pack',
             japanese: 'ダブルデジタル版',
@@ -147,6 +149,7 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isDoublePhysicalPack'
           ],
+          isAvailable: false,
           pledgeName: {
             english: 'Double Physical Pack',
             japanese: 'ダブルパッケージ版',
@@ -174,6 +177,7 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isDigitalAndPhysical'
           ],
+          isAvailable: false,
           pledgeName: {
             english: 'Digital & Physical',
             japanese: 'デジタル版＆パッケージ版',
@@ -200,13 +204,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isBadgeOfHonor'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Badge of Honor',
             japanese: 'Badge of Honor',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isBadgeOfHonor'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -227,13 +232,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isMarkOfTheBard'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Mark of the Bard',
             japanese: 'Mark of the Bard',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isMarkOfTheBard'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -254,13 +260,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isOrderOfTheVermillion'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Order of the Vermillion',
             japanese: 'Order of the Vermillion',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isOrderOfTheVermillion'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -281,13 +288,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isOrderOfTheHarmonious'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Order of the Harmonious',
             japanese: 'Order of the Harmonious',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isOrderOfTheHarmonious'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -308,13 +316,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isOrderOfTheArchivists'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Order of the Archivists',
             japanese: 'Order of the Archivists',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isOrderOfTheArchivists'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -335,13 +344,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isTrinityOfOrders'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Trinity of Orders',
             japanese: 'Trinity of Orders',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isTrinityOfOrders'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -362,13 +372,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isVermillionSquire'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Vermillion Squire',
             japanese: 'isVermillionSquire',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isVermillionSquire'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -389,13 +400,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isHarmoniousSquire'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Harmonious Squire',
             japanese: 'Harmonious Squire',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isHarmoniousSquire'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -416,13 +428,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isArchivistSquire'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Archivist Squire',
             japanese: 'Archivist Squire',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isArchivistSquire'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -443,13 +456,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isTrinitySquire'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Trinity Squire',
             japanese: 'Trinity Squire',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isTrinitySquire'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -470,13 +484,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isVermillionKnight'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Vermillion Knight',
             japanese: 'Vermillion Knight',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isVermillionKnight'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -497,13 +512,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isHarmoniousKnight'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Harmonious Knight',
             japanese: 'Harmonious Knight',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isHarmoniousKnight'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -524,13 +540,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isArchivistKnight'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Archivist Knight',
             japanese: 'Archivist Knight',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isArchivistKnight'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -551,13 +568,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isTrinityKnight'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Trinity Knight',
             japanese: 'Trinity Knight',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isTrinityKnight'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -578,13 +596,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isVermillionNoble'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Vermillion Noble',
             japanese: 'Vermillion Noble',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isVermillionNoble'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -605,13 +624,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isHarmoniousNoble'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Harmonious Noble',
             japanese: 'Harmonious Noble',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isHarmoniousNoble'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -632,13 +652,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isArchivistNoble'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Archivist Noble',
             japanese: 'Archivist Noble',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isArchivistNoble'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -659,13 +680,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isTrinityNoble'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Trinity Noble',
             japanese: 'Trinity Noble',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isTrinityNoble'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -686,13 +708,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isNameOfTheSteadfast'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Name of the Steadfast',
             japanese: 'Name of the Steadfast',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isNameOfTheSteadfast'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -713,13 +736,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isIndelibleHand'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Indelible Hand',
             japanese: 'Indelible Hand',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isIndelibleHand'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -740,13 +764,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isEnduringRequiem'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Enduring Requiem',
             japanese: 'isEnduringRequiem',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isEnduringRequiem'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -767,13 +792,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isCatTribution'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Cat-tribution',
             japanese: 'Cat-tribution',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isCatTribution'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -794,11 +820,12 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters['pledges/isPixelPet'],
+          isAvailable: false,
           pledgeName: {
             english: 'Pixel Pet',
             japanese: 'Pixel Pet',
           },
-          isMatchedWithUserSelection: this.$store.getters['pledges/isPixelPet'],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -819,13 +846,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isFellowWorldbuilder'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Fellow Worldbuilder',
             japanese: 'Fellow Worldbuilder',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isFellowWorldbuilder'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -846,13 +874,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isEvilsAnvil'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: "Evil's Anvil",
             japanese: "Evil's Anvil",
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isEvilsAnvil'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -873,11 +902,12 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters['pledges/isAlterEgo'],
+          isAvailable: false,
           pledgeName: {
             english: 'Alter Ego',
             japanese: 'Alter Ego',
           },
-          isMatchedWithUserSelection: this.$store.getters['pledges/isAlterEgo'],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -898,13 +928,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isGuildmaster'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Guildmaster',
             japanese: 'Guildmaster',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isGuildmaster'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -925,13 +956,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isReveredGuildmaster'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Revered Guildmaster',
             japanese: 'Revered Guildmaster',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isReveredGuildmaster'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -952,13 +984,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isAllaraansPantheron'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: "Allaraan's Pantheon",
             japanese: "Allaraan's Pantheon",
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isAllaraansPantheron'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -979,11 +1012,12 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters['pledges/isMonument'],
+          isAvailable: false,
           pledgeName: {
             english: 'Monument',
             japanese: 'Monument',
           },
-          isMatchedWithUserSelection: this.$store.getters['pledges/isMonument'],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -1004,13 +1038,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isSilverMonument'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Silver Monument',
             japanese: 'Silver Monument',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isSilverMonument'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -1031,13 +1066,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isGoldenMonument'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Golden Monument',
             japanese: 'Golden Monument',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isGoldenMonument'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -1058,13 +1094,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isPieceOfHistory'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Piece of History',
             japanese: 'Piece of History',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isPieceOfHistory'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -1085,13 +1122,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isSilverPieceOfHistory'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Silver Piece of History',
             japanese: 'Silver Piece of History',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isSilverPieceOfHistory'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -1112,13 +1150,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isGoldenPieceOfHistory'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Golden Piece of History',
             japanese: 'Golden Piece of History',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isGoldenPieceOfHistory'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -1139,13 +1178,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isDigitalCopyAndDigitalCd'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Digital Copy & Digital CD',
             japanese: 'Digital Copy & Digital CD',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isDigitalCopyAndDigitalCd'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -1166,13 +1206,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isDigitalCopyAndDigitalArtbook'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Digital Copy & Digital Artbook',
             japanese: 'Digital Copy & Digital Artbook',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isDigitalCopyAndDigitalArtbook'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
@@ -1193,13 +1234,14 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isDigitalDeluxe'
+          ],
+          isAvailable: false,
           pledgeName: {
             english: 'Digital Deluxe',
             japanese: 'Digital Deluxe',
           },
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isDigitalDeluxe'
-          ],
           pledgeMinimumAmount: {
             english: '1,000',
             japanese: '100,000',
