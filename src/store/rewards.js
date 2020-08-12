@@ -22,6 +22,14 @@ import visitTheTeam from '@/store/Rewards/visitTheTeam'
 import characterFigure from '@/store/Rewards/characterFigure'
 import digitalCd from '@/store/Rewards/digitalCd'
 import digitalArtbook from '@/store/Rewards/digitalArtbook'
+import becomeAHumanFacedFish from '@/store/Rewards/becomeAHumanFacedFish'
+import becomeAStatue from '@/store/Rewards/becomeAStatue'
+import chibiCharaFigures from '@/store/Rewards/chibiCharaFigures'
+import createATownObject from '@/store/Rewards/createATownObject'
+import nameAnInGameFood from '@/store/Rewards/nameAnInGameFood'
+import nameARivalBeigomaTrainer from '@/store/Rewards/nameARivalBeigomaTrainer'
+import snappiePlushies from '@/store/Rewards/snappiePlushies'
+import steelbookCase from '@/store/Rewards/steelbookCase'
 
 // TODO: Import by 'map'
 export default {
@@ -52,7 +60,14 @@ export default {
     ...characterFigure.state,
     ...digitalCd.state,
     ...digitalArtbook.state,
-
+    ...becomeAHumanFacedFish.state,
+    ...becomeAStatue.state,
+    ...chibiCharaFigures.state,
+    ...createATownObject.state,
+    ...nameAnInGameFood.state,
+    ...nameARivalBeigomaTrainer.state,
+    ...snappiePlushies.state,
+    ...steelbookCase.state,
     allRewardsState: {},
   },
   getters: {
@@ -82,6 +97,14 @@ export default {
     ...characterFigure.getters,
     ...digitalCd.getters,
     ...digitalArtbook.getters,
+    ...becomeAHumanFacedFish.getters,
+    ...becomeAStatue.getters,
+    ...chibiCharaFigures.getters,
+    ...createATownObject.getters,
+    ...nameAnInGameFood.getters,
+    ...nameARivalBeigomaTrainer.getters,
+    ...snappiePlushies.getters,
+    ...steelbookCase.getters,
 
     getAllRewardsState(state) {
       return state.allRewardsState
@@ -114,6 +137,14 @@ export default {
     ...characterFigure.mutations,
     ...digitalCd.mutations,
     ...digitalArtbook.mutations,
+    ...becomeAHumanFacedFish.mutations,
+    ...becomeAStatue.mutations,
+    ...chibiCharaFigures.mutations,
+    ...createATownObject.mutations,
+    ...nameAnInGameFood.mutations,
+    ...nameARivalBeigomaTrainer.mutations,
+    ...snappiePlushies.mutations,
+    ...steelbookCase.mutations,
 
     // TODO: Overwrite by payload
     setAllRewardsState(state) {
@@ -142,6 +173,14 @@ export default {
         characterFigure: state.characterFigure,
         digitalCd: state.digitalCd,
         digitalArtbook: state.digitalArtbook,
+        becomeAHumanFacedFish: state.becomeAHumanFacedFish,
+        becomeAStatue: state.becomeAStatue,
+        chibiCharaFigures: state.chibiCharaFigures,
+        createATownObject: state.createATownObject,
+        nameAnInGameFood: state.nameAnInGameFood,
+        nameARivalBeigomaTrainer: state.nameARivalBeigomaTrainer,
+        snappiePlushies: state.snappiePlushies,
+        steelbookCase: state.steelbookCase,
       }
     },
   },

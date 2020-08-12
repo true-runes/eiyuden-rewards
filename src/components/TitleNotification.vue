@@ -21,19 +21,62 @@
                   (^o^)/
                 </p>
               </li>
-              <dev v-if="false">
-                <li>
-                  <p
-                    class="has-text-weight-bold has-text-left"
-                    @click="initializer"
-                  >
-                    vuex-persistedstate 初期化
-                  </p>
-                </li>
-              </dev>
+              <li>
+                <p class="has-text-weight-bold has-text-left">
+                  その他、細かいヘルプは<a href="#" @click="showModal">こちら</a
+                  >へどうぞ (^_^)
+                </p>
+              </li>
             </ul>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="modal" :class="{ 'is-active': modalIsShown }">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">ヘルプ</p>
+        </header>
+        <section class="modal-card-body has-text-left">
+          <div class="block">
+            <ul>
+              <li>
+                ・支援を行うための Kickstarter のページは<a
+                  href="https://www.kickstarter.com/projects/rabbitandbearstudios/eiyuden-chronicle-hundred-heroes"
+                  target="_blank"
+                  >こちら</a
+                >です
+              </li>
+              <li>
+                ・「百英雄伝」の情報をまとめている Scrapbox は<a
+                  href="https://scrapbox.io/100heroesstrong/"
+                  target="_blank"
+                  >こちら</a
+                >です
+              </li>
+              <li>
+                ・Kickstarterは「物を購入する場」ではなく「<span
+                  class="has-text-weight-bold"
+                  >プロジェクトを支援する場</span
+                >」です
+              </li>
+              <li>
+                ・選択項目を初期化したい場合は
+                <a href="#" @click="initializeState">
+                  こちら
+                </a>
+                をクリック・タップしてください
+              </li>
+            </ul>
+          </div>
+        </section>
+        <footer class="modal-card-foot move-button-to-right">
+          <button class="button is-success" @click="pushCloseButton">
+            閉じる
+          </button>
+        </footer>
       </div>
     </div>
   </section>
@@ -41,8 +84,14 @@
 
 <script>
 export default {
+  data: () => {
+    return {
+      modalIsShown: false,
+      closeButtonIsPressed: false,
+    }
+  },
   methods: {
-    initializer: function () {
+    initializeState: function () {
       const initialState = {
         rewards: {},
         pledges: {},
@@ -53,6 +102,15 @@ export default {
     },
     reloadCurrentPage: function () {
       this.$router.go({ path: this.$router.currentRoute.path, force: true })
+    },
+
+    showModal() {
+      this.closeButtonIsPressed = false
+      this.modalIsShown = true
+    },
+    pushCloseButton() {
+      this.closeButtonIsPressed = true
+      this.modalIsShown = false
     },
   },
 }

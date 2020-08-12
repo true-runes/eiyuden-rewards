@@ -4,30 +4,43 @@
     <Title />
     <TitleNotification />
 
+    <RewardsCategory category-name="全プレ" />
     <YourNameInTheStaffRoll />
     <DiscordRole />
-    <DigitalGame />
     <BetaAccess />
+
+    <RewardsCategory category-name="ゲーム本体" />
     <PhysicalGame />
+    <DigitalGame />
+
+    <RewardsCategory category-name="グッズ" />
     <SigilButton />
-    <OstCd />
     <TShirt />
-    <VinylRecord />
-    <SoftcoverArtbook />
     <JobRewardSet />
+    <CharacterFigure />
+
+    <RewardsCategory category-name="サウンド" />
+    <OstCd />
+    <DigitalCd />
+    <VinylRecord />
+
+    <RewardsCategory category-name="画集" />
+    <SoftcoverArtbook />
+    <DigitalArtbook />
+
+    <RewardsCategory category-name="名前関連の権利" />
     <NameInArtbook />
-    <TeamSignedPoster />
     <YourNameAsASoldier />
+    <NameALocation />
     <CatInTheGame />
     <PetInTheGame />
-    <NameALocation />
+
+    <RewardsCategory category-name="その他権利" />
     <CreateAnEnemy />
     <BecomeAnNpc />
+    <TeamSignedPoster />
     <ReplicaShield />
     <VisitTheTeam />
-    <CharacterFigure />
-    <DigitalCd />
-    <DigitalArtbook />
 
     <Bottom />
 
@@ -41,6 +54,8 @@ import TitleNotification from '@/components/TitleNotification'
 import Title from '@/components/Title'
 import Bottom from '@/components/Bottom'
 import NavBar from '@/components/NavBar'
+
+import RewardsCategory from '@/components/Rewards/Category'
 
 import YourNameInTheStaffRoll from '@/components/Rewards/YourNameInTheStaffRoll'
 import DiscordRole from '@/components/Rewards/DiscordRole'
@@ -73,6 +88,7 @@ export default {
     Header,
     TitleNotification,
     Title,
+    RewardsCategory,
     YourNameInTheStaffRoll,
     DiscordRole,
     DigitalGame,
@@ -114,7 +130,7 @@ body {
 }
 
 section.section {
-  padding: 20px;
+  padding: 15px;
 }
 
 .b-radio.radio {
@@ -129,5 +145,10 @@ section.section {
 
 .content-wrapper {
   flex: 1;
+}
+
+.kochira-he-dozo {
+  cursor: pointer;
+  cursor: hand;
 }
 </style>
