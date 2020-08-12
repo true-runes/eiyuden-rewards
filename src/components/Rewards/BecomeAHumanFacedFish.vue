@@ -4,7 +4,7 @@
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <p class="is-size-5 has-text-weight-bold">
-            ゲーム中にネコを登場させられる
+            人面魚として登場できる
             <span @click="showModal" class="kochira-he-dozo"
               ><b-icon icon="help-circle-outline" size="is-middle"></b-icon
             ></span>
@@ -18,7 +18,7 @@
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <b-field class="columns">
             <b-radio-button
-              v-model="catInTheGame"
+              v-model="becomeAHumanFacedFish"
               native-value="false"
               type="is-danger"
               class="column"
@@ -35,17 +35,16 @@
       <div class="modal-background"></div>
       <div class="modal-card">
         <header class="modal-card-head">
-          <p class="modal-card-title">スタッフロールに名前が載る権利</p>
+          <p class="modal-card-title">人面魚として登場できる</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <p>あなたの名前がスタッフロールに掲載されます。</p>
           <p>
-            All backers will have their name included in the game's staff roll,
-            readable in all its glory! Don't worry, we have plans to make sure
-            that even with everyone included, the staff roll will still not bog
-            down your Eiyuden experience.
+            人面魚として登場できる
           </p>
-          <img src="/images/digital_copy_item.jpg" />
+          <br />
+          <p>
+            人面魚として登場できる
+          </p>
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">
@@ -65,6 +64,21 @@ export default {
       closeButtonIsPressed: false,
     }
   },
+  computed: {
+    becomeAHumanFacedFish: {
+      get() {
+        return this.$store.state.rewards.becomeAHumanFacedFish
+      },
+      set(value) {
+        this.$store.commit('rewards/setBecomeAHumanFacedFish', value)
+      },
+    },
+  },
+  watch: {
+    becomeAHumanFacedFish: function () {
+      this.$store.commit('rewards/setAllRewardsState')
+    },
+  },
   methods: {
     showModal() {
       this.closeButtonIsPressed = false
@@ -75,20 +89,11 @@ export default {
       this.modalIsShown = false
     },
   },
-  computed: {
-    catInTheGame: {
-      get() {
-        return this.$store.state.rewards.catInTheGame
-      },
-      set(value) {
-        this.$store.commit('rewards/setCatInTheGame', value)
-      },
-    },
-  },
-  watch: {
-    catInTheGame: function () {
-      this.$store.commit('rewards/setAllRewardsState')
-    },
-  },
 }
 </script>
+
+<style>
+.move-button-to-right {
+  justify-content: flex-end;
+}
+</style>

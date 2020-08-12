@@ -4,7 +4,7 @@
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <p class="is-size-5 has-text-weight-bold">
-            ゲーム中にネコを登場させられる
+            街のオブジェを作ることができる
             <span @click="showModal" class="kochira-he-dozo"
               ><b-icon icon="help-circle-outline" size="is-middle"></b-icon
             ></span>
@@ -18,13 +18,30 @@
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <b-field class="columns">
             <b-radio-button
-              v-model="catInTheGame"
+              v-model="createATownObject"
+              native-value="true"
+              type="is-success"
+              class="column is-4-mobile is-4-tablet is-4-desktop"
+            >
+              <b-icon icon="check" size="is-small"></b-icon>
+              <span>ほしい</span>
+            </b-radio-button>
+            <b-radio-button
+              v-model="createATownObject"
+              native-value="whichever"
+              type="is-info"
+              class="column is-4-mobile is-4-tablet is-4-desktop"
+            >
+              <span>どちらでも</span>
+            </b-radio-button>
+            <b-radio-button
+              v-model="createATownObject"
               native-value="false"
               type="is-danger"
-              class="column"
+              class="column is-4-mobile is-4-tablet is-4-desktop"
             >
-              <b-icon icon="close" size="is-small"></b-icon>
-              <span>規定数に達しました</span>
+              <b-icon icon="close"></b-icon>
+              <span>なし</span>
             </b-radio-button>
           </b-field>
         </div>
@@ -76,17 +93,17 @@ export default {
     },
   },
   computed: {
-    catInTheGame: {
+    createATownObject: {
       get() {
-        return this.$store.state.rewards.catInTheGame
+        return this.$store.state.rewards.createATownObject
       },
       set(value) {
-        this.$store.commit('rewards/setCatInTheGame', value)
+        this.$store.commit('rewards/setCreateATownObject', value)
       },
     },
   },
   watch: {
-    catInTheGame: function () {
+    createATownObject: function () {
       this.$store.commit('rewards/setAllRewardsState')
     },
   },

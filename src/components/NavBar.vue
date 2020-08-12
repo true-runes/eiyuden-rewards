@@ -72,7 +72,9 @@ export default {
   computed: {
     matchedPledges: function () {
       return this.allPledges().filter(
-        pledge => pledge['isMatchedWithUserSelection'] === true,
+        pledge =>
+          pledge['isMatchedWithUserSelection'] === true &&
+          pledge['isAvailable'],
       )
     },
     matchedPledgeNames: function () {
@@ -97,7 +99,7 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isDigitalVersion'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Digital Version',
             japanese: 'デジタルバージョン',
@@ -125,7 +127,7 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isPhysicalVersion'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Physical Version',
             japanese: 'フィジカルバージョン',
@@ -153,10 +155,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isDoubleDigitalPack'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Double Digital Pack',
-            japanese: 'ダブルデジタルパック',
+            japanese: 'ダブル・デジタルパック',
           },
           pledgeMinimumAmount: {
             english: '???',
@@ -181,10 +183,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isDoublePhysicalPack'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Double Physical Pack',
-            japanese: 'ダブルフィジカルパック',
+            japanese: 'ダブル・フィジカルパック',
           },
           pledgeMinimumAmount: {
             english: '???',
@@ -209,7 +211,7 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isDigitalAndPhysical'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Digital & Physical',
             japanese: 'デジタル＆フィジカル',
@@ -239,10 +241,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isBadgeOfHonor'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Badge of Honor',
-            japanese: 'バッジオブオナー',
+            japanese: 'バッジ・オブ・オナー',
           },
           pledgeMinimumAmount: {
             english: '???',
@@ -267,10 +269,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isMarkOfTheBard'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Mark of the Bard',
-            japanese: 'マークオブザバード',
+            japanese: 'マーク・オブ・ザ・バード',
           },
           pledgeMinimumAmount: {
             english: '???',
@@ -295,10 +297,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isOrderOfTheVermillion'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Order of the Vermillion',
-            japanese: 'オーダーオブザバーミリオン',
+            japanese: 'オーダー・オブ・ザ・バーミリオン',
           },
           pledgeMinimumAmount: {
             english: '???',
@@ -323,10 +325,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isOrderOfTheHarmonious'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Order of the Harmonious',
-            japanese: 'オーダーオブザハーモニアス',
+            japanese: 'オーダー・オブ・ザ・ハーモニアス',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -351,10 +353,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isOrderOfTheArchivists'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Order of the Archivists',
-            japanese: 'オーダーオブザアーキビスト',
+            japanese: 'オーダー・オブ・ザ・アーキビスト',
           },
           pledgeMinimumAmount: {
             english: '???',
@@ -379,10 +381,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isTrinityOfOrders'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Trinity of Orders',
-            japanese: 'トリニティオブオーダーズ',
+            japanese: 'トリニティ・オブ・オーダーズ',
           },
           pledgeMinimumAmount: {
             english: '???',
@@ -410,7 +412,63 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Vermillion Squire',
-            japanese: 'バーミリオンスクワイア',
+            japanese: 'バーミリオン・スクワイア',
+          },
+          pledgeMinimumAmount: {
+            english: '???',
+            japanese: '???',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              '2x digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'あなたの名前がスタッフロールに',
+              'Discordの称号: Knight, Ranger or Wizard',
+              '2つのダウンロード版ゲーム',
+              'ベータアクセス権',
+            ],
+          },
+        },
+        {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isVermillionSquire'
+          ],
+          isAvailable: true,
+          pledgeName: {
+            english: 'Vermilion Squire Re-redux',
+            japanese: 'バーミリオン・スクワイア・リ・リダックス',
+          },
+          pledgeMinimumAmount: {
+            english: '???',
+            japanese: '25,000',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              '2x digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'あなたの名前がスタッフロールに',
+              'Discordの称号: Knight, Ranger or Wizard',
+              '2つのダウンロード版ゲーム',
+              'ベータアクセス権',
+            ],
+          },
+        },
+        {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isHarmoniousSquire'
+          ],
+          isAvailable: false,
+          pledgeName: {
+            english: 'Harmonious Squire',
+            japanese: 'ハーモニアス・スクワイア',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -435,10 +493,38 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isHarmoniousSquire'
           ],
+          isAvailable: true,
+          pledgeName: {
+            english: 'Harmonious Squire Redux',
+            japanese: 'ハーモニアス・スクワイア・リダックス',
+          },
+          pledgeMinimumAmount: {
+            english: '???',
+            japanese: '22,000',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              '2x digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'あなたの名前がスタッフロールに',
+              'Discordの称号: Knight, Ranger or Wizard',
+              '2つのダウンロード版ゲーム',
+              'ベータアクセス権',
+            ],
+          },
+        },
+        {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isArchivistSquire'
+          ],
           isAvailable: false,
           pledgeName: {
-            english: 'Harmonious Squire',
-            japanese: 'ハーモニアススクワイア',
+            english: 'Archivist Squire',
+            japanese: 'アーキビスト・スクワイア',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -463,10 +549,38 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isArchivistSquire'
           ],
+          isAvailable: true,
+          pledgeName: {
+            english: 'Archivist Squire Returns',
+            japanese: 'アーキビスト・スクワイア・リターンズ',
+          },
+          pledgeMinimumAmount: {
+            english: '???',
+            japanese: '30,000',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              '2x digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'あなたの名前がスタッフロールに',
+              'Discordの称号: Knight, Ranger or Wizard',
+              '2つのダウンロード版ゲーム',
+              'ベータアクセス権',
+            ],
+          },
+        },
+        {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isTrinitySquire'
+          ],
           isAvailable: false,
           pledgeName: {
-            english: 'Archivist Squire',
-            japanese: 'アーキビストスクワイア',
+            english: 'Trinity Squire',
+            japanese: 'トリニティ・スクワイア',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -491,10 +605,38 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isTrinitySquire'
           ],
+          isAvailable: true,
+          pledgeName: {
+            english: 'Trinity Squire Re-redux',
+            japanese: 'トリニティ・スクワイア・リ・リダックス',
+          },
+          pledgeMinimumAmount: {
+            english: '???',
+            japanese: '38,000',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              '2x digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'あなたの名前がスタッフロールに',
+              'Discordの称号: Knight, Ranger or Wizard',
+              '2つのダウンロード版ゲーム',
+              'ベータアクセス権',
+            ],
+          },
+        },
+        {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isVermillionKnight'
+          ],
           isAvailable: false,
           pledgeName: {
-            english: 'Trinity Squire',
-            japanese: 'トリニティスクワイア',
+            english: 'Vermillion Knight',
+            japanese: 'バーミリオン・ナイト',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -519,14 +661,14 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isVermillionKnight'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
-            english: 'Vermillion Knight',
-            japanese: 'バーミリオンナイト',
+            english: 'Vermillion Knight Redux',
+            japanese: 'バーミリオン・ナイト・リダックス',
           },
           pledgeMinimumAmount: {
-            english: '1,000',
-            japanese: '100,000',
+            english: '???',
+            japanese: '27,500',
           },
           rewards: {
             english: [
@@ -547,10 +689,38 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isHarmoniousKnight'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Harmonious Knight',
-            japanese: 'ハーモニアスナイト',
+            japanese: 'ハーモニアス・ナイト',
+          },
+          pledgeMinimumAmount: {
+            english: '???',
+            japanese: '25,000',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              '2x digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'あなたの名前がスタッフロールに',
+              'Discordの称号: Knight, Ranger or Wizard',
+              '2つのダウンロード版ゲーム',
+              'ベータアクセス権',
+            ],
+          },
+        },
+        {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isArchivistKnight'
+          ],
+          isAvailable: false,
+          pledgeName: {
+            english: 'Archivist Knight',
+            japanese: 'アーキビスト・ナイト',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -575,14 +745,14 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isArchivistKnight'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
-            english: 'Archivist Knight',
-            japanese: 'アーキビストナイト',
+            english: 'Archivist Knight Re-redux',
+            japanese: 'アーキビスト・ナイト・リ・リダックス',
           },
           pledgeMinimumAmount: {
-            english: '1,000',
-            japanese: '100,000',
+            english: '???',
+            japanese: '32,000',
           },
           rewards: {
             english: [
@@ -606,7 +776,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Trinity Knight',
-            japanese: 'トリニティナイト',
+            japanese: 'トリニティ・ナイト',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -631,10 +801,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isVermillionNoble'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Vermillion Noble',
-            japanese: 'バーミリオンノーブル',
+            japanese: 'バーミリオン・ノーブル',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -659,10 +829,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isHarmoniousNoble'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Harmonious Noble',
-            japanese: 'ハーモニアスノーブル',
+            japanese: 'ハーモニアス・ノーブル',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -687,10 +857,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isArchivistNoble'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Archivist Noble',
-            japanese: 'アーキビストノーブル',
+            japanese: 'アーキビスト・ノーブル',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -718,7 +888,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Trinity Noble',
-            japanese: 'トリニティノーブル',
+            japanese: 'トリニティ・ノーブル',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -743,10 +913,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isNameOfTheSteadfast'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Name of the Steadfast',
-            japanese: 'ネームオブザステッドファスト',
+            japanese: 'ネーム・オブ・ザ・ステッドファスト',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -771,10 +941,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isIndelibleHand'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Indelible Hand',
-            japanese: 'インデリブルハンド',
+            japanese: 'インデリブル・ハンド',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -799,14 +969,42 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isEnduringRequiem'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Enduring Requiem',
-            japanese: 'エンデューイングレクイエム',
+            japanese: 'エンデューイング・レクイエム',
           },
           pledgeMinimumAmount: {
-            english: '1,000',
+            english: '???',
             japanese: '100,000',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              '2x digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'あなたの名前がスタッフロールに',
+              'Discordの称号: Knight, Ranger or Wizard',
+              '2つのダウンロード版ゲーム',
+              'ベータアクセス権',
+            ],
+          },
+        },
+        {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isEnduringRequiem'
+          ],
+          isAvailable: true,
+          pledgeName: {
+            english: 'Enduring Requiem Redux',
+            japanese: 'エンデューイング・レクイエム・リダックス',
+          },
+          pledgeMinimumAmount: {
+            english: '???',
+            japanese: '115,000',
           },
           rewards: {
             english: [
@@ -830,7 +1028,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Cat-tribution',
-            japanese: 'キャットトリビューション',
+            japanese: 'キャット・トリビューション',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -856,7 +1054,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Pixel Pet',
-            japanese: 'ピクセルペット',
+            japanese: 'ピクセル・ペット',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -884,7 +1082,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Fellow Worldbuilder',
-            japanese: 'フェローワールドビルダー',
+            japanese: 'フェロー・ワールドビルダー',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -912,7 +1110,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: "Evil's Anvil",
-            japanese: 'イビルズアンビル',
+            japanese: 'イビルズ・アンビル',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -938,7 +1136,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Alter Ego',
-            japanese: 'アルターエゴ',
+            japanese: 'アルター・エゴ',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -963,14 +1161,14 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isGuildmaster'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Guildmaster',
             japanese: 'ギルドマスター',
           },
           pledgeMinimumAmount: {
-            english: '1,000',
-            japanese: '100,000',
+            english: '???',
+            japanese: '500,000',
           },
           rewards: {
             english: [
@@ -991,14 +1189,14 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isReveredGuildmaster'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Revered Guildmaster',
-            japanese: 'リビアドギルドマスター',
+            japanese: 'リビアド・ギルドマスター',
           },
           pledgeMinimumAmount: {
-            english: '1,000',
-            japanese: '100,000',
+            english: '???',
+            japanese: '750,000',
           },
           rewards: {
             english: [
@@ -1017,16 +1215,16 @@ export default {
         },
         {
           isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isAllaraansPantheron'
+            'pledges/isAllraansPantheron'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
-            english: "Allaraan's Pantheon",
-            japanese: 'オールラーンズパンテオン',
+            english: "Allraan's Pantheon",
+            japanese: 'オールラーンズ・パンテオン',
           },
           pledgeMinimumAmount: {
-            english: '1,000',
-            japanese: '100,000',
+            english: '???',
+            japanese: '750,000',
           },
           rewards: {
             english: [
@@ -1070,13 +1268,95 @@ export default {
           },
         },
         {
+          isMatchedWithUserSelection: this.$store.getters['pledges/isMonument'],
+          isAvailable: true,
+          pledgeName: {
+            english: 'Monument Returns',
+            japanese: 'モニュメント・リターンズ',
+          },
+          pledgeMinimumAmount: {
+            english: '???',
+            japanese: '40,000',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              '2x digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'あなたの名前がスタッフロールに',
+              'Discordの称号: Knight, Ranger or Wizard',
+              '2つのダウンロード版ゲーム',
+              'ベータアクセス権',
+            ],
+          },
+        },
+        {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isSilverMonument'
           ],
           isAvailable: false,
           pledgeName: {
             english: 'Silver Monument',
-            japanese: 'シルバーモニュメント',
+            japanese: 'シルバー・モニュメント',
+          },
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              '2x digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'あなたの名前がスタッフロールに',
+              'Discordの称号: Knight, Ranger or Wizard',
+              '2つのダウンロード版ゲーム',
+              'ベータアクセス権',
+            ],
+          },
+        },
+        {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isSilverMonument'
+          ],
+          isAvailable: true,
+          pledgeName: {
+            english: 'Silver Monument Re-redux',
+            japanese: 'シルバー・モニュメント・リ・リダックス',
+          },
+          pledgeMinimumAmount: {
+            english: '???',
+            japanese: '50,000',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              '2x digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'あなたの名前がスタッフロールに',
+              'Discordの称号: Knight, Ranger or Wizard',
+              '2つのダウンロード版ゲーム',
+              'ベータアクセス権',
+            ],
+          },
+        },
+        {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isGoldenMonument'
+          ],
+          isAvailable: false,
+          pledgeName: {
+            english: 'Golden Monument',
+            japanese: 'ゴールデン・モニュメント',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -1101,10 +1381,38 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isGoldenMonument'
           ],
+          isAvailable: true,
+          pledgeName: {
+            english: 'Golden Monument Returns',
+            japanese: 'ゴールデン・モニュメント・リターンズ',
+          },
+          pledgeMinimumAmount: {
+            english: '???',
+            japanese: '75,000',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              '2x digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'あなたの名前がスタッフロールに',
+              'Discordの称号: Knight, Ranger or Wizard',
+              '2つのダウンロード版ゲーム',
+              'ベータアクセス権',
+            ],
+          },
+        },
+        {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isPieceOfHistory'
+          ],
           isAvailable: false,
           pledgeName: {
-            english: 'Golden Monument',
-            japanese: 'ゴールデンモニュメント',
+            english: 'Piece of History',
+            japanese: 'ピース・オブ・ヒストリー',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -1129,10 +1437,38 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isPieceOfHistory'
           ],
+          isAvailable: true,
+          pledgeName: {
+            english: 'Piece of History Re-redux',
+            japanese: 'ピース・オブ・ヒストリー・リ・リダックス',
+          },
+          pledgeMinimumAmount: {
+            english: '???',
+            japanese: '42,500',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              '2x digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'あなたの名前がスタッフロールに',
+              'Discordの称号: Knight, Ranger or Wizard',
+              '2つのダウンロード版ゲーム',
+              'ベータアクセス権',
+            ],
+          },
+        },
+        {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isSilverPieceOfHistory'
+          ],
           isAvailable: false,
           pledgeName: {
-            english: 'Piece of History',
-            japanese: 'ピースオブヒストリー',
+            english: 'Silver Piece of History',
+            japanese: 'シルバー・ピース・オブ・ヒストリー',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -1157,10 +1493,38 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isSilverPieceOfHistory'
           ],
+          isAvailable: true,
+          pledgeName: {
+            english: 'Silver Piece of History Re-redux',
+            japanese: 'シルバー・ピース・オブ・ヒストリー・リ・リダックス',
+          },
+          pledgeMinimumAmount: {
+            english: '???',
+            japanese: '60,000',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              '2x digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'あなたの名前がスタッフロールに',
+              'Discordの称号: Knight, Ranger or Wizard',
+              '2つのダウンロード版ゲーム',
+              'ベータアクセス権',
+            ],
+          },
+        },
+        {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isGoldenPieceOfHistory'
+          ],
           isAvailable: false,
           pledgeName: {
-            english: 'Silver Piece of History',
-            japanese: 'シルバーピースオブヒストリー',
+            english: 'Golden Piece of History',
+            japanese: 'ゴールデン・ピース・オブ・ヒストリー',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -1185,14 +1549,42 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isGoldenPieceOfHistory'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
-            english: 'Golden Piece of History',
-            japanese: 'ゴールデンピースオブヒストリー',
+            english: 'Golden Piece of History Re-redux',
+            japanese: 'ゴールデン・ピース・オブ・ヒストリー・リ・リダックス',
           },
           pledgeMinimumAmount: {
-            english: '1,000',
-            japanese: '100,000',
+            english: '???',
+            japanese: '80,000',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              '2x digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'あなたの名前がスタッフロールに',
+              'Discordの称号: Knight, Ranger or Wizard',
+              '2つのダウンロード版ゲーム',
+              'ベータアクセス権',
+            ],
+          },
+        },
+        {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isGoldenPieceOfHistory'
+          ],
+          isAvailable: true,
+          pledgeName: {
+            english: 'Golden Piece of History Returns',
+            japanese: 'ゴールデン・ピース・オブ・ヒストリー・リターンズ',
+          },
+          pledgeMinimumAmount: {
+            english: '???',
+            japanese: '95,000',
           },
           rewards: {
             english: [
@@ -1213,14 +1605,14 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isDigitalCopyAndDigitalCd'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Digital Copy & Digital CD',
             japanese: 'デジタルコピー＆デジタルCD',
           },
           pledgeMinimumAmount: {
-            english: '1,000',
-            japanese: '100,000',
+            english: '???',
+            japanese: '6,000',
           },
           rewards: {
             english: [
@@ -1241,14 +1633,14 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isDigitalCopyAndDigitalArtbook'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Digital Copy & Digital Artbook',
             japanese: 'デジタルコピー＆デジタルアートブック',
           },
           pledgeMinimumAmount: {
-            english: '1,000',
-            japanese: '100,000',
+            english: '???',
+            japanese: '7,500',
           },
           rewards: {
             english: [
@@ -1269,14 +1661,98 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isDigitalDeluxe'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Digital Deluxe',
             japanese: 'デジタルデラックス',
           },
           pledgeMinimumAmount: {
-            english: '1,000',
-            japanese: '100,000',
+            english: '???',
+            japanese: '10,000',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              '2x digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'あなたの名前がスタッフロールに',
+              'Discordの称号: Knight, Ranger or Wizard',
+              '2つのダウンロード版ゲーム',
+              'ベータアクセス権',
+            ],
+          },
+        },
+        {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isFoodForThought'
+          ],
+          isAvailable: true,
+          pledgeName: {
+            english: 'Food for Thought',
+            japanese: 'フード・フォー・ソート',
+          },
+          pledgeMinimumAmount: {
+            english: '???',
+            japanese: '150,000',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              '2x digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'あなたの名前がスタッフロールに',
+              'Discordの称号: Knight, Ranger or Wizard',
+              '2つのダウンロード版ゲーム',
+              'ベータアクセス権',
+            ],
+          },
+        },
+        {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isTopTrainer'
+          ],
+          isAvailable: true,
+          pledgeName: {
+            english: 'Top Trainer',
+            japanese: 'トップ・トレーナー',
+          },
+          pledgeMinimumAmount: {
+            english: '???',
+            japanese: '200,000',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              '2x digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'あなたの名前がスタッフロールに',
+              'Discordの称号: Knight, Ranger or Wizard',
+              '2つのダウンロード版ゲーム',
+              'ベータアクセス権',
+            ],
+          },
+        },
+        {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isEsteemedDecorator'
+          ],
+          isAvailable: true,
+          pledgeName: {
+            english: 'Esteemed Decorator Redux',
+            japanese: 'エスティームド・デコレーター・リダックス',
+          },
+          pledgeMinimumAmount: {
+            english: '???',
+            japanese: '225,000',
           },
           rewards: {
             english: [
