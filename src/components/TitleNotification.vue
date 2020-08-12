@@ -23,23 +23,10 @@
               </li>
               <li>
                 <p class="has-text-weight-bold has-text-left">
-                  その他、細かいヘルプは「<span
-                    @click="showModal"
-                    class="kochira-he-dozo"
-                    >こちら</span
-                  >」へどうぞ (^_^)
+                  その他、細かいヘルプは<a href="#" @click="showModal">こちら</a
+                  >へどうぞ (^_^)
                 </p>
               </li>
-              <div v-if="false">
-                <li>
-                  <p
-                    class="has-text-weight-bold has-text-left"
-                    @click="initializer"
-                  >
-                    vuex-persistedstate 初期化
-                  </p>
-                </li>
-              </div>
             </ul>
           </div>
         </div>
@@ -56,18 +43,25 @@
           <div class="block">
             <ul>
               <li>
-                ・Kickstarter のページは<a
+                ・支援を行うための Kickstarter のページは<a
                   href="https://www.kickstarter.com/projects/rabbitandbearstudios/eiyuden-chronicle-hundred-heroes"
                   target="_blank"
                   >こちら</a
                 >です
               </li>
               <li>
-                ・情報をまとめている Scrapbox は<a
+                ・「百英雄伝」の情報をまとめている Scrapbox は<a
                   href="https://scrapbox.io/100heroesstrong/"
                   target="_blank"
                   >こちら</a
                 >です
+              </li>
+              <li>
+                ・選択項目を初期化したい場合は
+                <a href="#" @click="initializeState">
+                  こちら
+                </a>
+                をクリック・タップしてください
               </li>
             </ul>
           </div>
@@ -91,7 +85,7 @@ export default {
     }
   },
   methods: {
-    initializer: function () {
+    initializeState: function () {
       const initialState = {
         rewards: {},
         pledges: {},
@@ -103,6 +97,7 @@ export default {
     reloadCurrentPage: function () {
       this.$router.go({ path: this.$router.currentRoute.path, force: true })
     },
+
     showModal() {
       this.closeButtonIsPressed = false
       this.modalIsShown = true
@@ -122,10 +117,5 @@ export default {
 
 .column {
   padding: 1px;
-}
-
-.kochira-he-dozo {
-  cursor: pointer;
-  cursor: hand;
 }
 </style>

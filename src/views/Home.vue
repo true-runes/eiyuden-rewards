@@ -146,4 +146,9 @@ section.section {
 .content-wrapper {
   flex: 1;
 }
+
+.kochira-he-dozo {
+  cursor: pointer;
+  cursor: hand;
+}
 </style>
