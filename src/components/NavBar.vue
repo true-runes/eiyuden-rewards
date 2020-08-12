@@ -27,10 +27,14 @@
                   >
                     <p class="is-size-5 has-text-weight-bold">
                       {{ pledge['pledgeName']['japanese'] }}
+                      <span class="is-size-6">
+                        ({{ pledge['pledgeName']['english'] }})
+                      </span>
                     </p>
+
                     <p class="is-size-6 has-text-weight-bold">
-                      （支援額 {{ pledge['pledgeMinimumAmount']['japanese'] }}円
-                      以上）
+                      ・支援額 {{ pledge['pledgeMinimumAmount']['japanese'] }}円
+                      以上
                     </p>
                     <ul>
                       <div
@@ -96,11 +100,11 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Digital Version',
-            japanese: 'デジタル版',
+            japanese: 'デジタルバージョン',
           },
           pledgeMinimumAmount: {
-            english: '1,000',
-            japanese: '100,000',
+            english: '???',
+            japanese: '4,000',
           },
           rewards: {
             english: [
@@ -119,16 +123,44 @@ export default {
         },
         {
           isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isPhysicalVersion'
+          ],
+          isAvailable: false,
+          pledgeName: {
+            english: 'Physical Version',
+            japanese: 'フィジカルバージョン',
+          },
+          pledgeMinimumAmount: {
+            english: '???',
+            japanese: '6,000',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              'digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'スタッフロール登場権',
+              'Discord で Knight, Ranger, Wizard のいずれかの称号の取得権',
+              'パッケージ版ゲーム取得権',
+              'ベータ版プレイ権',
+            ],
+          },
+        },
+        {
+          isMatchedWithUserSelection: this.$store.getters[
             'pledges/isDoubleDigitalPack'
           ],
           isAvailable: false,
           pledgeName: {
             english: 'Double Digital Pack',
-            japanese: 'ダブルデジタル版',
+            japanese: 'ダブルデジタルパック',
           },
           pledgeMinimumAmount: {
-            english: '1,000',
-            japanese: '100,000',
+            english: '???',
+            japanese: '7,500',
           },
           rewards: {
             english: [
@@ -152,11 +184,11 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Double Physical Pack',
-            japanese: 'ダブルパッケージ版',
+            japanese: 'ダブルフィジカルパック',
           },
           pledgeMinimumAmount: {
-            english: '1,000',
-            japanese: '100,000',
+            english: '???',
+            japanese: '7,500',
           },
           rewards: {
             english: [
@@ -180,11 +212,11 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Digital & Physical',
-            japanese: 'デジタル版＆パッケージ版',
+            japanese: 'デジタル＆フィジカル',
           },
           pledgeMinimumAmount: {
-            english: '1,000',
-            japanese: '100,000',
+            english: '???',
+            japanese: '9,400',
           },
           rewards: {
             english: [
@@ -210,11 +242,11 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Badge of Honor',
-            japanese: 'Badge of Honor',
+            japanese: 'バッジオブオナー',
           },
           pledgeMinimumAmount: {
-            english: '1,000',
-            japanese: '100,000',
+            english: '???',
+            japanese: '7,500',
           },
           rewards: {
             english: [
@@ -238,11 +270,11 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Mark of the Bard',
-            japanese: 'Mark of the Bard',
+            japanese: 'マークオブザバード',
           },
           pledgeMinimumAmount: {
-            english: '1,000',
-            japanese: '100,000',
+            english: '???',
+            japanese: '10,000',
           },
           rewards: {
             english: [
@@ -266,11 +298,11 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Order of the Vermillion',
-            japanese: 'Order of the Vermillion',
+            japanese: 'オーダーオブザバーミリオン',
           },
           pledgeMinimumAmount: {
-            english: '1,000',
-            japanese: '100,000',
+            english: '???',
+            japanese: '15,000',
           },
           rewards: {
             english: [
@@ -294,11 +326,11 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Order of the Harmonious',
-            japanese: 'Order of the Harmonious',
+            japanese: 'オーダーオブザハーモニアス',
           },
           pledgeMinimumAmount: {
             english: '1,000',
-            japanese: '100,000',
+            japanese: '15,000',
           },
           rewards: {
             english: [
@@ -322,11 +354,11 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Order of the Archivists',
-            japanese: 'Order of the Archivists',
+            japanese: 'オーダーオブザアーキビスト',
           },
           pledgeMinimumAmount: {
-            english: '1,000',
-            japanese: '100,000',
+            english: '???',
+            japanese: '15,000',
           },
           rewards: {
             english: [
@@ -350,11 +382,11 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Trinity of Orders',
-            japanese: 'Trinity of Orders',
+            japanese: 'トリニティオブオーダーズ',
           },
           pledgeMinimumAmount: {
-            english: '1,000',
-            japanese: '100,000',
+            english: '???',
+            japanese: '25,000',
           },
           rewards: {
             english: [
@@ -378,7 +410,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Vermillion Squire',
-            japanese: 'isVermillionSquire',
+            japanese: 'バーミリオンスクワイア',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -406,7 +438,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Harmonious Squire',
-            japanese: 'Harmonious Squire',
+            japanese: 'ハーモニアススクワイア',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -434,7 +466,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Archivist Squire',
-            japanese: 'Archivist Squire',
+            japanese: 'アーキビストスクワイア',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -462,7 +494,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Trinity Squire',
-            japanese: 'Trinity Squire',
+            japanese: 'トリニティスクワイア',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -490,7 +522,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Vermillion Knight',
-            japanese: 'Vermillion Knight',
+            japanese: 'バーミリオンナイト',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -518,7 +550,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Harmonious Knight',
-            japanese: 'Harmonious Knight',
+            japanese: 'ハーモニアスナイト',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -546,7 +578,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Archivist Knight',
-            japanese: 'Archivist Knight',
+            japanese: 'アーキビストナイト',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -574,7 +606,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Trinity Knight',
-            japanese: 'Trinity Knight',
+            japanese: 'トリニティナイト',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -602,7 +634,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Vermillion Noble',
-            japanese: 'Vermillion Noble',
+            japanese: 'バーミリオンノーブル',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -630,7 +662,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Harmonious Noble',
-            japanese: 'Harmonious Noble',
+            japanese: 'ハーモニアスノーブル',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -658,7 +690,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Archivist Noble',
-            japanese: 'Archivist Noble',
+            japanese: 'アーキビストノーブル',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -686,7 +718,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Trinity Noble',
-            japanese: 'Trinity Noble',
+            japanese: 'トリニティノーブル',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -714,7 +746,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Name of the Steadfast',
-            japanese: 'Name of the Steadfast',
+            japanese: 'ネームオブザステッドファスト',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -742,7 +774,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Indelible Hand',
-            japanese: 'Indelible Hand',
+            japanese: 'インデリブルハンド',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -770,7 +802,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Enduring Requiem',
-            japanese: 'isEnduringRequiem',
+            japanese: 'エンデューイングレクイエム',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -798,7 +830,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Cat-tribution',
-            japanese: 'Cat-tribution',
+            japanese: 'キャットトリビューション',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -824,7 +856,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Pixel Pet',
-            japanese: 'Pixel Pet',
+            japanese: 'ピクセルペット',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -852,7 +884,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Fellow Worldbuilder',
-            japanese: 'Fellow Worldbuilder',
+            japanese: 'フェローワールドビルダー',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -880,7 +912,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: "Evil's Anvil",
-            japanese: "Evil's Anvil",
+            japanese: 'イビルズアンビル',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -906,7 +938,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Alter Ego',
-            japanese: 'Alter Ego',
+            japanese: 'アルターエゴ',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -934,7 +966,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Guildmaster',
-            japanese: 'Guildmaster',
+            japanese: 'ギルドマスター',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -962,7 +994,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Revered Guildmaster',
-            japanese: 'Revered Guildmaster',
+            japanese: 'リビアドギルドマスター',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -990,7 +1022,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: "Allaraan's Pantheon",
-            japanese: "Allaraan's Pantheon",
+            japanese: 'オールラーンズパンテオン',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -1016,7 +1048,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Monument',
-            japanese: 'Monument',
+            japanese: 'モニュメント',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -1044,7 +1076,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Silver Monument',
-            japanese: 'Silver Monument',
+            japanese: 'シルバーモニュメント',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -1072,7 +1104,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Golden Monument',
-            japanese: 'Golden Monument',
+            japanese: 'ゴールデンモニュメント',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -1100,7 +1132,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Piece of History',
-            japanese: 'Piece of History',
+            japanese: 'ピースオブヒストリー',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -1128,7 +1160,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Silver Piece of History',
-            japanese: 'Silver Piece of History',
+            japanese: 'シルバーピースオブヒストリー',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -1156,7 +1188,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Golden Piece of History',
-            japanese: 'Golden Piece of History',
+            japanese: 'ゴールデンピースオブヒストリー',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -1184,7 +1216,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Digital Copy & Digital CD',
-            japanese: 'Digital Copy & Digital CD',
+            japanese: 'デジタルコピー＆デジタルCD',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -1212,7 +1244,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Digital Copy & Digital Artbook',
-            japanese: 'Digital Copy & Digital Artbook',
+            japanese: 'デジタルコピー＆デジタルアートブック',
           },
           pledgeMinimumAmount: {
             english: '1,000',
@@ -1240,7 +1272,7 @@ export default {
           isAvailable: false,
           pledgeName: {
             english: 'Digital Deluxe',
-            japanese: 'Digital Deluxe',
+            japanese: 'デジタルデラックス',
           },
           pledgeMinimumAmount: {
             english: '1,000',
