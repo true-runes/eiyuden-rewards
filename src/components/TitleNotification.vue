@@ -57,6 +57,12 @@
                 >です
               </li>
               <li>
+                ・Kickstarterは「物を購入する場」ではなく「<span
+                  class="has-text-weight-bold"
+                  >プロジェクトを支援する場</span
+                >」です
+              </li>
+              <li>
                 ・選択項目を初期化したい場合は
                 <a href="#" @click="initializeState">
                   こちら

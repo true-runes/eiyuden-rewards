@@ -28,6 +28,10 @@
                     <p class="is-size-5 has-text-weight-bold">
                       {{ pledge['pledgeName']['japanese'] }}
                     </p>
+                    <p class="is-size-6 has-text-weight-bold">
+                      （支援額 {{ pledge['pledgeMinimumAmount']['japanese'] }}円
+                      以上）
+                    </p>
                     <ul>
                       <div
                         v-for="rewardJapanese in pledge['rewards']['japanese']"
@@ -86,13 +90,17 @@ export default {
     allPledges: function () {
       return [
         {
-          pledgeName: {
-            english: 'Digital Version',
-            japanese: 'デジタルバージョン',
-          },
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isDigitalVersion'
           ],
+          pledgeName: {
+            english: 'Digital Version',
+            japanese: 'デジタル版',
+          },
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -101,79 +109,93 @@ export default {
               'betaAccess',
             ],
             japanese: [
-              'あなたの名前がスタッフロールに',
-              'Discordの称号: Knight, Ranger or Wizard',
-              'ダウンロード版ゲーム',
-              'ベータアクセス権',
+              'スタッフロール登場権',
+              'Discord で Knight, Ranger, Wizard のいずれかの称号の取得権',
+              'ダウンロード版ゲーム取得権',
+              'ベータ版プレイ権',
             ],
           },
         },
         {
-          pledgeName: {
-            english: 'Double Digital Pack',
-            japanese: 'ダブルデジタルパック',
-          },
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isDoubleDigitalPack'
           ],
+          pledgeName: {
+            english: 'Double Digital Pack',
+            japanese: 'ダブルデジタル版',
+          },
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
               'discordRole: Knight, Ranger or Wizard',
               '2x digitalGame',
-              'betaAccess',
+              '2x betaAccess',
             ],
             japanese: [
-              'あなたの名前がスタッフロールに',
-              'Discordの称号: Knight, Ranger or Wizard',
-              '2つのダウンロード版ゲーム',
-              'ベータアクセス権',
+              'スタッフロール登場権',
+              'Discord で Knight, Ranger, Wizard のいずれかの称号の取得権',
+              '2つのダウンロード版ゲーム取得権',
+              '2つのベータ版プレイ権',
             ],
           },
         },
         {
-          pledgeName: {
-            english: 'Double Physical Pack',
-            japanese: 'ダブルフィジカル',
-          },
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isDoublePhysicalPack'
           ],
+          pledgeName: {
+            english: 'Double Physical Pack',
+            japanese: 'ダブルパッケージ版',
+          },
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
               'discordRole: Knight, Ranger or Wizard',
-              '2x digitalGame',
-              'betaAccess',
+              '2x physicalGame',
+              '2x betaAccess',
             ],
             japanese: [
-              'あなたの名前がスタッフロールに',
-              'Discordの称号: Knight, Ranger or Wizard',
-              '2つのダウンロード版ゲーム',
-              'ベータアクセス権',
+              'スタッフロール登場権',
+              'Discord で Knight, Ranger, Wizard のいずれかの称号の取得権',
+              '2つのパッケージ版ゲーム取得権',
+              '2つのベータ版プレイ権',
             ],
           },
         },
         {
-          pledgeName: {
-            english: 'Digital & Physical',
-            japanese: 'デジタルアンドフィジカル',
-          },
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isDigitalAndPhysical'
           ],
+          pledgeName: {
+            english: 'Digital & Physical',
+            japanese: 'デジタル版＆パッケージ版',
+          },
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
               'discordRole: Knight, Ranger or Wizard',
-              '2x digitalGame',
+              'digitalGame',
+              'physicalGame',
               'betaAccess',
             ],
             japanese: [
-              'あなたの名前がスタッフロールに',
-              'Discordの称号: Knight, Ranger or Wizard',
-              '2つのダウンロード版ゲーム',
-              'ベータアクセス権',
+              'スタッフロール登場権',
+              'Discord で Knight, Ranger, Wizard のいずれかの称号の取得権',
+              'ダウンロード版ゲーム取得権',
+              'パッケージ版ゲーム取得権',
+              'ベータ版プレイ権',
             ],
           },
         },
@@ -185,6 +207,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isBadgeOfHonor'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -208,6 +234,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isMarkOfTheBard'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -231,6 +261,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isOrderOfTheVermillion'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -254,6 +288,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isOrderOfTheHarmonious'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -277,6 +315,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isOrderOfTheArchivists'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -300,6 +342,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isTrinityOfOrders'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -323,6 +369,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isVermillionSquire'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -346,6 +396,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isHarmoniousSquire'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -369,6 +423,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isArchivistSquire'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -392,6 +450,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isTrinitySquire'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -415,6 +477,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isVermillionKnight'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -438,6 +504,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isHarmoniousKnight'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -461,6 +531,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isArchivistKnight'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -484,6 +558,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isTrinityKnight'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -507,6 +585,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isVermillionNoble'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -530,6 +612,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isHarmoniousNoble'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -553,6 +639,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isArchivistNoble'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -576,6 +666,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isTrinityNoble'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -599,6 +693,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isNameOfTheSteadfast'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -622,6 +720,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isIndelibleHand'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -645,6 +747,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isEnduringRequiem'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -668,6 +774,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isCatTribution'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -689,6 +799,10 @@ export default {
             japanese: 'Pixel Pet',
           },
           isMatchedWithUserSelection: this.$store.getters['pledges/isPixelPet'],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -712,6 +826,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isFellowWorldbuilder'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -735,6 +853,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isEvilsAnvil'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -756,6 +878,10 @@ export default {
             japanese: 'Alter Ego',
           },
           isMatchedWithUserSelection: this.$store.getters['pledges/isAlterEgo'],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -779,6 +905,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isGuildmaster'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -802,6 +932,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isReveredGuildmaster'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -825,6 +959,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isAllaraansPantheron'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -846,6 +984,10 @@ export default {
             japanese: 'Monument',
           },
           isMatchedWithUserSelection: this.$store.getters['pledges/isMonument'],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -869,6 +1011,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isSilverMonument'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -892,6 +1038,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isGoldenMonument'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -915,6 +1065,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isPieceOfHistory'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -938,6 +1092,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isSilverPieceOfHistory'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -961,6 +1119,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isGoldenPieceOfHistory'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -984,6 +1146,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isDigitalCopyAndDigitalCd'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -1007,6 +1173,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isDigitalCopyAndDigitalArtbook'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
@@ -1030,6 +1200,10 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isDigitalDeluxe'
           ],
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '100,000',
+          },
           rewards: {
             english: [
               'yourNameInTheStaffRoll',
