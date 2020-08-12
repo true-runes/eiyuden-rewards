@@ -32,8 +32,6 @@
     <NameInArtbook />
     <YourNameAsASoldier />
     <NameALocation />
-    <CatInTheGame />
-    <PetInTheGame />
 
     <RewardsCategory category-name="その他権利" />
     <CreateAnEnemy />
@@ -41,11 +39,15 @@
     <TeamSignedPoster />
     <ReplicaShield />
     <VisitTheTeam />
-    <BecomeAHumanFacedFish />
-    <BecomeAStatue />
     <CreateATownObject />
     <NameAnInGameFood />
     <NameARivalBeigomaTrainer />
+
+    <RewardsCategory category-name="規定数終了" />
+    <CatInTheGame />
+    <PetInTheGame />
+    <BecomeAHumanFacedFish />
+    <BecomeAStatue />
 
     <Bottom />
 
