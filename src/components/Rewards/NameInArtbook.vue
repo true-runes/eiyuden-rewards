@@ -56,7 +56,11 @@
         </header>
         <section class="modal-card-body has-text-left">
           <p>あなたの名前がアートブックに掲載されます。</p>
-          <img src="/images/softcover_artbook.jpg" />
+          <img
+            src="/images/softcover_artbook.jpg"
+            alt="アートブックに名前掲載権"
+            title="アートブックに名前掲載権"
+          />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

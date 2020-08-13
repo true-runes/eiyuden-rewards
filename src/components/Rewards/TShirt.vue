@@ -55,7 +55,7 @@
           <p class="modal-card-title">Tシャツ</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <img src="/images/t_shirt.jpg" />
+          <img src="/images/t_shirt.jpg" alt="Tシャツ" title="Tシャツ" />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

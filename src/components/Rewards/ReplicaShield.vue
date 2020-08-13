@@ -55,7 +55,11 @@
           <p class="modal-card-title">レプリカの盾</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <img src="/images/replica_shield.png" />
+          <img
+            src="/images/replica_shield.png"
+            alt="レプリカの盾"
+            title="レプリカの盾"
+          />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

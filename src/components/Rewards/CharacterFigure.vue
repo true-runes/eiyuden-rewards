@@ -55,7 +55,11 @@
           <p class="modal-card-title">フィギュア</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <img src="/images/character_figure.png" />
+          <img
+            src="/images/character_figure.png"
+            alt="キャラフィギュア"
+            title="キャラフィギュア"
+          />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

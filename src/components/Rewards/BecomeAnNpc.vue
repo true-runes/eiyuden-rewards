@@ -38,7 +38,11 @@
           <p class="modal-card-title">ゲーム中のキャラになれる</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <img src="/images/become_an_npc.png" />
+          <img
+            src="/images/become_an_npc.png"
+            alt="NPCになれる"
+            title="NPCになれる"
+          />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

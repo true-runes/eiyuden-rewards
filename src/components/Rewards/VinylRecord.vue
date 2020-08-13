@@ -55,7 +55,11 @@
           <p class="modal-card-title">サントラ（アナログレコード版）</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <img src="/images/vinyl_record.jpg" />
+          <img
+            src="/images/vinyl_record.jpg"
+            alt="サントラ（アナログレコード版）"
+            title="サントラ（アナログレコード版）"
+          />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

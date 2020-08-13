@@ -67,7 +67,11 @@
             </li>
             <li>・PC</li>
           </ul>
-          <img src="/images/physical_copy.jpg" />
+          <img
+            src="/images/physical_copy.jpg"
+            alt="パッケージ版ゲーム"
+            title="パッケージ版ゲーム"
+          />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

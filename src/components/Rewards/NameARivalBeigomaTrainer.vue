@@ -57,7 +57,11 @@
           </p>
         </header>
         <section class="modal-card-body has-text-left">
-          <img src="/images/name_a_rival_beigoma_trainer.png" />
+          <img
+            src="/images/name_a_rival_beigoma_trainer.png"
+            alt="ベーゴマライバル命名権"
+            title="ベーゴマライバル命名権"
+          />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">
