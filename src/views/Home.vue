@@ -2,6 +2,7 @@
   <div>
     <Header />
     <Title />
+    <AccessCounter />
     <TitleNotification />
 
     <RewardsCategory category-name="全プレ" />
@@ -59,6 +60,7 @@
 import Header from '@/components/Header'
 import TitleNotification from '@/components/TitleNotification'
 import Title from '@/components/Title'
+import AccessCounter from '@/components/AccessCounter'
 import Bottom from '@/components/Bottom'
 import NavBar from '@/components/NavBar'
 
@@ -100,6 +102,7 @@ export default {
     Header,
     TitleNotification,
     Title,
+    AccessCounter,
     RewardsCategory,
     YourNameInTheStaffRoll,
     DiscordRole,
