@@ -27,7 +27,7 @@
     <DigitalCd />
     <VinylRecord />
 
-    <RewardsCategory category-name="画集" />
+    <RewardsCategory category-name="アートブック" />
     <SoftcoverArtbook />
     <DigitalArtbook />
 

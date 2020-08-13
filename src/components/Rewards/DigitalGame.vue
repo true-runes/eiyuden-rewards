@@ -67,7 +67,11 @@
             </li>
             <li>・PC</li>
           </ul>
-          <img src="/images/digital_copy.jpg" />
+          <img
+            src="/images/digital_copy.jpg"
+            alt="DL版ゲーム"
+            title="DL版ゲーム"
+          />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

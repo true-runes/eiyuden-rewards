@@ -38,7 +38,11 @@
           <p class="modal-card-title">自分のネコを登場させられる</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <img src="/images/cat_in_the_game.jpg" />
+          <img
+            src="/images/cat_in_the_game.jpg"
+            alt="ネコ登場権"
+            title="ネコ登場権"
+          />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

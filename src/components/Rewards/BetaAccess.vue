@@ -42,7 +42,11 @@
             開発途中のベータ版をプレイすることができます。提供プラットフォームは
             PC (Steam) のみです。
           </p>
-          <img src="/images/beta_access.jpg" />
+          <img
+            src="/images/beta_access.jpg"
+            alt="ベータ版プレイ権"
+            title="ベータ版プレイ権"
+          />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

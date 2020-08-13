@@ -55,7 +55,11 @@
           <p class="modal-card-title">兵士の一人として登場できる</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <img src="/images/your_name_as_a_soldier.png" />
+          <img
+            src="/images/your_name_as_a_soldier.png"
+            alt="兵士登場権"
+            title="兵士登場権"
+          />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

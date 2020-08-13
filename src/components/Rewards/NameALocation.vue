@@ -38,7 +38,11 @@
           <p class="modal-card-title">地名を名付けられる</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <img src="/images/name_a_location.png" />
+          <img
+            src="/images/name_a_location.png"
+            alt="地名命名権"
+            title="地名命名権"
+          />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

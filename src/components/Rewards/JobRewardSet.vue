@@ -56,15 +56,35 @@
         </header>
         <section class="modal-card-body has-text-left">
           <p>「シェフ」のグッズ</p>
-          <img src="/images/job_reward_chef.jpg" />
+          <img
+            src="/images/job_reward_chef.jpg"
+            alt="「シェフ】グッズ"
+            title="「シェフ」グッズ"
+          />
           <p>「画家」のグッズ</p>
-          <img src="/images/job_reward_painter.jpg" />
+          <img
+            src="/images/job_reward_painter.jpg"
+            alt="「画家」グッズ"
+            title="「画家」グッズ"
+          />
           <p>「宝石商」のグッズ</p>
-          <img src="/images/job_reward_jeweler.png" />
+          <img
+            src="/images/job_reward_jeweler.png"
+            alt="「宝石商」グッズ"
+            title="「宝石商」グッズ"
+          />
           <p>「鍛冶屋」のグッズ</p>
-          <img src="/images/job_reward_blacksmith.jpg" />
+          <img
+            src="/images/job_reward_blacksmith.jpg"
+            alt="「鍛冶屋」グッズ"
+            title="「鍛冶屋」グッズ"
+          />
           <p>「芸術家」のグッズ</p>
-          <img src="/images/job_reward_curator.jpg" />
+          <img
+            src="/images/job_reward_curator.jpg"
+            alt="「芸術家」グッズ"
+            title="「芸術家」グッズ"
+          />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

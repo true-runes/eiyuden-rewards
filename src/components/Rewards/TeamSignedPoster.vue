@@ -55,7 +55,11 @@
           <p class="modal-card-title">開発チームのサイン入りポスター</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <img src="/images/team_signed_poster.jpg" />
+          <img
+            src="/images/team_signed_poster.jpg"
+            alt="サイン入りポスター"
+            title="サイン入りポスター"
+          />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

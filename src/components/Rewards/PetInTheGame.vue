@@ -42,7 +42,11 @@
         <section class="modal-card-body has-text-left">
           <p>※ネコ以外</p>
           <br />
-          <img src="/images/pet_in_the_game.jpg" />
+          <img
+            src="/images/pet_in_the_game.jpg"
+            alt="ペット登場権"
+            title="ペット登場権"
+          />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">
