@@ -55,7 +55,7 @@
           <p class="modal-card-title">缶バッジ</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <img src="/images/sigil_button.png" />
+          <img src="/images/sigil_button.png" alt="缶バッジ" title="缶バッジ" />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

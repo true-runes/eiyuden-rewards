@@ -4,7 +4,7 @@
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <p class="is-size-5 has-text-weight-bold">
-            サントラ（アナログレコード版）
+            サントラ（アナログレコード）
             <span @click="showModal" class="kochira-he-dozo"
               ><b-icon icon="help-circle-outline" size="is-middle"></b-icon
             ></span>
@@ -52,10 +52,14 @@
       <div class="modal-background"></div>
       <div class="modal-card">
         <header class="modal-card-head">
-          <p class="modal-card-title">サントラ（アナログレコード版）</p>
+          <p class="modal-card-title">サントラ（アナログレコード）</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <img src="/images/vinyl_record.jpg" />
+          <img
+            src="/images/vinyl_record.jpg"
+            alt="サントラ（アナログレコード版）"
+            title="サントラ（アナログレコード版）"
+          />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

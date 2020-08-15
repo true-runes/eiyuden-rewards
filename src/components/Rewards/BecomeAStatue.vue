@@ -38,7 +38,11 @@
           <p class="modal-card-title">銅像として登場できる</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <img src="/images/become_a_statue.png" />
+          <img
+            src="/images/become_a_statue.png"
+            alt="彫像として登場"
+            title="彫像として登場"
+          />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

@@ -15,6 +15,7 @@
             <p class="modal-card-title">該当プレッジ</p>
           </header>
           <section class="modal-card-body has-text-left">
+            <div id="modal-top-position"></div>
             <div v-if="matchedPledgeNames.length === 0">
               該当プレッジはありません。
             </div>
@@ -25,14 +26,14 @@
                     v-for="pledge in matchedPledges"
                     :key="pledge['pledgeName']['english']"
                   >
-                    <p class="is-size-5 has-text-weight-bold">
+                    <p class="is-size-5 has-text-weight-bold more-margin">
                       {{ pledge['pledgeName']['japanese'] }}
                       <span class="is-size-6">
                         ({{ pledge['pledgeName']['english'] }})
                       </span>
                     </p>
 
-                    <p class="is-size-6 has-text-weight-bold">
+                    <p class="is-size-6 has-text-weight-bold more-margin">
                       ・支援額 {{ pledge['pledgeMinimumAmount']['japanese'] }}円
                       以上
                     </p>
@@ -41,7 +42,7 @@
                         v-for="rewardJapanese in pledge['rewards']['japanese']"
                         :key="rewardJapanese"
                       >
-                        <li>・{{ rewardJapanese }}</li>
+                        <li class="more-margin">・{{ rewardJapanese }}</li>
                       </div>
                     </ul>
                     <br />
@@ -62,6 +63,10 @@
 </template>
 
 <script>
+// TODO: I wouldn't like to use jQuery...
+import jQuery from 'jquery'
+const $ = jQuery
+
 export default {
   data: () => {
     return {
@@ -85,11 +90,18 @@ export default {
     },
   },
   methods: {
+    moveToTopPositionInModal() {
+      const targetPosition = $('#modal-top-position').position()
+      $('.modal-card-body').animate({ scrollTop: targetPosition.top }, 0)
+    },
     showModal() {
       this.closeButtonIsPressed = false
       this.modalIsShown = true
     },
     pushCloseButton() {
+      // TODO: If values aren't changed, keep a position
+      this.moveToTopPositionInModal()
+
       this.closeButtonIsPressed = true
       this.modalIsShown = false
     },
@@ -1041,7 +1053,7 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isEnduringRequiem'
           ],
-          isAvailable: true,
+          isAvailable: false,
           pledgeName: {
             english: 'Enduring Requiem',
             japanese: 'エンデューイング・レクイエム',
@@ -1414,7 +1426,7 @@ export default {
           },
           pledgeMinimumAmount: {
             english: '1,000',
-            japanese: '100,000',
+            japanese: '40,000',
           },
           rewards: {
             english: [
@@ -1428,6 +1440,35 @@ export default {
               'Discordの称号: Knight, Ranger or Wizard',
               '2つのダウンロード版ゲーム',
               'ベータアクセス権',
+            ],
+          },
+        },
+        {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isSilverMonument'
+          ],
+          isAvailable: true,
+          pledgeName: {
+            english: 'Silver Monument Redux',
+            japanese: 'シルバー・モニュメント・リダックス',
+          },
+          pledgeMinimumAmount: {
+            english: '???',
+            japanese: '44,000',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              '2x digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'スタッフロールへの名前の掲載',
+              'Discordでの「肩書き」取得',
+              'ベータ版をプレイできる',
+              'パッケージ版のゲーム',
+              'フィギュア x 2',
             ],
           },
         },
@@ -1848,7 +1889,7 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isTopTrainer'
           ],
-          isAvailable: true,
+          isAvailable: false,
           pledgeName: {
             english: 'Top Trainer',
             japanese: 'トップ・トレーナー',
@@ -1932,5 +1973,9 @@ export default {
 .pledges-list {
   cursor: pointer;
   cursor: hand;
+}
+
+.more-margin {
+  padding: 1px 1px 4px 1px;
 }
 </style>

@@ -56,7 +56,11 @@
         </header>
         <section class="modal-card-body has-text-left">
           <p>※旅費や宿泊費はご負担ください</p>
-          <img src="/images/visit_the_team.png" />
+          <img
+            src="/images/visit_the_team.png"
+            alt="開発チーム面会権"
+            title="開発チーム面会権"
+          />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

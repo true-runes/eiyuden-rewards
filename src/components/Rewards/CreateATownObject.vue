@@ -4,7 +4,7 @@
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <p class="is-size-5 has-text-weight-bold">
-            街のオブジェを作ることができる
+            街のオブジェが作れる
             <span @click="showModal" class="kochira-he-dozo"
               ><b-icon icon="help-circle-outline" size="is-middle"></b-icon
             ></span>
@@ -52,10 +52,14 @@
       <div class="modal-background"></div>
       <div class="modal-card">
         <header class="modal-card-head">
-          <p class="modal-card-title">街のオブジェを作ることができる</p>
+          <p class="modal-card-title">街のオブジェが作れる</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <img src="/images/create_a_town_object.png" />
+          <img
+            src="/images/create_a_town_object.png"
+            alt="オブジェ作成権"
+            title="オブジェ作成権"
+          />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

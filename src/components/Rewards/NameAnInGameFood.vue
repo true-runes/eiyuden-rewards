@@ -55,7 +55,11 @@
           <p class="modal-card-title">食材に名前を付けられる</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <img src="/images/name_an_in_game_food.png" />
+          <img
+            src="/images/name_an_in_game_food.png"
+            alt="食材命名権"
+            title="食材命名権"
+          />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

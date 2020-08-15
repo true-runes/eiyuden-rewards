@@ -38,7 +38,11 @@
           <p class="modal-card-title">敵キャラを作れる</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <img src="/images/create_an_enemy.png" />
+          <img
+            src="/images/create_an_enemy.png"
+            alt="敵キャラ制作権"
+            title="敵キャラ制作権"
+          />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

@@ -38,7 +38,11 @@
           <p class="modal-card-title">人面魚として登場できる</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <img src="/images/become_a_human_faced_fish.png" />
+          <img
+            src="/images/become_a_human_faced_fish.png"
+            alt="人面魚"
+            title="人面魚"
+          />
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

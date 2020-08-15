@@ -2,6 +2,7 @@
   <div>
     <Header />
     <Title />
+    <AccessCounter />
     <TitleNotification />
 
     <RewardsCategory category-name="全プレ" />
@@ -21,12 +22,12 @@
     <ReplicaShield />
     <TeamSignedPoster />
 
-    <RewardsCategory category-name="サウンド" />
+    <RewardsCategory category-name="サントラ" />
     <OstCd />
     <DigitalCd />
     <VinylRecord />
 
-    <RewardsCategory category-name="画集" />
+    <RewardsCategory category-name="アートブック" />
     <SoftcoverArtbook />
     <DigitalArtbook />
 
@@ -37,7 +38,6 @@
 
     <RewardsCategory category-name="その他" />
     <CreateATownObject />
-    <NameARivalBeigomaTrainer />
     <VisitTheTeam />
 
     <RewardsCategory category-name="規定数終了" />
@@ -48,6 +48,7 @@
     <NameALocation />
     <CreateAnEnemy />
     <BecomeAnNpc />
+    <NameARivalBeigomaTrainer />
 
     <Bottom />
 
@@ -59,6 +60,7 @@
 import Header from '@/components/Header'
 import TitleNotification from '@/components/TitleNotification'
 import Title from '@/components/Title'
+import AccessCounter from '@/components/AccessCounter'
 import Bottom from '@/components/Bottom'
 import NavBar from '@/components/NavBar'
 
@@ -100,6 +102,7 @@ export default {
     Header,
     TitleNotification,
     Title,
+    AccessCounter,
     RewardsCategory,
     YourNameInTheStaffRoll,
     DiscordRole,
