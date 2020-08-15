@@ -60,7 +60,7 @@
             <a href="#" @click="initializeState">
               こちら
             </a>
-            でどうぞ
+            をクリック (^^)/
           </p>
         </div>
       </div>
