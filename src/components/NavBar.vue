@@ -1053,7 +1053,7 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isEnduringRequiem'
           ],
-          isAvailable: true,
+          isAvailable: false,
           pledgeName: {
             english: 'Enduring Requiem',
             japanese: 'エンデューイング・レクイエム',
@@ -1426,7 +1426,7 @@ export default {
           },
           pledgeMinimumAmount: {
             english: '1,000',
-            japanese: '100,000',
+            japanese: '40,000',
           },
           rewards: {
             english: [
@@ -1440,6 +1440,35 @@ export default {
               'Discordの称号: Knight, Ranger or Wizard',
               '2つのダウンロード版ゲーム',
               'ベータアクセス権',
+            ],
+          },
+        },
+        {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isSilverMonument'
+          ],
+          isAvailable: true,
+          pledgeName: {
+            english: 'Silver Monument Redux',
+            japanese: 'シルバー・モニュメント・リダックス',
+          },
+          pledgeMinimumAmount: {
+            english: '???',
+            japanese: '44,000',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              '2x digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'スタッフロールへの名前の掲載',
+              'Discordでの「肩書き」取得',
+              'ベータ版をプレイできる',
+              'パッケージ版のゲーム',
+              'フィギュア x 2',
             ],
           },
         },
@@ -1860,7 +1889,7 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isTopTrainer'
           ],
-          isAvailable: true,
+          isAvailable: false,
           pledgeName: {
             english: 'Top Trainer',
             japanese: 'トップ・トレーナー',
