@@ -4,7 +4,7 @@
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <p class="is-size-5 has-text-weight-bold">
-            ベーゴマライバルの名前を付けられる
+            ベーゴマのライバルの命名
             <span @click="showModal" class="kochira-he-dozo"
               ><b-icon icon="help-circle-outline" size="is-middle"></b-icon
             ></span>
@@ -53,7 +53,7 @@
       <div class="modal-card">
         <header class="modal-card-head">
           <p class="modal-card-title">
-            ベーゴマでのライバルの名前を付けられる
+            ベーゴマのライバルの命名
           </p>
         </header>
         <section class="modal-card-body has-text-left">
