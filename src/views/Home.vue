@@ -22,7 +22,7 @@
     <ReplicaShield />
     <TeamSignedPoster />
 
-    <RewardsCategory category-name="サウンド" />
+    <RewardsCategory category-name="サントラ" />
     <OstCd />
     <DigitalCd />
     <VinylRecord />
@@ -35,10 +35,10 @@
     <NameInArtbook />
     <YourNameAsASoldier />
     <NameAnInGameFood />
+    <NameARivalBeigomaTrainer />
 
     <RewardsCategory category-name="その他" />
     <CreateATownObject />
-    <NameARivalBeigomaTrainer />
     <VisitTheTeam />
 
     <RewardsCategory category-name="規定数終了" />

@@ -15,6 +15,7 @@
             <p class="modal-card-title">該当プレッジ</p>
           </header>
           <section class="modal-card-body has-text-left">
+            <div id="modal-top-position"></div>
             <div v-if="matchedPledgeNames.length === 0">
               該当プレッジはありません。
             </div>
@@ -62,6 +63,10 @@
 </template>
 
 <script>
+// TODO: I wouldn't like to use jQuery...
+import jQuery from 'jquery'
+const $ = jQuery
+
 export default {
   data: () => {
     return {
@@ -85,11 +90,18 @@ export default {
     },
   },
   methods: {
+    moveToTopPositionInModal() {
+      const targetPosition = $('#modal-top-position').position()
+      $('.modal-card-body').animate({ scrollTop: targetPosition.top }, 0)
+    },
     showModal() {
       this.closeButtonIsPressed = false
       this.modalIsShown = true
     },
     pushCloseButton() {
+      // TODO: If values aren't changed, keep a position
+      this.moveToTopPositionInModal()
+
       this.closeButtonIsPressed = true
       this.modalIsShown = false
     },

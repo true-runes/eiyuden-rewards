@@ -4,7 +4,7 @@
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <p class="is-size-5 has-text-weight-bold">
-            開発チームのサイン入りポスター
+            サイン入りポスター
             <span @click="showModal" class="kochira-he-dozo"
               ><b-icon icon="help-circle-outline" size="is-middle"></b-icon
             ></span>
@@ -52,9 +52,10 @@
       <div class="modal-background"></div>
       <div class="modal-card">
         <header class="modal-card-head">
-          <p class="modal-card-title">開発チームのサイン入りポスター</p>
+          <p class="modal-card-title">サイン入りポスター</p>
         </header>
         <section class="modal-card-body has-text-left">
+          ・開発チームのサイン入りポスター
           <img
             src="/images/team_signed_poster.jpg"
             alt="サイン入りポスター"
