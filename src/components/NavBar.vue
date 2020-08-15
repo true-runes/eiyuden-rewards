@@ -26,14 +26,14 @@
                     v-for="pledge in matchedPledges"
                     :key="pledge['pledgeName']['english']"
                   >
-                    <p class="is-size-5 has-text-weight-bold">
+                    <p class="is-size-5 has-text-weight-bold more-margin">
                       {{ pledge['pledgeName']['japanese'] }}
                       <span class="is-size-6">
                         ({{ pledge['pledgeName']['english'] }})
                       </span>
                     </p>
 
-                    <p class="is-size-6 has-text-weight-bold">
+                    <p class="is-size-6 has-text-weight-bold more-margin">
                       ・支援額 {{ pledge['pledgeMinimumAmount']['japanese'] }}円
                       以上
                     </p>
@@ -42,7 +42,7 @@
                         v-for="rewardJapanese in pledge['rewards']['japanese']"
                         :key="rewardJapanese"
                       >
-                        <li>・{{ rewardJapanese }}</li>
+                        <li class="more-margin">・{{ rewardJapanese }}</li>
                       </div>
                     </ul>
                     <br />
@@ -1944,5 +1944,9 @@ export default {
 .pledges-list {
   cursor: pointer;
   cursor: hand;
+}
+
+.more-margin {
+  padding: 1px 1px 4px 1px;
 }
 </style>
