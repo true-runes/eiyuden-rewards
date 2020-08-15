@@ -54,8 +54,20 @@
         <header class="modal-card-head">
           <p class="modal-card-title">缶バッジ</p>
         </header>
+
         <section class="modal-card-body has-text-left">
-          <img src="/images/sigil_button.png" alt="缶バッジ" title="缶バッジ" />
+          <div class="content">
+            <ul>
+              <li>
+                「百英雄伝」のイラストが描かれた缶バッジです
+              </li>
+            </ul>
+            <img
+              src="/images/sigil_button.png"
+              alt="缶バッジ"
+              title="缶バッジ"
+            />
+          </div>
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

@@ -55,7 +55,18 @@
           <p class="modal-card-title">アートブック（電子書籍）</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <p>アートブックの電子書籍版です。</p>
+          <div class="content">
+            <ul>
+              <li>
+                電子書籍版のアートブックです
+              </li>
+            </ul>
+            <img
+              src="/images/softcover_artbook.jpg"
+              alt="電子書籍版アートブック"
+              title="電子書籍版アートブック"
+            />
+          </div>
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

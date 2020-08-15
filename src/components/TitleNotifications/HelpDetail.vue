@@ -12,13 +12,21 @@
           <div class="modal-card-title">ヘルプ</div>
         </header>
         <section class="modal-card-body has-text-left">
-          <div class="block">
+          <div class="content">
             <ul>
               <li class="more-margin">
                 Kickstarterは「物を購入する場」ではなく「<span
                   class="has-text-weight-bold"
                   >プロジェクトを支援する場</span
                 >」です
+              </li>
+              <li class="more-margin">
+                リワードの内容は常に更新されていくため、<a
+                  href="https://twitter.com/eiyudenchronicl"
+                  target="_blank"
+                  >公式 Twitter</a
+                >
+                などを通じて最新の情報を確認してください
               </li>
               <li class="more-margin">
                 同じリワードが複数個含まれるプレッジもあります（例:

@@ -55,11 +55,25 @@
           <p class="modal-card-title">フィギュア</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <img
-            src="/images/character_figure.png"
-            alt="キャラフィギュア"
-            title="キャラフィギュア"
-          />
+          <div class="content">
+            <ul>
+              <li>
+                1/6 スケール（約 30.5
+                cm）のレジン製のハンドペイントフィギュアです
+              </li>
+              <li>
+                プレッジによっては複数個を選択することができます
+              </li>
+              <li>
+                メリサのフィギュアのサンプルは後ほど公開いたします
+              </li>
+            </ul>
+            <img
+              src="/images/character_figure.png"
+              alt="キャラフィギュア"
+              title="キャラフィギュア"
+            />
+          </div>
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">
