@@ -55,11 +55,18 @@
           <p class="modal-card-title">アートブック（紙書籍）</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <img
-            src="/images/softcover_artbook.jpg"
-            alt="紙書籍版アートブック"
-            title="紙書籍版アートブック"
-          />
+          <div class="content">
+            <ul>
+              <li>
+                紙の書籍版のアートブックです
+              </li>
+            </ul>
+            <img
+              src="/images/softcover_artbook.jpg"
+              alt="紙書籍版アートブック"
+              title="紙書籍版アートブック"
+            />
+          </div>
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

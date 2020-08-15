@@ -55,7 +55,16 @@
           <p class="modal-card-title">サントラ（ダウンロード）</p>
         </header>
         <section class="modal-card-body has-text-left">
-          ダウンロード版のオリジナルサウンドトラックです。
+          <div class="content">
+            <ul>
+              <li>
+                ダウンロード版のオリジナルサウンドトラックです。
+              </li>
+              <li>
+                桜庭統さんやなるけみちこさんの楽曲が収録されています
+              </li>
+            </ul>
+          </div>
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

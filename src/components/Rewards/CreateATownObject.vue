@@ -55,11 +55,17 @@
           <p class="modal-card-title">街のオブジェが作れる</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <img
-            src="/images/create_a_town_object.png"
-            alt="オブジェ作成権"
-            title="オブジェ作成権"
-          />
+          <div class="content">
+            <ul>
+              <li>彫刻や壺といった街を彩るオブジェを作ることができます</li>
+              <li>ただし、無生物に限ります</li>
+            </ul>
+            <img
+              src="/images/create_a_town_object.png"
+              alt="オブジェ作成権"
+              title="オブジェ作成権"
+            />
+          </div>
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

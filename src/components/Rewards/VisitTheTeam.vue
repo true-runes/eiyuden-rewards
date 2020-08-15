@@ -55,12 +55,24 @@
           <p class="modal-card-title">開発チームと一日を過ごせる</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <p>※旅費や宿泊費はご負担ください</p>
-          <img
-            src="/images/visit_the_team.png"
-            alt="開発チーム面会権"
-            title="開発チーム面会権"
-          />
+          <div class="content">
+            <ul>
+              <li>
+                開発チームと一緒に広大な東京の街で一日を過ごすことができます
+              </li>
+              <li>
+                気ままに素敵な一日を過ごし、サイン入りグッズを頂いたりしちゃいましょう
+              </li>
+              <li>
+                旅費や宿泊費はご負担ください
+              </li>
+            </ul>
+            <img
+              src="/images/visit_the_team.png"
+              alt="開発チーム面会権"
+              title="開発チーム面会権"
+            />
+          </div>
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">
