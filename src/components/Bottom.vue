@@ -52,13 +52,40 @@
           <br />
 
           <p>掲示板・同盟・ウェブリングは準備中です m(_ _)m</p>
+
+          <br />
+
+          <p class="more-margin">
+            選択項目を初期化したい場合は
+            <a href="#" @click="initializeState">
+              こちら
+            </a>
+            でどうぞ
+          </p>
         </div>
       </div>
     </div>
   </section>
 </template>
 
-<script></script>
+<script>
+export default {
+  methods: {
+    initializeState: function () {
+      const initialState = {
+        rewards: {},
+        pledges: {},
+      }
+
+      localStorage.setItem('vuex', JSON.stringify(initialState))
+      this.reloadCurrentPage()
+    },
+    reloadCurrentPage: function () {
+      this.$router.go({ path: this.$router.currentRoute.path, force: true })
+    },
+  },
+}
+</script>
 
 <style scoped>
 .columns {
