@@ -42,15 +42,21 @@
         <section class="modal-card-body has-text-left">
           <div class="content">
             <p>
-              支援金額に応じて、以下の2つのどちらかの「肩書き」が得られます。
+              支援金額に応じて、Discord
+              上で以下のどちらかの「肩書き」が得られます。
             </p>
             <ul>
               <li>
-                "Knight", "Ranger", "Wizard" のいずれか1つ（$1,000 ≒ 10万円
-                未満）
+                "<span class="has-text-weight-bold">Knight</span>", "<span
+                  class="has-text-weight-bold"
+                  >Ranger</span
+                >", "<span class="has-text-weight-bold">Wizard</span>"
+                のいずれか1つ（$1,000 ≒ 10万円 未満）
               </li>
               <li>
-                VIP を示す「肩書き」である "Noble"（$1,000 ≒ 10万円 以上）
+                VIP を示す肩書きである "<span class="has-text-weight-bold"
+                  >Noble</span
+                >"（$1,000 ≒ 10万円 以上）
               </li>
             </ul>
           </div>
