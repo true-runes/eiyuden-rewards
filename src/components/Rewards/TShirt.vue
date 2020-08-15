@@ -55,7 +55,17 @@
           <p class="modal-card-title">Tシャツ</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <img src="/images/t_shirt.jpg" alt="Tシャツ" title="Tシャツ" />
+          <div class="content">
+            <ul>
+              <li>
+                「百英雄伝」のイラストがプリントされた Tシャツ です
+              </li>
+              <li>
+                サイズは後ほどお選び頂けます
+              </li>
+            </ul>
+            <img src="/images/t_shirt.jpg" alt="Tシャツ" title="Tシャツ" />
+          </div>
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

@@ -12,7 +12,7 @@
           <div class="modal-card-title">ヘルプ</div>
         </header>
         <section class="modal-card-body has-text-left">
-          <div class="block">
+          <div class="content">
             <ul>
               <li class="more-margin">
                 Kickstarterは「物を購入する場」ではなく「<span
@@ -21,11 +21,19 @@
                 >」です
               </li>
               <li class="more-margin">
+                リワードの内容は常に更新されていくため、<a
+                  href="https://twitter.com/eiyudenchronicl"
+                  target="_blank"
+                  >公式 Twitter</a
+                >
+                などを通じて最新の情報を確認してください
+              </li>
+              <li class="more-margin">
                 同じリワードが複数個含まれるプレッジもあります（例:
                 フィギュア2個）
               </li>
               <li class="more-margin">
-                すべての画像はイメージで、実際のものとは異なる可能性があります
+                すべての画像は仮イメージで、実際のものとは異なる可能性があります
               </li>
               <li class="more-margin">
                 「百英雄伝」の情報をまとめている Scrapbox は<a

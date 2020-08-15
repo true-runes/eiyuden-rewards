@@ -55,11 +55,21 @@
           <p class="modal-card-title">サントラ（アナログレコード）</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <img
-            src="/images/vinyl_record.jpg"
-            alt="サントラ（アナログレコード版）"
-            title="サントラ（アナログレコード版）"
-          />
+          <div class="content">
+            <ul>
+              <li>
+                アナログレコード版のオリジナルサウンドトラックです。
+              </li>
+              <li>
+                桜庭統さんやなるけみちこさんの楽曲が収録されています
+              </li>
+            </ul>
+            <img
+              src="/images/vinyl_record.jpg"
+              alt="サントラ（アナログレコード版）"
+              title="サントラ（アナログレコード版）"
+            />
+          </div>
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

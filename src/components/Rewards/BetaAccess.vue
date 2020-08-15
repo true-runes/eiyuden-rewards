@@ -38,15 +38,24 @@
           <p class="modal-card-title">ベータ版をプレイできる</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <p>
-            開発途中のベータ版をプレイすることができます。提供プラットフォームは
-            PC (Steam) のみです。
-          </p>
-          <img
-            src="/images/beta_access.jpg"
-            alt="ベータ版プレイ権"
-            title="ベータ版プレイ権"
-          />
+          <div class="content">
+            <ul>
+              <li>
+                開発途中のベータ版をプレイすることができます
+              </li>
+              <li>
+                戦闘シーンなどを体験できる以外にも、ゲームをより良いものに仕上げるためのフィードバックを送って頂けます
+              </li>
+              <li>
+                提供プラットフォームは PC (Steam) のみです
+              </li>
+            </ul>
+            <img
+              src="/images/beta_access.jpg"
+              alt="ベータ版プレイ権"
+              title="ベータ版プレイ権"
+            />
+          </div>
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

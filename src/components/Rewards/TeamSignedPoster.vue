@@ -55,12 +55,21 @@
           <p class="modal-card-title">サイン入りポスター</p>
         </header>
         <section class="modal-card-body has-text-left">
-          ・開発チームのサイン入りポスター
-          <img
-            src="/images/team_signed_poster.jpg"
-            alt="サイン入りポスター"
-            title="サイン入りポスター"
-          />
+          <div class="content">
+            <ul>
+              <li>
+                河野純子さんによる「百英雄伝」の美麗なポスターです
+              </li>
+              <li>
+                開発チームのコアメンバー4名の手書きのサイン入りです
+              </li>
+            </ul>
+            <img
+              src="/images/team_signed_poster.jpg"
+              alt="サイン入りポスター"
+              title="サイン入りポスター"
+            />
+          </div>
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

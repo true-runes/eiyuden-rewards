@@ -55,36 +55,98 @@
           <p class="modal-card-title">「ジョブ」ごとのグッズ</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <p>「シェフ」のグッズ</p>
-          <img
-            src="/images/job_reward_chef.jpg"
-            alt="「シェフ】グッズ"
-            title="「シェフ」グッズ"
-          />
-          <p>「画家」のグッズ</p>
-          <img
-            src="/images/job_reward_painter.jpg"
-            alt="「画家」グッズ"
-            title="「画家」グッズ"
-          />
-          <p>「宝石商」のグッズ</p>
-          <img
-            src="/images/job_reward_jeweler.png"
-            alt="「宝石商」グッズ"
-            title="「宝石商」グッズ"
-          />
-          <p>「鍛冶屋」のグッズ</p>
-          <img
-            src="/images/job_reward_blacksmith.jpg"
-            alt="「鍛冶屋」グッズ"
-            title="「鍛冶屋」グッズ"
-          />
-          <p>「芸術家」のグッズ</p>
-          <img
-            src="/images/job_reward_curator.jpg"
-            alt="「芸術家」グッズ"
-            title="「芸術家」グッズ"
-          />
+          <div class="content">
+            <ul>
+              <li>
+                「百英雄伝」に登場する「ジョブ」をテーマにしたグッズです
+              </li>
+              <li>
+                「ジョブ」ごとにグッズが異なり、その中から希望するグッズを選びます
+              </li>
+              <li>
+                プレッジによっては複数の「ジョブ」のグッズ選択することが可能で、その際には同じ「ジョブ」のグッズを複数個選ぶこともできます
+              </li>
+            </ul>
+            <h4>「ジョブ」ごとの「グッズ」一覧</h4>
+            <div class="content">
+              <h5>「シェフ」のグッズ</h5>
+              <ul>
+                <li>
+                  エプロン
+                </li>
+                <li>
+                  電子版のレシピ
+                </li>
+              </ul>
+              <img
+                src="/images/job_reward_chef.jpg"
+                alt="「シェフ】グッズ"
+                title="「シェフ」グッズ"
+              />
+            </div>
+            <div class="content">
+              <h5>「画家」のグッズ</h5>
+              <ul>
+                <li>
+                  キャラのステッカー
+                </li>
+                <li>
+                  ゲームのポスター
+                </li>
+              </ul>
+              <img
+                src="/images/job_reward_painter.jpg"
+                alt="「画家」グッズ"
+                title="「画家」グッズ"
+              />
+            </div>
+            <div class="content">
+              <h5>「宝石商」のグッズ</h5>
+              <ul>
+                <li>
+                  エナメルのピンパッジ2つ（原文ママ）
+                </li>
+                <li>
+                  訳注:
+                  現在の画像ではピンバッジ3つに変更されており、詳細は確認が必要です
+                </li>
+              </ul>
+              <img
+                src="/images/job_reward_jeweler_3_chars.png"
+                alt="「宝石商」グッズ"
+                title="「宝石商」グッズ"
+              />
+            </div>
+            <div class="content">
+              <h5>「鍛冶屋」のグッズ</h5>
+              <ul>
+                <li>
+                  ノアの武器のレプリカ
+                </li>
+                <li>
+                  サイズは 1/16
+                </li>
+              </ul>
+              <img
+                src="/images/job_reward_blacksmith.jpg"
+                alt="「鍛冶屋」グッズ"
+                title="「鍛冶屋」グッズ"
+              />
+            </div>
+            <div class="content">
+              <h5>「芸術家」のグッズ</h5>
+              <ul>
+                <li>
+                  「百英雄伝」のメインキャラが描かれたアクリルスタンド
+                </li>
+              </ul>
+              <img
+                src="/images/job_reward_curator.jpg"
+                alt="「芸術家」グッズ"
+                title="「芸術家」グッズ"
+              />
+            </div>
+          </div>
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

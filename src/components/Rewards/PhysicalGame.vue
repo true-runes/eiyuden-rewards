@@ -55,23 +55,31 @@
           <p class="modal-card-title">パッケージ版ゲーム</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <p>対応プラットフォームは以下の通りです。</p>
-          <br />
-          <ul>
-            <li>・PlayStation 4</li>
-            <li>・PlayStation 5</li>
-            <li>・Xbox One</li>
-            <li>・Xbox Series X</li>
-            <li>
-              ・次世代Nintendoプラットフォーム（発表が無ければ現行Switch）
-            </li>
-            <li>・PC</li>
-          </ul>
-          <img
-            src="/images/physical_copy.jpg"
-            alt="パッケージ版ゲーム"
-            title="パッケージ版ゲーム"
-          />
+          <div class="content">
+            <ul>
+              <li>
+                素敵なパッケージに梱包されたゲームをお届けします
+              </li>
+              <li>
+                対応プラットフォームは以下の通りです
+                <ul>
+                  <li>PlayStation 4</li>
+                  <li>PlayStation 5</li>
+                  <li>Xbox One</li>
+                  <li>Xbox Series X</li>
+                  <li>
+                    次世代 Nintendo ハード（発表が無ければ現行の Switch）
+                  </li>
+                  <li>PC</li>
+                </ul>
+              </li>
+            </ul>
+            <img
+              src="/images/physical_copy.jpg"
+              alt="パッケージ版ゲーム"
+              title="パッケージ版ゲーム"
+            />
+          </div>
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

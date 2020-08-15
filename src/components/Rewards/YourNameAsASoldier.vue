@@ -55,11 +55,24 @@
           <p class="modal-card-title">兵士の一人として登場できる</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <img
-            src="/images/your_name_as_a_soldier.png"
-            alt="兵士登場権"
-            title="兵士登場権"
-          />
+          <div class="content">
+            <ul>
+              <li>
+                ゲーム中の兵士の一人にあなたの名前が名付けられます
+              </li>
+              <li>
+                街の人があなたのことをふと話題に出します
+              </li>
+              <li>
+                どういう話題の中であなたの名前が現れるかは、あなたの運命次第です
+              </li>
+            </ul>
+            <img
+              src="/images/your_name_as_a_soldier.png"
+              alt="兵士登場権"
+              title="兵士登場権"
+            />
+          </div>
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

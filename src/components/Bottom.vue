@@ -27,7 +27,7 @@
 
           <p>
             「<a
-              href="https://www.kickstarter.com/projects/rabbitandbearstudios/eiyuden-chronicle-hundred-heroes"
+              href="https://rabbitandbearstudios.com/eiyudenchronicle/"
               target="_blank"
               >百英雄伝</a
             >」は
@@ -60,7 +60,7 @@
             <a href="#" @click="initializeState">
               こちら
             </a>
-            でどうぞ
+            をクリック (^^)/
           </p>
         </div>
       </div>

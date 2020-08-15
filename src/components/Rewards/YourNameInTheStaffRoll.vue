@@ -38,13 +38,16 @@
           <p class="modal-card-title">スタッフロールへの名前の掲載</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <p>
-            すべての支援者のみなさんのお名前がスタッフロールに掲載されます。
-          </p>
-          <br />
-          <p>
-            全員のお名前が読めるように、また、ゲームの体験を損なわないように、配慮した上でお名前は掲載されます。
-          </p>
+          <div class="content">
+            <ul>
+              <li>
+                すべての支援者のみなさんのお名前がスタッフロールに掲載されます
+              </li>
+              <li>
+                全員のお名前が読めるように、また、ゲームの体験を損なわないように、表示方法については十分に配慮した上でお名前は掲載されます
+              </li>
+            </ul>
+          </div>
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">
