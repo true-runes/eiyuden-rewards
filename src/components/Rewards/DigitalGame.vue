@@ -1,10 +1,10 @@
 <template>
-  <section class="section">
+  <section id="digital-game" class="section">
     <div class="container">
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <p class="is-size-5 has-text-weight-bold">
-            ダウンロード版のゲーム
+            ダウンロード版ゲーム
             <span @click="showModal" class="kochira-he-dozo"
               ><b-icon icon="help-circle-outline" size="is-middle"></b-icon
             ></span>
@@ -52,7 +52,7 @@
       <div class="modal-background"></div>
       <div class="modal-card">
         <header class="modal-card-head">
-          <p class="modal-card-title">ダウンロード版のゲーム</p>
+          <p class="modal-card-title">ダウンロード版ゲーム</p>
         </header>
         <section class="modal-card-body has-text-left">
           <p>対応プラットフォームは以下の通りです。</p>
