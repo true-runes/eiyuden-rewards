@@ -35,7 +35,6 @@
     <NameInArtbook />
     <YourNameAsASoldier />
     <NameAnInGameFood />
-    <NameARivalBeigomaTrainer />
 
     <RewardsCategory category-name="その他" />
     <CreateATownObject />
@@ -49,6 +48,7 @@
     <NameALocation />
     <CreateAnEnemy />
     <BecomeAnNpc />
+    <NameARivalBeigomaTrainer />
 
     <Bottom />
 
