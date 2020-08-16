@@ -1,7 +1,8 @@
 <template>
   <div>
     <div class="has-text-weight-bold has-text-left">
-      <a href="#" @click="showModal">機種依存文字</a> にはご注意ください！
+      <span class="modal-link-text" @click="showModal">機種依存文字</span>
+      にはご注意ください！
     </div>
 
     <div class="modal" :class="{ 'is-active': modalIsShown }">
@@ -57,4 +58,10 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.modal-link-text {
+  color: #7957d5;
+  cursor: pointer;
+  text-decoration: none;
+}
+</style>
