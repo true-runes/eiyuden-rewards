@@ -2,7 +2,8 @@
   <div>
     <div class="has-text-weight-bold has-text-left">
       その他、細かいヘルプは
-      <a href="#" @click="showModal">こちら</a> へどうぞ (^_^)
+      <span class="modal-link-text" @click="showModal">こちら</span> へどうぞ
+      (^_^)
     </div>
 
     <div class="modal" :class="{ 'is-active': modalIsShown }">
@@ -76,4 +77,10 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.modal-link-text {
+  color: #7957d5;
+  cursor: pointer;
+  text-decoration: none;
+}
+</style>
