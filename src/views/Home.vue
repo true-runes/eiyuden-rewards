@@ -35,6 +35,8 @@
     <NameInArtbook />
     <YourNameAsASoldier />
     <NameAnInGameFood />
+    <NameARivalBeigomaTrainer />
+    <NameARivalEggleg />
 
     <RewardsCategory category-name="その他" />
     <CreateATownObject />
@@ -48,7 +50,6 @@
     <NameALocation />
     <CreateAnEnemy />
     <BecomeAnNpc />
-    <NameARivalBeigomaTrainer />
 
     <Bottom />
 
@@ -95,6 +96,7 @@ import BecomeAStatue from '@/components/Rewards/BecomeAStatue'
 import CreateATownObject from '@/components/Rewards/CreateATownObject'
 import NameAnInGameFood from '@/components/Rewards/NameAnInGameFood'
 import NameARivalBeigomaTrainer from '@/components/Rewards/NameARivalBeigomaTrainer'
+import NameARivalEggleg from '@/components/Rewards/NameARivalEggleg'
 
 export default {
   name: 'Home',
@@ -135,6 +137,7 @@ export default {
     CreateATownObject,
     NameAnInGameFood,
     NameARivalBeigomaTrainer,
+    NameARivalEggleg,
   },
   created: function () {
     // Initialize

@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    nameARivalBeigomaTrainer: 'false',
+    nameARivalBeigomaTrainer: 'whichever',
   },
   mutations: {
     setNameARivalBeigomaTrainer(state, value) {
