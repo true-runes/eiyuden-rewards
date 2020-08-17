@@ -61,6 +61,9 @@
               <li>
                 「百英雄伝」のイラストが描かれた缶バッジです
               </li>
+              <li>
+                7つセットになります（画像はサンプル）
+              </li>
             </ul>
             <img
               src="/images/sigil_button.png"

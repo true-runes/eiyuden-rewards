@@ -30,6 +30,7 @@ import nameAnInGameFood from '@/store/Rewards/nameAnInGameFood'
 import nameARivalBeigomaTrainer from '@/store/Rewards/nameARivalBeigomaTrainer'
 import snappiePlushies from '@/store/Rewards/snappiePlushies'
 import steelbookCase from '@/store/Rewards/steelbookCase'
+import nameARivalEggleg from '@/store/Rewards/nameARivalEggleg'
 
 // TODO: Import by 'map'
 export default {
@@ -68,6 +69,8 @@ export default {
     ...nameARivalBeigomaTrainer.state,
     ...snappiePlushies.state,
     ...steelbookCase.state,
+    ...nameARivalEggleg.state,
+
     allRewardsState: {},
   },
   getters: {
@@ -105,6 +108,7 @@ export default {
     ...nameARivalBeigomaTrainer.getters,
     ...snappiePlushies.getters,
     ...steelbookCase.getters,
+    ...nameARivalEggleg.getters,
 
     getAllRewardsState(state) {
       return state.allRewardsState
@@ -145,6 +149,7 @@ export default {
     ...nameARivalBeigomaTrainer.mutations,
     ...snappiePlushies.mutations,
     ...steelbookCase.mutations,
+    ...nameARivalEggleg.mutations,
 
     // TODO: Overwrite by payload
     setAllRewardsState(state) {
@@ -181,6 +186,7 @@ export default {
         nameARivalBeigomaTrainer: state.nameARivalBeigomaTrainer,
         snappiePlushies: state.snappiePlushies,
         steelbookCase: state.steelbookCase,
+        nameARivalEggleg: state.nameARivalEggleg,
       }
     },
   },
