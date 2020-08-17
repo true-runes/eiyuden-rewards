@@ -1922,6 +1922,41 @@ export default {
         },
         {
           isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isTopTrainer'
+          ],
+          isAvailable: true,
+          pledgeName: {
+            english: 'Top Trainer Redux',
+            japanese: 'トップ・トレーナー リダックス',
+          },
+          pledgeMinimumAmount: {
+            english: '???',
+            japanese: '225,000',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              '2x digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'スタッフロールへの名前の掲載',
+              'Discordでの「肩書き」取得',
+              'ベータ版をプレイできる',
+              'パッケージ版のゲーム',
+              '缶バッジ',
+              'サントラ（CD版）',
+              'Tシャツ',
+              'サントラ（アナログレコード版）',
+              'アートブック（紙の印刷版）',
+              '「ジョブ」をテーマにしたグッズ',
+              'ベーゴマでのライバルキャラの名前を付けられる',
+            ],
+          },
+        },
+        {
+          isMatchedWithUserSelection: this.$store.getters[
             'pledges/isEsteemedDecorator'
           ],
           isAvailable: true,
@@ -1952,6 +1987,41 @@ export default {
               'アートブック（紙の印刷版）',
               '「ジョブ」をテーマにしたグッズ',
               '街のオブジェを作ることができる',
+            ],
+          },
+        },
+        {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isHatchItJob'
+          ],
+          isAvailable: true,
+          pledgeName: {
+            english: 'Hatch-It Job',
+            japanese: 'ハッチット ジョブ',
+          },
+          pledgeMinimumAmount: {
+            english: '???',
+            japanese: '200,000',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              '2x digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'スタッフロールへの名前の掲載',
+              'Discordでの「肩書き」取得',
+              'ベータ版をプレイできる',
+              'パッケージ版のゲーム',
+              '缶バッジ',
+              'サントラ（CD版）',
+              'Tシャツ',
+              'サントラ（アナログレコード版）',
+              'アートブック（紙の印刷版）',
+              '「ジョブ」をテーマにしたグッズ',
+              '「エッグホースレース」に登場するエッグホースに名前を付けられる',
             ],
           },
         },

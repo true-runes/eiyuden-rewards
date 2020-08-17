@@ -60,6 +60,9 @@
               <li>
                 電子書籍版のアートブックです
               </li>
+              <li>
+                ページ数は 108 ページです
+              </li>
             </ul>
             <img
               src="/images/softcover_artbook.jpg"
