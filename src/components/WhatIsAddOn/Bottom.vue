@@ -59,37 +59,18 @@
 
           <br />
 
-          <p class="more-margin">
-            選択項目を初期化したい場合は
-            <a href="#" @click="initializeState">
-              こちら
-            </a>
-            をクリック (^^)/
-          </p>
+          <button class="button is-rounded">
+            <router-link to="/" class="has-text-weight-bold is-size-5"
+              >トップページへ戻る</router-link
+            >
+          </button>
         </div>
       </div>
     </div>
   </section>
 </template>
 
-<script>
-export default {
-  methods: {
-    initializeState: function () {
-      const initialState = {
-        rewards: {},
-        pledges: {},
-      }
-
-      localStorage.setItem('vuex', JSON.stringify(initialState))
-      this.reloadCurrentPage()
-    },
-    reloadCurrentPage: function () {
-      this.$router.go({ path: this.$router.currentRoute.path, force: true })
-    },
-  },
-}
-</script>
+<script></script>
 
 <style scoped>
 .columns {

@@ -3,7 +3,13 @@
     <Header />
     <Title />
     <AccessCounter />
+
+    <UpdateInfo />
+
     <TitleNotification />
+
+    <RewardsCategory category-name="「アドオン」について" />
+    <Addons />
 
     <RewardsCategory category-name="全プレ" />
     <YourNameInTheStaffRoll />
@@ -64,6 +70,7 @@ import Title from '@/components/Title'
 import AccessCounter from '@/components/AccessCounter'
 import Bottom from '@/components/Bottom'
 import NavBar from '@/components/NavBar'
+import UpdateInfo from '@/components/UpdateInfo'
 
 import RewardsCategory from '@/components/Rewards/Category'
 
@@ -97,12 +104,15 @@ import CreateATownObject from '@/components/Rewards/CreateATownObject'
 import NameAnInGameFood from '@/components/Rewards/NameAnInGameFood'
 import NameARivalBeigomaTrainer from '@/components/Rewards/NameARivalBeigomaTrainer'
 import NameARivalEggleg from '@/components/Rewards/NameARivalEggleg'
+import Addons from '@/components/Addons'
 
 export default {
   name: 'Home',
   components: {
+    Addons,
     Header,
     TitleNotification,
+    UpdateInfo,
     Title,
     AccessCounter,
     RewardsCategory,
