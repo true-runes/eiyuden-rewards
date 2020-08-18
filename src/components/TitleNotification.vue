@@ -12,9 +12,6 @@
                 <WhatIsThisSite />
               </li>
               <li>
-                <Addons />
-              </li>
-              <li>
                 <ContentsAreNotAlwaysLatest />
               </li>
               <li>
@@ -39,7 +36,6 @@ import WhatIsThisSite from '@/components/TitleNotifications/WhatIsThisSite'
 import ContentsAreNotAlwaysLatest from '@/components/TitleNotifications/ContentsAreNotAlwaysLatest'
 import KishuIzonMoji from '@/components/TitleNotifications/KishuIzonMoji'
 import HelpDetail from '@/components/TitleNotifications/HelpDetail'
-import Addons from '@/components/TitleNotifications/Addons'
 import Netabare from '@/components/TitleNotifications/Netabare'
 import UpdatedInfo from '@/components/TitleNotifications/UpdatedInfo'
 
@@ -50,7 +46,6 @@ export default {
     ContentsAreNotAlwaysLatest,
     KishuIzonMoji,
     HelpDetail,
-    Addons,
     Netabare,
   },
 }
