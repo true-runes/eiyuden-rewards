@@ -6,9 +6,6 @@
           <div class="content">
             <ul>
               <li>
-                <UpdatedInfo />
-              </li>
-              <li>
                 <WhatIsThisSite />
               </li>
               <li>
@@ -37,11 +34,9 @@ import ContentsAreNotAlwaysLatest from '@/components/TitleNotifications/Contents
 import KishuIzonMoji from '@/components/TitleNotifications/KishuIzonMoji'
 import HelpDetail from '@/components/TitleNotifications/HelpDetail'
 import Netabare from '@/components/TitleNotifications/Netabare'
-import UpdatedInfo from '@/components/TitleNotifications/UpdatedInfo'
 
 export default {
   components: {
-    UpdatedInfo,
     WhatIsThisSite,
     ContentsAreNotAlwaysLatest,
     KishuIzonMoji,

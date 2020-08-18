@@ -52,6 +52,18 @@
           <br />
 
           <p>掲示板・同盟・ウェブリングは準備中です m(_ _)m</p>
+
+          <br />
+
+          <p>当サイトはリンクフリーです☆彡</p>
+
+          <br />
+
+          <button class="button is-rounded">
+            <router-link to="/" class="has-text-weight-bold is-size-5"
+              >トップページへ戻る</router-link
+            >
+          </button>
         </div>
       </div>
     </div>

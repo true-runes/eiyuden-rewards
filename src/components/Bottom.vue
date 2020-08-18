@@ -55,6 +55,10 @@
 
           <br />
 
+          <p>当サイトはリンクフリーです☆彡</p>
+
+          <br />
+
           <p class="more-margin">
             選択項目を初期化したい場合は
             <a href="#" @click="initializeState">

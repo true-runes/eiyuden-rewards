@@ -3,6 +3,9 @@
     <Header />
     <Title />
     <AccessCounter />
+
+    <UpdateInfo />
+
     <TitleNotification />
 
     <RewardsCategory category-name="「アドオン」について" />
@@ -67,6 +70,7 @@ import Title from '@/components/Title'
 import AccessCounter from '@/components/AccessCounter'
 import Bottom from '@/components/Bottom'
 import NavBar from '@/components/NavBar'
+import UpdateInfo from '@/components/UpdateInfo'
 
 import RewardsCategory from '@/components/Rewards/Category'
 
@@ -108,6 +112,7 @@ export default {
     Addons,
     Header,
     TitleNotification,
+    UpdateInfo,
     Title,
     AccessCounter,
     RewardsCategory,
