@@ -3,7 +3,7 @@
     <div class="container">
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
-          <h3>スチールケース</h3>
+          <h3>2. スチールケース</h3>
         </div>
       </div>
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
