@@ -18,12 +18,6 @@
     <Detail />
     <References />
 
-    <button class="button is-rounded">
-      <router-link to="/" class="has-text-weight-bold is-size-5"
-        >トップページへ戻る</router-link
-      >
-    </button>
-
     <Bottom />
   </div>
 </template>
