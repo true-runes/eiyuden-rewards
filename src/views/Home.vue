@@ -5,6 +5,9 @@
     <AccessCounter />
     <TitleNotification />
 
+    <RewardsCategory category-name="「アドオン」について" />
+    <Addons />
+
     <RewardsCategory category-name="全プレ" />
     <YourNameInTheStaffRoll />
     <DiscordRole />
@@ -97,10 +100,12 @@ import CreateATownObject from '@/components/Rewards/CreateATownObject'
 import NameAnInGameFood from '@/components/Rewards/NameAnInGameFood'
 import NameARivalBeigomaTrainer from '@/components/Rewards/NameARivalBeigomaTrainer'
 import NameARivalEggleg from '@/components/Rewards/NameARivalEggleg'
+import Addons from '@/components/Addons'
 
 export default {
   name: 'Home',
   components: {
+    Addons,
     Header,
     TitleNotification,
     Title,

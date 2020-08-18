@@ -1,0 +1,55 @@
+<template>
+  <section class="section">
+    <div class="container">
+      <div class="columns is-multiline is-mobile is-tablet is-desktop">
+        <div class="column is-12-mobile is-12-tablet is-12-desktop">
+          <h1 class="title">アドオン詳細</h1>
+        </div>
+      </div>
+      <div class="columns is-multiline is-mobile is-tablet is-desktop">
+        <div class="column is-12-mobile is-12-tablet is-12-desktop">
+          <div class="content has-text-left">
+            <br />
+            <p>
+              各アドオンの詳細は次の通りです。
+            </p>
+            <DigitalVersion />
+            <SteelBook />
+            <ChibiCharaFigures />
+            <Snappies />
+            <ClothMap />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script>
+import DigitalVersion from '@/components/WhatIsAddOn/ItemDetail/DigitalVersion'
+import SteelBook from '@/components/WhatIsAddOn/ItemDetail/SteelBook'
+import ChibiCharaFigures from '@/components/WhatIsAddOn/ItemDetail/ChibiCharaFigures'
+import Snappies from '@/components/WhatIsAddOn/ItemDetail/Snappies'
+import ClothMap from '@/components/WhatIsAddOn/ItemDetail/ClothMap'
+
+export default {
+  name: 'WhatIsAddOn',
+  components: {
+    DigitalVersion,
+    SteelBook,
+    ChibiCharaFigures,
+    Snappies,
+    ClothMap,
+  },
+}
+</script>
+
+<style scoped>
+.columns {
+  margin: 1px;
+}
+
+.column {
+  padding: 1px;
+}
+</style>
