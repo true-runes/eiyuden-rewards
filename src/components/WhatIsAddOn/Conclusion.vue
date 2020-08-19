@@ -27,6 +27,15 @@
               <li>
                 それに対して希望するアドオンを回答します
               </li>
+              <li>
+                詳しくは
+                <a
+                  href="https://www.kickstarter.com/projects/rabbitandbearstudios/eiyuden-chronicle-hundred-heroes/posts/2919086"
+                  target="_blank"
+                  >「更新情報」の第8回目</a
+                >
+                をご確認ください
+              </li>
             </ul>
           </div>
         </div>
