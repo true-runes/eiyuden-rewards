@@ -22,7 +22,7 @@ export default {
       if (this.utcCurrentDateTime === '') return 'ただいまの日時は...'
 
       const dateTimeText = dayjs(this.utcCurrentDateTime).format(
-        'YYYY年MM月DD日 HH:mm:ss（dd）',
+        'YYYY年MM月DD日（dd）HH:mm:ss',
       )
       return `ただいまの日時は<br />${dateTimeText}<br />です！`
     },
