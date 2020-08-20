@@ -1,7 +1,7 @@
 <template>
   <section class="section">
     <div class="container">
-      <span>{{ currentDateTimeWithText }}</span>
+      <div v-html="currentDateTimeWithText"></div>
     </div>
   </section>
 </template>
@@ -24,7 +24,7 @@ export default {
       const dateTimeText = dayjs(this.utcCurrentDateTime).format(
         'YYYY年MM月DD日 HH:mm:ss（dd）',
       )
-      return `ただいまの日時は ${dateTimeText} です！`
+      return `ただいまの日時は<br />${dateTimeText}<br />です！`
     },
   },
   mounted: function () {
