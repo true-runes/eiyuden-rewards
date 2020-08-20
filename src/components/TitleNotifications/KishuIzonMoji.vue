@@ -25,6 +25,9 @@
                 (^o^)/
               </li>
             </ul>
+            <span class="is-flex is-horizontal-center"
+              ><img src="images/kishuizonmoji_sample.gif"
+            /></span>
           </div>
         </section>
         <footer class="modal-card-foot move-button-to-right">
@@ -63,5 +66,10 @@ export default {
   color: #7957d5;
   cursor: pointer;
   text-decoration: none;
+}
+
+/* Use with "is-flex" */
+.is-horizontal-center {
+  justify-content: center;
 }
 </style>

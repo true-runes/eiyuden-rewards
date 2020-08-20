@@ -2853,10 +2853,10 @@ bser@2.1.1:
   dependencies:
     node-int64 "^0.4.0"
 
-buefy@>=0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/buefy/-/buefy-0.9.0.tgz#564e92e18e32da9c9827be12dfd216275818f449"
-  integrity sha512-RGe2/LG+IBtWn6pzCpAZm/Qf9q2ckcv8amlTJjKmvuCiC3JjtJjJvu4tMcrapncJOgKPufpHGxep738MypnPwA==
+buefy@>=0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/buefy/-/buefy-0.9.1.tgz#741c40e00a6e5ee807533e338cec2b2c764cb5f2"
+  integrity sha512-xS4UkNzliPKHYEHB+k1tUjdKiuozQSxxhTrOI3Oh391cYAN66op6ZAzn4WiLQtKMR968XwmFj9WvFAJMdLc/cw==
   dependencies:
     bulma "0.9.0"
 
@@ -3911,6 +3911,11 @@ data-urls@^1.0.0, data-urls@^1.1.0:
     abab "^2.0.0"
     whatwg-mimetype "^2.2.0"
     whatwg-url "^7.0.0"
+
+dayjs@>=1.8.34:
+  version "1.8.34"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.34.tgz#d3ad33cc43d6b0f24cb8686b90aad2c653708069"
+  integrity sha512-Olb+E6EoMvdPmAMq2QoucuyZycKHjTlBXmRx8Ada+wGtq4SIXuDCdtoaX4KkK0yjf1fJLnwXQURr8gQKWKaybw==
 
 de-indent@^1.0.2:
   version "1.0.2"
@@ -6734,7 +6739,7 @@ jest@^24.9.0:
     import-local "^2.0.0"
     jest-cli "^24.9.0"
 
-jquery@^3.5.1:
+jquery@>=3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.1.tgz#d7b4d08e1bfdb86ad2f1a3d039ea17304717abb5"
   integrity sha512-XwIBPqcMn57FxfT+Go5pzySnm4KWkT1Tv7gjrpT1srtf8Weynl6R273VJ5GjkRb51IzMp5nbaPjJXMWeju2MKg==
@@ -11361,7 +11366,7 @@ vue-router@>=3.4.3:
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.4.3.tgz#fa93768616ee338aa174f160ac965167fa572ffa"
   integrity sha512-BADg1mjGWX18Dpmy6bOGzGNnk7B/ZA0RxuA6qedY/YJwirMfKXIDzcccmHbQI0A6k5PzMdMloc0ElHfyOoX35A==
 
-vue-scrollto@^2.18.2:
+vue-scrollto@>=2.18.2:
   version "2.18.2"
   resolved "https://registry.yarnpkg.com/vue-scrollto/-/vue-scrollto-2.18.2.tgz#113a3548341974d3a2560145f39fcc0378533821"
   integrity sha512-LQOsuCfDJ5JXsRBb6frM85sCFABZdkwwwchLh4k3wbp8P6URRDcQvwp31U4cTnbyYEOo6JFP7+3p0wkvwy7MdA==
