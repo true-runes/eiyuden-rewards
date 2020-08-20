@@ -9,7 +9,7 @@
             <span
               >[2020/08/19] 「<router-link to="/what-is-add-on#page-top"
                 >アドオン</router-link
-              >」のページを追加しました！</span
+              >」のページを追加しました！！</span
             >
             <br />
             <span>[2020/08/18] 最新の情報を反映しました！</span>
