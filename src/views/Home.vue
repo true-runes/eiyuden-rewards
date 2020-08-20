@@ -3,6 +3,7 @@
     <Header />
     <Title />
     <AccessCounter />
+    <CurrentDateTime />
 
     <UpdateInfo />
 
@@ -71,6 +72,7 @@ import AccessCounter from '@/components/AccessCounter'
 import Bottom from '@/components/Bottom'
 import NavBar from '@/components/NavBar'
 import UpdateInfo from '@/components/UpdateInfo'
+import CurrentDateTime from '@/components/CurrentDateTime'
 
 import RewardsCategory from '@/components/Rewards/Category'
 
@@ -148,6 +150,7 @@ export default {
     NameAnInGameFood,
     NameARivalBeigomaTrainer,
     NameARivalEggleg,
+    CurrentDateTime,
   },
   created: function () {
     // Initialize
