@@ -66,6 +66,16 @@
             </a>
             をクリック (^^)/
           </p>
+
+          <br />
+
+          <p>
+            管理人の連絡先は
+            <a href="mailto:gregminster@obel.sakura.ne.jp"
+              >gregminster@obel.sakura.ne.jp</a
+            >
+            です ^_^
+          </p>
         </div>
       </div>
     </div>
