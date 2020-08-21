@@ -21,10 +21,11 @@ export default {
     currentDateTimeWithText: function () {
       if (this.utcCurrentDateTime === '') return 'ただいまの日時は...'
 
-      const dateTimeText = dayjs(this.utcCurrentDateTime).format(
-        'YYYY年MM月DD日（dd）HH:mm:ss',
+      const dateText = dayjs(this.utcCurrentDateTime).format(
+        'YYYY年MM月DD日 (dd)',
       )
-      return `ただいまの日時は<br />${dateTimeText}<br />です！`
+      const timeText = dayjs(this.utcCurrentDateTime).format('HH:mm:ss')
+      return `ただいまの日時は<br />${dateText}<br />${timeText}<br />です！`
     },
   },
   mounted: function () {
