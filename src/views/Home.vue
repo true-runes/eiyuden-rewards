@@ -46,12 +46,12 @@
     <NameARivalEggleg />
 
     <RewardsCategory category-name="その他" />
+    <PetInTheGame />
     <CreateATownObject />
     <VisitTheTeam />
 
     <RewardsCategory category-name="規定数終了" />
     <CatInTheGame />
-    <PetInTheGame />
     <BecomeAHumanFacedFish />
     <BecomeAStatue />
     <NameALocation />
