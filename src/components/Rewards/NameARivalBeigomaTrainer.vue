@@ -57,12 +57,21 @@
           </p>
         </header>
         <section class="modal-card-body has-text-left">
-          ミニゲームである「ベーゴマ」でライバルとなるキャラの名前を付けることができます。このライバルは、あなたがオールラーン大陸一のベーゴマ使いとなろうとすることを阻止してくるでしょう。
-          <img
-            src="/images/name_a_rival_beigoma_trainer.png"
-            alt="ベーゴマライバル命名権"
-            title="ベーゴマライバル命名権"
-          />
+          <div class="content">
+            <ul>
+              <li>
+                ミニゲームである「ベーゴマ」でライバルとなるキャラの名前を付けることができます
+              </li>
+              <li>
+                あなたがオールラーン大陸一のベーゴマ使いとなろうとする道のりにこのライバルが立ちはだかってきます
+              </li>
+            </ul>
+            <img
+              src="/images/name_a_rival_beigoma_trainer.png"
+              alt="ベーゴマライバル命名権"
+              title="ベーゴマライバル命名権"
+            />
+          </div>
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">

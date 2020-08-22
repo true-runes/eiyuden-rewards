@@ -10,7 +10,7 @@
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <div class="content has-text-left">
             <p>
-              布製のワールドマップです。
+              布製のワールドマップです（現時点では画像未公開）。
             </p>
           </div>
         </div>

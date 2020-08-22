@@ -12,6 +12,11 @@
             <p>
               ゲーム格納用の金属製のパッケージ（ケース）です。
             </p>
+            <img
+              src="/images/steelbook.jpg"
+              alt="スチールケース"
+              title="スチールケース"
+            />
           </div>
         </div>
       </div>
