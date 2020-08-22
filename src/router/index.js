@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home'
 import WhatIsAddOn from '../views/WhatIsAddOn'
+import StretchGoals from '../views/StretchGoals'
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,11 @@ const routes = [
     path: '/what-is-add-on',
     name: 'WhatIsAddOn',
     component: WhatIsAddOn,
+  },
+  {
+    path: '/stretch-goals',
+    name: 'StretchGoals',
+    component: StretchGoals,
   },
 ]
 
