@@ -14,10 +14,16 @@
                 「ストレッチゴール」とは、一定の支援を達成することで実現していく追加要素のことです
               </li>
               <li>
-                金額での達成だけではなく、例えば SNS でのリツイート数などの達成も含みます
+                金額での達成だけではなく、例えば SNS
+                でのリツイート数などの達成も含みます
               </li>
               <li>
-                達成支援と追加要素の組み合わせは <a href="https://www.kickstarter.com/projects/rabbitandbearstudios/eiyuden-chronicle-hundred-heroes" target="_blank">Kickstarter のページ</a>で順次公開されています
+                達成支援と追加要素の組み合わせは
+                <a
+                  href="https://www.kickstarter.com/projects/rabbitandbearstudios/eiyuden-chronicle-hundred-heroes"
+                  target="_blank"
+                  >Kickstarter のページ</a
+                >で順次公開されています
               </li>
             </ul>
           </div>

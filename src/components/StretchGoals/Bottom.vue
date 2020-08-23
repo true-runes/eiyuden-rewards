@@ -22,12 +22,7 @@
                 title="Netscape Now!"
             /></a>
           </p>
-          <p><img src="/images/broken_image.png" /></p>
-          <img src="/images/broken_image.png" />
-          <img src="/images/broken_image.png" />
-
-          ＜br >¥DATA¥00_INIT¥SOUND.573>
-          <br />
+          縺薙ｓ縺�■縺ｯ>繧ｪ繝ｼ繝ｫ繝ｩ繝ｼ繝ｳ<br />＜HR＞<br />
 
           <br />
 
