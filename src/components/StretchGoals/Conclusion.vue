@@ -321,6 +321,16 @@
               </li>
             </ul>
             <br />
+
+            <h6>
+              ※詳細は
+              <a
+                href="https://scrapbox.io/100heroesstrong/%E3%82%B9%E3%83%88%E3%83%AC%E3%83%83%E3%83%81%E3%82%B4%E3%83%BC%E3%83%AB"
+                target="_blank"
+                >Scrapbox</a
+              >
+              にも記載してあります
+            </h6>
           </div>
         </div>
       </div>
