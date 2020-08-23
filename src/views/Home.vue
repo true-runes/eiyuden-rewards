@@ -3,6 +3,7 @@
     <Header />
     <Title />
     <AccessCounter />
+    <CrowdFundingEndDatetime />
     <CurrentDateTime />
 
     <UpdateInfo />
@@ -73,6 +74,7 @@ import Bottom from '@/components/Bottom'
 import NavBar from '@/components/NavBar'
 import UpdateInfo from '@/components/UpdateInfo'
 import CurrentDateTime from '@/components/CurrentDateTime'
+import CrowdFundingEndDatetime from '@/components/CrowdFundingEndDatetime'
 
 import RewardsCategory from '@/components/Rewards/Category'
 
@@ -151,6 +153,7 @@ export default {
     NameARivalBeigomaTrainer,
     NameARivalEggleg,
     CurrentDateTime,
+    CrowdFundingEndDatetime,
   },
   created: function () {
     // Initialize
