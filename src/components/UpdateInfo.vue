@@ -7,6 +7,12 @@
             <span class="has-text-weight-bold is-size-5">更新情報</span>
             <br />
             <span class="has-text-weight-bold">[2020/08/23]</span><br /><span
+              >「<router-link to="/stretch-goals">ストレッチゴール</router-link
+              >」のページを追加しました！！</span
+            >
+            <br />
+            <br />
+            <span class="has-text-weight-bold">[2020/08/23]</span><br /><span
               >最新の情報を反映しました！</span
             >
             <br />
