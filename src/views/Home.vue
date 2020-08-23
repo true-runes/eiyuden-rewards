@@ -42,12 +42,10 @@
     <RewardsCategory category-name="名前" />
     <NameInArtbook />
     <YourNameAsASoldier />
-    <NameAnInGameFood />
     <NameARivalBeigomaTrainer />
     <NameARivalEggleg />
 
     <RewardsCategory category-name="その他" />
-    <PetInTheGame />
     <CreateATownObject />
     <VisitTheTeam />
 
@@ -58,6 +56,8 @@
     <NameALocation />
     <CreateAnEnemy />
     <BecomeAnNpc />
+    <NameAnInGameFood />
+    <PetInTheGame />
 
     <Bottom />
 
