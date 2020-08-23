@@ -130,6 +130,22 @@
               />
             </div>
             <div class="content">
+              <h5>「農家」のグッズ</h5>
+              <ul>
+                <li>
+                  何でも詰め込めるトートバッグ
+                </li>
+                <li>
+                  日々の出来事を記録できる冒険日誌
+                </li>
+              </ul>
+              <img
+                src="/images/job_reward_farmer.jpg"
+                alt="「農家」グッズ"
+                title="「農家」グッズ"
+              />
+            </div>
+            <div class="content">
               <h5>「芸術家」のグッズ</h5>
               <ul>
                 <li>
