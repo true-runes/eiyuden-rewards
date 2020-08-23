@@ -1243,7 +1243,7 @@ export default {
         },
         {
           isMatchedWithUserSelection: this.$store.getters['pledges/isPixelPet'],
-          isAvailable: true,
+          isAvailable: false,
           pledgeName: {
             english: 'Pixel Pet Re-redux',
             japanese: 'ピクセル・ペット・リ・リダックス',
@@ -1807,7 +1807,7 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isGoldenPieceOfHistory'
           ],
-          isAvailable: true,
+          isAvailable: false,
           pledgeName: {
             english: 'Golden Piece of History Re-redux',
             japanese: 'ゴールデン・ピース・オブ・ヒストリー・リ・リダックス',
@@ -1955,7 +1955,7 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isFoodForThought'
           ],
-          isAvailable: true,
+          isAvailable: false,
           pledgeName: {
             english: 'Food for Thought',
             japanese: 'フード・フォー・ソート',
@@ -1990,7 +1990,7 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isTopTrainer'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Top Trainer',
             japanese: 'トップ・トレーナー',
