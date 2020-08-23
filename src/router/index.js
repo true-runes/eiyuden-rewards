@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home'
 import WhatIsAddOn from '../views/WhatIsAddOn'
 import StretchGoals from '../views/StretchGoals'
+import NotFound from '../views/NotFound'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/stretch-goals',
     name: 'StretchGoals',
     component: StretchGoals,
+  },
+  {
+    path: '*',
+    name: 'NotFound',
+    component: NotFound,
   },
 ]
 
