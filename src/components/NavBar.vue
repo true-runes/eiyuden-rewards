@@ -933,7 +933,7 @@ export default {
           },
           pledgeMinimumAmount: {
             english: '1,000',
-            japanese: '100,000',
+            japanese: '37,500',
           },
           rewards: {
             english: [
@@ -1580,7 +1580,7 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isSilverMonument'
           ],
-          isAvailable: true,
+          isAvailable: false,
           pledgeName: {
             english: 'Silver Monument Redux',
             japanese: 'シルバー・モニュメント・リダックス',
