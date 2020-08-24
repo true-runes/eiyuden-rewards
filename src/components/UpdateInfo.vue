@@ -5,6 +5,16 @@
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <div class="content">
             <h1 class="has-text-weight-bold is-size-5">更新履歴</h1>
+            <span class="has-text-weight-bold">[2020/08/25]</span><br /><span
+              >「<a
+                href="https://www.kickstarter.com/projects/rabbitandbearstudios/eiyuden-chronicle-hundred-heroes/posts/2933159"
+                target="_blank"
+                >第14回更新情報</a
+              >」の内容を反映しました！</span
+            >
+            <br />
+            <br />
+
             <span class="has-text-weight-bold">[2020/08/23]</span><br /><span
               >Discordでの「一問一答」をまとめました！！</span
             >
@@ -35,12 +45,14 @@
             >
             <br />
             <br />
+
             <span class="has-text-weight-bold">[2020/08/23]</span><br /><span
               >「<router-link to="/stretch-goals">ストレッチゴール</router-link
               >」のページを追加しました！！</span
             >
             <br />
             <br />
+
             <span class="has-text-weight-bold">[2020/08/19]</span><br /><span
               >「<router-link to="/what-is-add-on#page-top"
                 >アドオン</router-link
