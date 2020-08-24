@@ -44,9 +44,12 @@
     <YourNameAsASoldier />
     <NameARivalBeigomaTrainer />
     <NameARivalEggleg />
+    <NameAnInGameFood />
+    <DigYourOwnGrave />
 
     <RewardsCategory category-name="その他" />
     <CreateATownObject />
+    <ABrushWithInfamy />
     <VisitTheTeam />
 
     <RewardsCategory category-name="規定数終了" />
@@ -56,7 +59,6 @@
     <NameALocation />
     <CreateAnEnemy />
     <BecomeAnNpc />
-    <NameAnInGameFood />
     <PetInTheGame />
 
     <Bottom />
@@ -109,6 +111,8 @@ import NameAnInGameFood from '@/components/Rewards/NameAnInGameFood'
 import NameARivalBeigomaTrainer from '@/components/Rewards/NameARivalBeigomaTrainer'
 import NameARivalEggleg from '@/components/Rewards/NameARivalEggleg'
 import Addons from '@/components/Addons'
+import DigYourOwnGrave from '@/components/Rewards/DigYourOwnGrave'
+import ABrushWithInfamy from '@/components/Rewards/ABrushWithInfamy'
 
 export default {
   name: 'Home',
@@ -154,6 +158,8 @@ export default {
     NameARivalEggleg,
     CurrentDateTime,
     CrowdFundingEndDatetime,
+    DigYourOwnGrave,
+    ABrushWithInfamy,
   },
   created: function () {
     // Initialize

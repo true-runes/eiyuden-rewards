@@ -31,6 +31,8 @@ import nameARivalBeigomaTrainer from '@/store/Rewards/nameARivalBeigomaTrainer'
 import snappiePlushies from '@/store/Rewards/snappiePlushies'
 import steelbookCase from '@/store/Rewards/steelbookCase'
 import nameARivalEggleg from '@/store/Rewards/nameARivalEggleg'
+import digYourOwnGrave from '@/store/Rewards/digYourOwnGrave'
+import aBrushWithInfamy from '@/store/Rewards/aBrushWithInfamy'
 
 // TODO: Import by 'map'
 export default {
@@ -70,6 +72,8 @@ export default {
     ...snappiePlushies.state,
     ...steelbookCase.state,
     ...nameARivalEggleg.state,
+    ...digYourOwnGrave.state,
+    ...aBrushWithInfamy.state,
 
     allRewardsState: {},
   },
@@ -109,6 +113,8 @@ export default {
     ...snappiePlushies.getters,
     ...steelbookCase.getters,
     ...nameARivalEggleg.getters,
+    ...digYourOwnGrave.getters,
+    ...aBrushWithInfamy.getters,
 
     getAllRewardsState(state) {
       return state.allRewardsState
@@ -150,6 +156,8 @@ export default {
     ...snappiePlushies.mutations,
     ...steelbookCase.mutations,
     ...nameARivalEggleg.mutations,
+    ...digYourOwnGrave.mutations,
+    ...aBrushWithInfamy.mutations,
 
     // TODO: Overwrite by payload
     setAllRewardsState(state) {
@@ -187,6 +195,8 @@ export default {
         snappiePlushies: state.snappiePlushies,
         steelbookCase: state.steelbookCase,
         nameARivalEggleg: state.nameARivalEggleg,
+        digYourOwnGrave: state.digYourOwnGrave,
+        aBrushWithInfamy: state.aBrushWithInfamy,
       }
     },
   },
