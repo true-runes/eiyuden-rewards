@@ -4,7 +4,7 @@
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <p class="is-size-5 has-text-weight-bold">
-            食材に名前を付けられる
+            肖像画が作れる
             <span @click="showModal" class="kochira-he-dozo"
               ><b-icon icon="help-circle-outline" size="is-middle"></b-icon
             ></span>
@@ -18,7 +18,7 @@
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <b-field class="columns">
             <b-radio-button
-              v-model="nameAnInGameFood"
+              v-model="aBrushWithInfamy"
               native-value="true"
               type="is-success"
               class="column is-4-mobile is-4-tablet is-4-desktop"
@@ -27,7 +27,7 @@
               <span>ほしい</span>
             </b-radio-button>
             <b-radio-button
-              v-model="nameAnInGameFood"
+              v-model="aBrushWithInfamy"
               native-value="whichever"
               type="is-info"
               class="column is-4-mobile is-4-tablet is-4-desktop"
@@ -35,7 +35,7 @@
               <span>どちらでも</span>
             </b-radio-button>
             <b-radio-button
-              v-model="nameAnInGameFood"
+              v-model="aBrushWithInfamy"
               native-value="false"
               type="is-danger"
               class="column is-4-mobile is-4-tablet is-4-desktop"
@@ -52,19 +52,23 @@
       <div class="modal-background"></div>
       <div class="modal-card">
         <header class="modal-card-head">
-          <p class="modal-card-title">食材に名前を付けられる</p>
+          <p class="modal-card-title">肖像画が作れる</p>
         </header>
+
         <section class="modal-card-body has-text-left">
           <div class="content">
             <ul>
               <li>
-                「料理」のミニゲーム中に登場する食材の名前を名付けられます
+                肖像画を作ることができます
+              </li>
+              <li>
+                あなたの肖像画がオールラーン大陸のどこかで登場します
               </li>
             </ul>
             <img
-              src="/images/name_an_in_game_food.png"
-              alt="食材命名権"
-              title="食材命名権"
+              src="/images/a_brush_with_infamy.png"
+              alt="肖像画が作れる"
+              title="肖像画が作れる"
             />
           </div>
         </section>
@@ -97,17 +101,17 @@ export default {
     },
   },
   computed: {
-    nameAnInGameFood: {
+    aBrushWithInfamy: {
       get() {
-        return this.$store.state.rewards.nameAnInGameFood
+        return this.$store.state.rewards.aBrushWithInfamy
       },
       set(value) {
-        this.$store.commit('rewards/setNameAnInGameFood', value)
+        this.$store.commit('rewards/setABrushWithInfamy', value)
       },
     },
   },
   watch: {
-    nameAnInGameFood: function () {
+    aBrushWithInfamy: function () {
       this.$store.commit('rewards/setAllRewardsState')
     },
   },

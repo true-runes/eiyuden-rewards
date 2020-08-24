@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    nameAnInGameFood: 'false',
+    nameAnInGameFood: 'whichever',
   },
   mutations: {
     setNameAnInGameFood(state, value) {

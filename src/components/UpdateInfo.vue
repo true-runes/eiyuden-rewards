@@ -10,7 +10,11 @@
                 href="https://www.kickstarter.com/projects/rabbitandbearstudios/eiyuden-chronicle-hundred-heroes/posts/2933159"
                 target="_blank"
                 >第14回更新情報</a
-              >」の内容を反映しました！</span
+              >」の<a
+                href="https://scrapbox.io/100heroesstrong/%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88_%2314_%E5%BB%BA%E7%AF%89%E5%AE%B6%E3%81%AE%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B9_%234"
+                target="_blank"
+                >内容</a
+              >を反映しました！</span
             >
             <br />
             <br />
