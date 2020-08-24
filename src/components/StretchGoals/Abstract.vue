@@ -23,7 +23,8 @@
                   href="https://www.kickstarter.com/projects/rabbitandbearstudios/eiyuden-chronicle-hundred-heroes"
                   target="_blank"
                   >Kickstarter のページ</a
-                >で順次公開されています
+                >
+                で順次公開されています
               </li>
             </ul>
           </div>
