@@ -3,7 +3,7 @@
     <div class="container">
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
-          <h3>4. ちびキャラ消しゴムフィギュア 5つセット</h3>
+          <h3>7. コレクターカード</h3>
         </div>
       </div>
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
@@ -11,16 +11,16 @@
           <div class="content has-text-left">
             <ul>
               <li>
-                5個セットで提供されるフィギュアです。セットの詳細については続報待ちです。
+                百英雄伝のキャラたちが登場するフルカラーのカードです
               </li>
               <li>
-                5,500円
+                3,850円
               </li>
             </ul>
             <img
-              src="/images/chibi_chara_figures.png"
-              alt="ちびキャラ消しゴムフィギュア"
-              title="ちびキャラ消しゴムフィギュア"
+              src="/images/collector_cards.png"
+              alt="コレクターカード"
+              title="コレクターカード"
             />
           </div>
         </div>

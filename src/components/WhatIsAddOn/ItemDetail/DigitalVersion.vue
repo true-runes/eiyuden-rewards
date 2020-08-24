@@ -9,9 +9,14 @@
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <div class="content has-text-left">
-            <p>
-              ダウンロード版のゲームです。
-            </p>
+            <ul>
+              <li>
+                ダウンロード版のゲームです。
+              </li>
+              <li>
+                4,000円
+              </li>
+            </ul>
             <img
               src="/images/digital_copy.jpg"
               alt="DL版ゲーム"

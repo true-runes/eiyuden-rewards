@@ -9,40 +9,45 @@
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <div class="content has-text-left">
-            <p>
-              3個セットで提供されるぬいぐるみです。セット内容は次のとおりです。
-            </p>
             <ul>
               <li>
-                <a href="https://rabbitandbearstudios.com/" target="_blank"
-                  >Rabbit & Bear Studios</a
-                >
-                のマスコットである「うさぎ」のぬいぐるみ
+                3個セットで提供されるぬいぐるみです。セット内容は次のとおりです。
+              </li>
+              <ul>
+                <li>
+                  <a href="https://rabbitandbearstudios.com/" target="_blank"
+                    >Rabbit & Bear Studios</a
+                  >
+                  のマスコットである「うさぎ」のぬいぐるみ
+                </li>
+                <li>
+                  <a href="https://rabbitandbearstudios.com/" target="_blank"
+                    >Rabbit & Bear Studios</a
+                  >
+                  のマスコットである「くま」のぬいぐるみ
+                </li>
+                <li>
+                  <a
+                    href="https://twitter.com/eiyudenchronicl/status/1294628331262840833"
+                    target="_blank"
+                    >プミー</a
+                  >
+                  のぬいぐるみ（プミーとはメリサの左肩に乗っているペットのこと）
+                </li>
+              </ul>
+              <li>
+                ぬいぐるみの手にはボタンがついており、ボタンを利用して手をつながせたりハグをさせたりすることができます
               </li>
               <li>
-                <a href="https://rabbitandbearstudios.com/" target="_blank"
-                  >Rabbit & Bear Studios</a
-                >
-                のマスコットである「くま」のぬいぐるみ
+                5,500円
               </li>
-              <li>
-                <a
-                  href="https://twitter.com/eiyudenchronicl/status/1294628331262840833"
-                  target="_blank"
-                  >プミー</a
-                >
-                のぬいぐるみ（プミーとはメリサの左肩に乗っているペットのこと）
-              </li>
-              <br />
-              <img
-                src="/images/pooby.jpg"
-                alt="ちびキャラ消しゴムフィギュア"
-                title="ちびキャラ消しゴムフィギュア"
-              />
             </ul>
-            <p>
-              ぬいぐるみの手にはボタンがついており、ボタンを利用して手をつながせたりハグをさせたりすることができます
-            </p>
+            <img src="/images/pooby.jpg" alt="ぬいぐるみ" title="ぬいぐるみ" />
+            <img
+              src="/images/pooby_beta_version.jpg"
+              alt="ぬいぐるみ試作"
+              title="ぬいぐるみ試作"
+            />
           </div>
         </div>
       </div>

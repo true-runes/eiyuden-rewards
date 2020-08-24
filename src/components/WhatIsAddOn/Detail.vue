@@ -14,10 +14,12 @@
               各アドオンの詳細は次の通りです。
             </p>
             <DigitalVersion />
+            <PhysicalVersion />
             <SteelBook />
             <ChibiCharaFigures />
             <Snappies />
             <ClothMap />
+            <CollectorCards />
           </div>
         </div>
       </div>
@@ -31,6 +33,8 @@ import SteelBook from '@/components/WhatIsAddOn/ItemDetail/SteelBook'
 import ChibiCharaFigures from '@/components/WhatIsAddOn/ItemDetail/ChibiCharaFigures'
 import Snappies from '@/components/WhatIsAddOn/ItemDetail/Snappies'
 import ClothMap from '@/components/WhatIsAddOn/ItemDetail/ClothMap'
+import PhysicalVersion from '@/components/WhatIsAddOn/ItemDetail/PhysicalVersion'
+import CollectorCards from '@/components/WhatIsAddOn/ItemDetail/CollectorCards'
 
 export default {
   name: 'WhatIsAddOn',
@@ -40,6 +44,8 @@ export default {
     ChibiCharaFigures,
     Snappies,
     ClothMap,
+    PhysicalVersion,
+    CollectorCards,
   },
 }
 </script>
