@@ -10,7 +10,17 @@
               ><br />
               <span class="has-text-weight-bold">2020/08/29 (土)</span
               ><br /><span class="has-text-weight-bold">25:00です</span
-              ><br /><span class="has-text-weight-bold">（土曜日深夜）</span>
+              ><br /><span class="has-text-weight-bold">（土曜日深夜）</span
+              ><br />
+              <span class="has-text-weight-bold"
+                >支援は
+                <a
+                  href="https://www.kickstarter.com/projects/rabbitandbearstudios/eiyuden-chronicle-hundred-heroes"
+                  target="_blank"
+                  >こちら</a
+                >
+                から！</span
+              >
             </div>
           </div>
         </div>
