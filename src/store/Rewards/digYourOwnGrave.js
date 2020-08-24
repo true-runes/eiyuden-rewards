@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    nameALocation: 'whichever',
+    digYourOwnGrave: 'whichever',
   },
   mutations: {
     setDigYourOwnGrave(state, value) {
