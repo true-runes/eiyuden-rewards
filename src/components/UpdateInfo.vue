@@ -6,6 +6,21 @@
           <div class="content">
             <h1 class="has-text-weight-bold is-size-5">更新履歴</h1>
             <span class="has-text-weight-bold">[2020/08/25]</span><br /><span
+              ><a
+                href="https://www.kickstarter.com/projects/rabbitandbearstudios/eiyuden-chronicle-hundred-heroes/posts/2933159"
+                target="_blank"
+                >2020/8/26に一問一答イベントがあります！</a
+              ><br />
+              （場所は<a
+                href="https://www.reddit.com/r/EiyudenChronicle/comments/ifsvog/reddit_ama_here_on_wednesday_at_noon_et9am_pt/"
+                target="_blank"
+                >こちら</a
+              >）</span
+            >
+            <br />
+            <br />
+
+            <span class="has-text-weight-bold">[2020/08/25]</span><br /><span
               >「<a
                 href="https://www.kickstarter.com/projects/rabbitandbearstudios/eiyuden-chronicle-hundred-heroes/posts/2933159"
                 target="_blank"
