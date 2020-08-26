@@ -9,10 +9,10 @@
               ><a
                 href="https://www.kickstarter.com/projects/rabbitandbearstudios/eiyuden-chronicle-hundred-heroes/posts/2933159"
                 target="_blank"
-                >2020/8/26に一問一答イベントがあります！</a
+                >2020/8/26 25:00に一問一答イベントがあります！</a
               ><br />
               （場所は<a
-                href="https://www.reddit.com/r/EiyudenChronicle/comments/ifsvog/reddit_ama_here_on_wednesday_at_noon_et9am_pt/"
+                href="https://www.reddit.com/r/EiyudenChronicle/comments/igvfpx/rabbit_bear_ama%E3%83%A9%E3%83%93%E3%83%99%E3%82%A2ama_starts_august_26th_noon_et/"
                 target="_blank"
                 >こちら</a
               >）</span
