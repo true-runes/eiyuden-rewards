@@ -51,7 +51,14 @@
 
           <br />
 
-          <p>掲示板・同盟・ウェブリングは準備中です m(_ _)m</p>
+          <p>
+            <a
+              href="https://9204.teacup.com/eiyuden_shinsho/bbs"
+              target="_blank"
+              class="camouflage-link"
+              >掲示板</a
+            >・同盟・ウェブリングは準備中です m(_ _)m
+          </p>
 
           <br />
 
@@ -104,5 +111,9 @@ export default {
 <style scoped>
 .columns {
   margin: 1px 1px 30px 1px;
+}
+
+.camouflage-link {
+  color: black;
 }
 </style>
