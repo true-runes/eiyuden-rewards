@@ -114,6 +114,25 @@
               />
             </div>
             <div class="content">
+              <h5>「脚本家」のグッズ</h5>
+              <ul>
+                <li>
+                  シナリオが記載された本
+                </li>
+                <li>
+                  ゲームやクリエイターについて記載されている
+                </li>
+                <li>
+                  様式は演劇のパンフレット
+                </li>
+              </ul>
+              <img
+                src="/images/job_reward_playwright.jpg"
+                alt="「脚本家」グッズ"
+                title="「脚本家」グッズ"
+              />
+            </div>
+            <div class="content">
               <h5>「鍛冶屋」のグッズ</h5>
               <ul>
                 <li>
@@ -140,7 +159,7 @@
                 </li>
               </ul>
               <img
-                src="/images/job_reward_farmer.jpg"
+                src="/images/job_reward_farmer_2nd_edition.jpg"
                 alt="「農家」グッズ"
                 title="「農家」グッズ"
               />
