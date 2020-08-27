@@ -10,12 +10,8 @@
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <div class="content has-text-left">
             <ul>
-              <li>
-                ゲーム格納用の金属製のパッケージ（ケース）です。
-              </li>
-              <li>
-                2,200円
-              </li>
+              <li>ゲーム格納用の金属製のパッケージ（ケース）です。</li>
+              <li>2,200円</li>
             </ul>
             <img
               src="/images/steelbook.jpg"
