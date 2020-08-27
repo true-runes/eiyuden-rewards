@@ -13,9 +13,7 @@
               <li>
                 5個セットで提供されるフィギュアです。セットの詳細については続報待ちです。
               </li>
-              <li>
-                5,500円
-              </li>
+              <li>5,500円</li>
             </ul>
             <img
               src="/images/chibi_chara_figures.png"

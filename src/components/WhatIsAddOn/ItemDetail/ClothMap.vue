@@ -10,15 +10,9 @@
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <div class="content has-text-left">
             <ul>
-              <li>
-                布製のワールドマップです（現時点では画像未公開）。
-              </li>
-              <li>
-                サイズは 約 61センチ x 46センチ です。
-              </li>
-              <li>
-                2,750円
-              </li>
+              <li>布製のワールドマップです（現時点では画像未公開）。</li>
+              <li>サイズは 約 61センチ x 46センチ です。</li>
+              <li>2,750円</li>
             </ul>
             <p></p>
           </div>
