@@ -10,12 +10,8 @@
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <div class="content has-text-left">
             <ul>
-              <li>
-                百英雄伝のキャラたちが登場するフルカラーのカードです。
-              </li>
-              <li>
-                3,850円
-              </li>
+              <li>百英雄伝のキャラたちが登場するフルカラーのカードです。</li>
+              <li>3,850円</li>
             </ul>
             <img
               src="/images/collector_cards.png"
