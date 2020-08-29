@@ -57,7 +57,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -98,7 +99,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -140,7 +142,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -182,7 +185,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -223,7 +227,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -264,7 +269,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -305,7 +311,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -346,7 +353,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -387,7 +395,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -428,7 +437,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -469,7 +479,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -511,7 +522,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -552,7 +564,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -593,7 +606,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -634,7 +648,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -677,7 +692,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -719,7 +735,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -761,7 +778,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -803,7 +821,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -846,7 +865,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -888,7 +908,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -930,7 +951,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -972,7 +994,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -1013,7 +1036,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -1054,7 +1078,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -1095,7 +1120,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -1136,7 +1162,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -1177,7 +1204,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -1218,7 +1246,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -1259,7 +1288,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -1300,7 +1330,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -1342,7 +1373,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -1384,7 +1416,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -1425,7 +1458,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -1466,7 +1500,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -1508,7 +1543,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -1550,7 +1586,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -1591,7 +1628,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -1633,7 +1671,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -1675,7 +1714,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -1716,7 +1756,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -1757,7 +1798,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -1798,7 +1840,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -1839,7 +1882,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -1880,7 +1924,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, true) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -1921,7 +1966,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -1962,7 +2008,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, true) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -2003,7 +2050,8 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, true) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, false)
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
       ) {
         return true
       }
@@ -2044,7 +2092,50 @@ export default {
         isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
         isValidByRadioButton(rewards.nameARivalEggleg, false) &&
         isValidByRadioButton(rewards.digYourOwnGrave, false) &&
-        isValidByRadioButton(rewards.aBrushWithInfamy, true)
+        isValidByRadioButton(rewards.aBrushWithInfamy, true) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, false)
+      ) {
+        return true
+      }
+      return false
+    },
+    isFishmentStory(state, gettesr, rootState) {
+      const rewards = rootState.rewards
+
+      if (
+        isValidByRadioButton(rewards.yourNameInTheStaffRoll, true) &&
+        isValidByRadioButton(rewards.discordRole, true) &&
+        isValidByRadioButton(rewards.digitalGame, false) &&
+        isValidByRadioButton(rewards.betaAccess, true) &&
+        isValidByRadioButton(rewards.physicalGame, true) &&
+        isValidByRadioButton(rewards.sigilButton, true) &&
+        isValidByRadioButton(rewards.ostCd, true) &&
+        isValidByRadioButton(rewards.tShirt, true) &&
+        isValidByRadioButton(rewards.vinylRecord, true) &&
+        isValidByRadioButton(rewards.softcoverArtbook, true) &&
+        isValidByRadioButton(rewards.jobRewardSet, true) &&
+        isValidByRadioButton(rewards.nameInArtbook, false) &&
+        isValidByRadioButton(rewards.teamSignedPoster, false) &&
+        isValidByRadioButton(rewards.yourNameAsASoldier, false) &&
+        isValidByRadioButton(rewards.catInTheGame, false) &&
+        isValidByRadioButton(rewards.petInTheGame, false) &&
+        isValidByRadioButton(rewards.nameALocation, false) &&
+        isValidByRadioButton(rewards.createAnEnemy, false) &&
+        isValidByRadioButton(rewards.becomeAnNpc, false) &&
+        isValidByRadioButton(rewards.replicaShield, false) &&
+        isValidByRadioButton(rewards.visitTheTeam, false) &&
+        isValidByRadioButton(rewards.characterFigure, false) &&
+        isValidByRadioButton(rewards.digitalCd, false) &&
+        isValidByRadioButton(rewards.digitalArtbook, false) &&
+        isValidByRadioButton(rewards.becomeAHumanFacedFish, true) &&
+        isValidByRadioButton(rewards.becomeAStatue, false) &&
+        isValidByRadioButton(rewards.createATownObject, false) &&
+        isValidByRadioButton(rewards.nameAnInGameFood, false) &&
+        isValidByRadioButton(rewards.nameARivalBeigomaTrainer, false) &&
+        isValidByRadioButton(rewards.nameARivalEggleg, false) &&
+        isValidByRadioButton(rewards.digYourOwnGrave, false) &&
+        isValidByRadioButton(rewards.aBrushWithInfamy, false) &&
+        isValidByRadioButton(rewards.humanFacedFishPlushy, true)
       ) {
         return true
       }

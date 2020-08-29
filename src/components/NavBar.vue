@@ -1153,7 +1153,7 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isEnduringRequiem'
           ],
-          isAvailable: true,
+          isAvailable: false,
           pledgeName: {
             english: 'Enduring Requiem',
             japanese: 'エンデューイング・レクイエム',
@@ -1609,7 +1609,7 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isSilverMonument'
           ],
-          isAvailable: true,
+          isAvailable: false,
           pledgeName: {
             english: 'Silver Monument Re-redux',
             japanese: 'シルバー・モニュメント・リ・リダックス',
@@ -1617,6 +1617,35 @@ export default {
           pledgeMinimumAmount: {
             english: '???',
             japanese: '50,000',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              '2x digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'スタッフロールへの名前の掲載',
+              'Discordでの「肩書き」取得',
+              'ベータ版をプレイできる',
+              'パッケージ版のゲーム',
+              'フィギュア x 2',
+            ],
+          },
+        },
+        {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isSilverMonument'
+          ],
+          isAvailable: true,
+          pledgeName: {
+            english: 'Silver Monument Returns',
+            japanese: 'シルバー・モニュメント・リターンズ',
+          },
+          pledgeMinimumAmount: {
+            english: '???',
+            japanese: '60,000',
           },
           rewards: {
             english: [
@@ -1659,6 +1688,35 @@ export default {
               'Discordの称号: Knight, Ranger or Wizard',
               '2つのダウンロード版ゲーム',
               'ベータアクセス権',
+            ],
+          },
+        },
+        {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isGoldenMonument'
+          ],
+          isAvailable: true,
+          pledgeName: {
+            english: 'Golden Monument Re-redux',
+            japanese: 'ゴールデン・モニュメント・リ・リダックス',
+          },
+          pledgeMinimumAmount: {
+            english: '1,000',
+            japanese: '65,000',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              '2x digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'スタッフロールへの名前の掲載',
+              'Discordでの「肩書き」取得',
+              'ベータ版をプレイできる',
+              'パッケージ版のゲーム',
+              'フィギュア x 3',
             ],
           },
         },
@@ -1752,7 +1810,7 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isPieceOfHistory'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'Piece of History Re-redux',
             japanese: 'ピース・オブ・ヒストリー・リ・リダックス',
@@ -2326,7 +2384,7 @@ export default {
           isMatchedWithUserSelection: this.$store.getters[
             'pledges/isABrushWithInfamy'
           ],
-          isAvailable: false,
+          isAvailable: true,
           pledgeName: {
             english: 'A Brush With Infamy',
             japanese: 'ア・ブラッシュ・ウイズ・インファミイ',
@@ -2389,6 +2447,42 @@ export default {
               'アートブック（紙の印刷版）',
               '「ジョブ」をテーマにしたグッズ x 1',
               '自分の肖像画が作れる',
+            ],
+          },
+        },
+        {
+          isMatchedWithUserSelection: this.$store.getters[
+            'pledges/isFishmentStory'
+          ],
+          isAvailable: true,
+          pledgeName: {
+            english: 'Fishment Story Redux',
+            japanese: 'フィッシュメント・ストーリー・リダックス',
+          },
+          pledgeMinimumAmount: {
+            english: '???',
+            japanese: '500,000',
+          },
+          rewards: {
+            english: [
+              'yourNameInTheStaffRoll',
+              'discordRole: Knight, Ranger or Wizard',
+              '2x digitalGame',
+              'betaAccess',
+            ],
+            japanese: [
+              'スタッフロールへの名前の掲載',
+              'Discordでの「肩書き」取得',
+              'ベータ版をプレイできる',
+              'パッケージ版のゲーム',
+              '缶バッジ',
+              'サントラ（CD版）',
+              'Tシャツ',
+              'サントラ（アナログレコード版）',
+              'アートブック（紙の印刷版）',
+              '「ジョブ」をテーマにしたグッズ x 1',
+              '人面魚として登場できる',
+              'あなたの顔をした人面魚のぬいぐるみ（10個のボイス入り）',
             ],
           },
         },

@@ -2,7 +2,7 @@ export default {
   strict: true,
   namespaced: true,
   state: {
-    becomeAHumanFacedFish: 'false',
+    becomeAHumanFacedFish: 'whichever',
   },
   mutations: {
     setBecomeAHumanFacedFish(state, value) {
