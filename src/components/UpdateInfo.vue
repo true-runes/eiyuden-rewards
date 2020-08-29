@@ -5,23 +5,33 @@
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <div class="content">
             <h1 class="has-text-weight-bold is-size-5">更新履歴</h1>
-            <span class="has-text-weight-bold">[2020/08/27]</span><br /><span
-              >「<router-link to="/stretch-goals">ストレッチゴール</router-link
-              >」のページを更新しました！！</span
+            <span class="has-text-weight-bold">[2020/08/29]</span><br /><span
+              >2020/08/29 21:00からの「<a
+                href="https://scrapbox.io/100heroesstrong/%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%B8%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%A0%E6%94%BE%E9%80%81"
+                target="_blank"
+                >クロージングストリーム放送</a
+              >」について追加しました！</span
             >
             <br />
             <br />
 
-            <span class="has-text-weight-bold">[2020/08/25]</span><br /><span
+            <span class="has-text-weight-bold">[2020/08/29]</span><br /><span
               >「<a
-                href="https://www.kickstarter.com/projects/rabbitandbearstudios/eiyuden-chronicle-hundred-heroes/posts/2933159"
+                href="https://www.kickstarter.com/projects/rabbitandbearstudios/eiyuden-chronicle-hundred-heroes/posts/2937710"
                 target="_blank"
-                >第14回更新情報</a
+                >第17回更新情報</a
               >」の<a
-                href="https://scrapbox.io/100heroesstrong/%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88_%2314_%E5%BB%BA%E7%AF%89%E5%AE%B6%E3%81%AE%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B9_%234"
+                href="https://scrapbox.io/100heroesstrong/%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88_%2317_%E6%BC%94%E5%8A%87%E3%81%AE%E8%88%9E%E5%8F%B0%EF%BC%835%EF%BC%9A%E6%9C%80%E7%B5%82%E6%97%A5"
                 target="_blank"
                 >内容</a
-              >を反映しました！</span
+              >を追加しました！</span
+            >
+            <br />
+            <br />
+
+            <span class="has-text-weight-bold">[2020/08/27]</span><br /><span
+              >「<router-link to="/stretch-goals">ストレッチゴール</router-link
+              >」のページを更新しました！！</span
             >
             <br />
             <br />
