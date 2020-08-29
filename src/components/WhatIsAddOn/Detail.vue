@@ -19,6 +19,7 @@
             <ClothMap />
             <CollectorCards />
             <BackerHero />
+            <CompanionGame />
           </div>
         </div>
       </div>
@@ -35,6 +36,7 @@ import ClothMap from '@/components/WhatIsAddOn/ItemDetail/ClothMap'
 import PhysicalVersion from '@/components/WhatIsAddOn/ItemDetail/PhysicalVersion'
 import CollectorCards from '@/components/WhatIsAddOn/ItemDetail/CollectorCards'
 import BackerHero from '@/components/WhatIsAddOn/ItemDetail/BackerHero'
+import CompanionGame from '@/components/WhatIsAddOn/ItemDetail/CompanionGame'
 
 export default {
   name: 'WhatIsAddOn',
@@ -47,6 +49,7 @@ export default {
     PhysicalVersion,
     CollectorCards,
     BackerHero,
+    CompanionGame,
   },
 }
 </script>
