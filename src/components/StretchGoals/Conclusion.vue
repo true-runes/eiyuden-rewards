@@ -28,8 +28,14 @@
 
             <h5>達成額: ???万ドル</h5>
             <ul>
-              <li>DLC</li>
-              <li>State of Mind (Another Story: Seign)</li>
+              <li>A Quiet Place (Companion Game)</li>
+            </ul>
+            <br />
+
+            <h5>達成額: 450万ドル</h5>
+            <ul>
+              <li>セイを操作することができるDLCです</li>
+              <li>帝国ガルディア側からの視点でゲームをプレイできます</li>
             </ul>
             <br />
 
