@@ -3,7 +3,7 @@
     <div class="container">
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
-          <h1 class="title">参考ソース</h1>
+          <h3>8. バッカーヒーロー</h3>
         </div>
       </div>
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
@@ -11,16 +11,15 @@
           <div class="content has-text-left">
             <ul>
               <li>
-                <a
-                  href="https://www.kickstarter.com/projects/rabbitandbearstudios/eiyuden-chronicle-hundred-heroes/posts/2936489"
-                  target="_blank"
-                  >「更新情報」の第16回目</a
-                >
-                <br />
-                <br />
-                <img src="images/how_to_add_addon_20200829.png" />
+                クレジットに表示される名前の横に番号がついた「英雄の名前」に変わります。
               </li>
+              <li>
+                たとえば「Joe Average」という名前が「[HERO #124] Joe
+                Average」に変わります。
+              </li>
+              <li>1,100円</li>
             </ul>
+            <p></p>
           </div>
         </div>
       </div>

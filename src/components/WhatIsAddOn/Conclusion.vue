@@ -9,7 +9,7 @@
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <div class="content has-text-left">
-            <ul>
+            <ol>
               <li>
                 「アドオン」を購入するには、希望するアドオンの分の金額を現在の支援額に「上乗せ」します
                 <ul>
@@ -22,30 +22,16 @@
                     >
                     です
                   </li>
-                  <li>
-                    上乗せの際に確認項目などは表示されません
-                  </li>
-                  <li>
-                    金額を上乗せするだけで手続きは完結します
-                  </li>
+                  <li>上乗せの際に確認項目などは表示されません</li>
+                  <li>金額を上乗せするだけで手続きは完結します</li>
                 </ul>
               </li>
               <li>
                 支援期間が終了した後に、どのアドオンを選択するかを尋ねる連絡が届きます
               </li>
-              <li>
-                それに対して希望するアドオンを回答します
-              </li>
-              <li>
-                詳しくは
-                <a
-                  href="https://www.kickstarter.com/projects/rabbitandbearstudios/eiyuden-chronicle-hundred-heroes/posts/2919086"
-                  target="_blank"
-                  >「更新情報」の第8回目</a
-                >
-                をご確認ください
-              </li>
-            </ul>
+              <li>それに対して希望するアドオンを回答します</li>
+              <li>参考情報はページ最下部にも記載しています</li>
+            </ol>
           </div>
         </div>
       </div>
