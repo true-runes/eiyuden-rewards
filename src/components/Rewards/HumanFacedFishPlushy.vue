@@ -4,7 +4,7 @@
       <div class="columns is-multiline is-mobile is-tablet is-desktop">
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <p class="is-size-5 has-text-weight-bold">
-            人面魚として登場できる
+            あなたの顔の人面魚のぬいぐるみ
             <span @click="showModal" class="kochira-he-dozo"
               ><b-icon icon="help-circle-outline" size="is-middle"></b-icon
             ></span>
@@ -18,7 +18,7 @@
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <b-field class="columns">
             <b-radio-button
-              v-model="becomeAHumanFacedFish"
+              v-model="humanFacedFishPlushy"
               native-value="true"
               type="is-success"
               class="column is-4-mobile is-4-tablet is-4-desktop"
@@ -27,7 +27,7 @@
               <span>ほしい</span>
             </b-radio-button>
             <b-radio-button
-              v-model="becomeAHumanFacedFish"
+              v-model="humanFacedFishPlushy"
               native-value="whichever"
               type="is-info"
               class="column is-4-mobile is-4-tablet is-4-desktop"
@@ -35,7 +35,7 @@
               <span>どちらでも</span>
             </b-radio-button>
             <b-radio-button
-              v-model="becomeAHumanFacedFish"
+              v-model="humanFacedFishPlushy"
               native-value="false"
               type="is-danger"
               class="column is-4-mobile is-4-tablet is-4-desktop"
@@ -52,14 +52,17 @@
       <div class="modal-background"></div>
       <div class="modal-card">
         <header class="modal-card-head">
-          <p class="modal-card-title">人面魚として登場できる</p>
+          <p class="modal-card-title">あなたの顔の人面魚のぬいぐるみ</p>
         </header>
         <section class="modal-card-body has-text-left">
-          <img
-            src="/images/become_a_human_faced_fish.png"
-            alt="人面魚"
-            title="人面魚"
-          />
+          <div class="content">
+            <ul>
+              <li>あなたの顔をしたあなただけのぬいぐるみ</li>
+              <li>
+                プロジェクトに参加してくださる声優の方に録音してもらった、あなたが考えた10個のフレーズが入った特別なぬいぐるみ
+              </li>
+            </ul>
+          </div>
         </section>
         <footer class="modal-card-foot move-button-to-right">
           <button class="button is-success" @click="pushCloseButton">
@@ -80,17 +83,17 @@ export default {
     }
   },
   computed: {
-    becomeAHumanFacedFish: {
+    humanFacedFishPlushy: {
       get() {
-        return this.$store.state.rewards.becomeAHumanFacedFish
+        return this.$store.state.rewards.humanFacedFishPlushy
       },
       set(value) {
-        this.$store.commit('rewards/setBecomeAHumanFacedFish', value)
+        this.$store.commit('rewards/setHumanFacedFishPlushy', value)
       },
     },
   },
   watch: {
-    becomeAHumanFacedFish: function () {
+    humanFacedFishPlushy: function () {
       this.$store.commit('rewards/setAllRewardsState')
     },
   },
