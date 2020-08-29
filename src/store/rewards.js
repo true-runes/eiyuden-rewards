@@ -33,6 +33,7 @@ import steelbookCase from '@/store/Rewards/steelbookCase'
 import nameARivalEggleg from '@/store/Rewards/nameARivalEggleg'
 import digYourOwnGrave from '@/store/Rewards/digYourOwnGrave'
 import aBrushWithInfamy from '@/store/Rewards/aBrushWithInfamy'
+import humanFacedFishPlushy from '@/store/Rewards/humanFacedFishPlushy'
 
 // TODO: Import by 'map'
 export default {
@@ -74,6 +75,7 @@ export default {
     ...nameARivalEggleg.state,
     ...digYourOwnGrave.state,
     ...aBrushWithInfamy.state,
+    ...humanFacedFishPlushy.state,
 
     allRewardsState: {},
   },
@@ -115,6 +117,7 @@ export default {
     ...nameARivalEggleg.getters,
     ...digYourOwnGrave.getters,
     ...aBrushWithInfamy.getters,
+    ...humanFacedFishPlushy.getters,
 
     getAllRewardsState(state) {
       return state.allRewardsState
@@ -158,6 +161,7 @@ export default {
     ...nameARivalEggleg.mutations,
     ...digYourOwnGrave.mutations,
     ...aBrushWithInfamy.mutations,
+    ...humanFacedFishPlushy.mutations,
 
     // TODO: Overwrite by payload
     setAllRewardsState(state) {
@@ -197,6 +201,7 @@ export default {
         nameARivalEggleg: state.nameARivalEggleg,
         digYourOwnGrave: state.digYourOwnGrave,
         aBrushWithInfamy: state.aBrushWithInfamy,
+        humanFacedFishPlushy: state.humanFacedFishPlushy,
       }
     },
   },

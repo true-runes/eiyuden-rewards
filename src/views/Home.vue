@@ -51,10 +51,11 @@
     <CreateATownObject />
     <ABrushWithInfamy />
     <VisitTheTeam />
+    <HumanFacedFishPlushy />
+    <BecomeAHumanFacedFish />
 
     <RewardsCategory category-name="規定数終了" />
     <CatInTheGame />
-    <BecomeAHumanFacedFish />
     <BecomeAStatue />
     <NameALocation />
     <CreateAnEnemy />
@@ -113,6 +114,7 @@ import NameARivalEggleg from '@/components/Rewards/NameARivalEggleg'
 import Addons from '@/components/Addons'
 import DigYourOwnGrave from '@/components/Rewards/DigYourOwnGrave'
 import ABrushWithInfamy from '@/components/Rewards/ABrushWithInfamy'
+import HumanFacedFishPlushy from '@/components/Rewards/HumanFacedFishPlushy'
 
 export default {
   name: 'Home',
@@ -160,6 +162,7 @@ export default {
     CrowdFundingEndDatetime,
     DigYourOwnGrave,
     ABrushWithInfamy,
+    HumanFacedFishPlushy,
   },
   created: function () {
     // Initialize
