@@ -6,6 +6,20 @@
           <div class="content">
             <h1 class="has-text-weight-bold is-size-5">更新履歴</h1>
             <span class="has-text-weight-bold">[2020/08/29]</span><br /><span
+              >「<router-link to="/stretch-goals">ストレッチゴール</router-link
+              >」のページを更新しました！！</span
+            >
+            <br />
+
+            <span
+              >「<router-link to="/what-is-add-on#page-top"
+                >アドオン</router-link
+              >」のページを追加しました！！</span
+            >
+
+            <br />
+
+            <span
               >2020/08/29 21:00からの「<a
                 href="https://scrapbox.io/100heroesstrong/%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%B8%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%A0%E6%94%BE%E9%80%81"
                 target="_blank"
@@ -15,7 +29,7 @@
             <br />
             <br />
 
-            <span class="has-text-weight-bold">[2020/08/29]</span><br /><span
+            <span class="has-text-weight-bold">[2020/08/28]</span><br /><span
               >「<a
                 href="https://www.kickstarter.com/projects/rabbitandbearstudios/eiyuden-chronicle-hundred-heroes/posts/2937710"
                 target="_blank"
@@ -25,13 +39,6 @@
                 target="_blank"
                 >内容</a
               >を追加しました！</span
-            >
-            <br />
-            <br />
-
-            <span class="has-text-weight-bold">[2020/08/27]</span><br /><span
-              >「<router-link to="/stretch-goals">ストレッチゴール</router-link
-              >」のページを更新しました！！</span
             >
             <br />
             <br />
@@ -67,12 +74,6 @@
             <br />
             <br />
 
-            <span class="has-text-weight-bold">[2020/08/19]</span><br /><span
-              >「<router-link to="/what-is-add-on#page-top"
-                >アドオン</router-link
-              >」のページを追加しました！！</span
-            >
-            <br />
             <!-- 上記以前の更新履歴は「こちら」 -->
           </div>
         </div>

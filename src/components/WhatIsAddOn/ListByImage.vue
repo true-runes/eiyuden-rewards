@@ -11,7 +11,7 @@
           <div class="content">
             <br />
             <img
-              src="/images/addon_list_20200829.png"
+              src="/images/addon_list_20200830.png"
               alt="アドオンリスト（画像）"
               title="アドオンリスト（画像）"
             />
