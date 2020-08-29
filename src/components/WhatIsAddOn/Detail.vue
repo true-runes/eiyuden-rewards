@@ -10,9 +10,7 @@
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <div class="content has-text-left">
             <br />
-            <p>
-              各アドオンの詳細は次の通りです。
-            </p>
+            <p>各アドオンの詳細は次の通りです。</p>
             <DigitalVersion />
             <PhysicalVersion />
             <SteelBook />
@@ -20,6 +18,7 @@
             <Snappies />
             <ClothMap />
             <CollectorCards />
+            <BackerHero />
           </div>
         </div>
       </div>
@@ -35,6 +34,7 @@ import Snappies from '@/components/WhatIsAddOn/ItemDetail/Snappies'
 import ClothMap from '@/components/WhatIsAddOn/ItemDetail/ClothMap'
 import PhysicalVersion from '@/components/WhatIsAddOn/ItemDetail/PhysicalVersion'
 import CollectorCards from '@/components/WhatIsAddOn/ItemDetail/CollectorCards'
+import BackerHero from '@/components/WhatIsAddOn/ItemDetail/BackerHero'
 
 export default {
   name: 'WhatIsAddOn',
@@ -46,6 +46,7 @@ export default {
     ClothMap,
     PhysicalVersion,
     CollectorCards,
+    BackerHero,
   },
 }
 </script>
