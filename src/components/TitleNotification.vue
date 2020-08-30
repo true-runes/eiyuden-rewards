@@ -6,12 +6,6 @@
           <div class="content">
             <ul>
               <li>
-                <WhatIsThisSite />
-              </li>
-              <li>
-                <ContentsAreNotAlwaysLatest />
-              </li>
-              <li>
                 <KishuIzonMoji />
               </li>
               <li>
@@ -29,16 +23,12 @@
 </template>
 
 <script>
-import WhatIsThisSite from '@/components/TitleNotifications/WhatIsThisSite'
-import ContentsAreNotAlwaysLatest from '@/components/TitleNotifications/ContentsAreNotAlwaysLatest'
 import KishuIzonMoji from '@/components/TitleNotifications/KishuIzonMoji'
 import HelpDetail from '@/components/TitleNotifications/HelpDetail'
 import Netabare from '@/components/TitleNotifications/Netabare'
 
 export default {
   components: {
-    WhatIsThisSite,
-    ContentsAreNotAlwaysLatest,
     KishuIzonMoji,
     HelpDetail,
     Netabare,

@@ -5,6 +5,14 @@
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <div class="content">
             <h1 class="has-text-weight-bold is-size-5">更新履歴</h1>
+            <span class="has-text-weight-bold">[2020/08/30]</span><br /><span
+              >「<router-link to="/rewards-gyakuhiki"
+                >リワード逆引き</router-link
+              >」を別ページに移しました！</span
+            >
+            <br />
+            <br />
+
             <span class="has-text-weight-bold">[2020/08/29]</span><br /><span
               >「<router-link to="/stretch-goals">ストレッチゴール</router-link
               >」のページを更新しました！！</span

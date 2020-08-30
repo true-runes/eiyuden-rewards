@@ -4,13 +4,12 @@
     <Title />
     <AccessCounter />
     <CurrentDateTime />
+
     <CrowdFundingIsEnd />
-
+    <PleaseCheckScrapbox />
     <UpdateInfo />
-
     <TitleNotification />
 
-    <Addons />
     <Bottom />
   </div>
 </template>
@@ -24,12 +23,11 @@ import Bottom from '@/components/Bottom'
 import UpdateInfo from '@/components/UpdateInfo'
 import CurrentDateTime from '@/components/CurrentDateTime'
 import CrowdFundingIsEnd from '@/components/CrowdFundingIsEnd'
-import Addons from '@/components/Addons'
+import PleaseCheckScrapbox from '@/components/PleaseCheckScrapbox'
 
 export default {
   name: 'Home',
   components: {
-    Addons,
     Header,
     TitleNotification,
     UpdateInfo,
@@ -38,6 +36,7 @@ export default {
     Bottom,
     CurrentDateTime,
     CrowdFundingIsEnd,
+    PleaseCheckScrapbox,
   },
   created: function () {
     // Initialize

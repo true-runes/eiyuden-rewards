@@ -58,13 +58,14 @@
     <NavBar />
 
     <Bottom />
+    <br />
   </div>
 </template>
 
 <script>
 import Header from '@/components/Header'
 import Bottom from '@/components/WhatIsAddOn/Bottom'
-import Title from '@/components/WhatIsAddOn/Title'
+import Title from '@/components/RewardsGyakuhiki/Title'
 import YourNameInTheStaffRoll from '@/components/Rewards/YourNameInTheStaffRoll'
 import DiscordRole from '@/components/Rewards/DiscordRole'
 import DigitalGame from '@/components/Rewards/DigitalGame'
