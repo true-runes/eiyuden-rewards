@@ -9,9 +9,6 @@
                 <KishuIzonMoji />
               </li>
               <li>
-                <HelpDetail />
-              </li>
-              <li>
                 <Netabare />
               </li>
             </ul>
@@ -24,13 +21,11 @@
 
 <script>
 import KishuIzonMoji from '@/components/TitleNotifications/KishuIzonMoji'
-import HelpDetail from '@/components/TitleNotifications/HelpDetail'
 import Netabare from '@/components/TitleNotifications/Netabare'
 
 export default {
   components: {
     KishuIzonMoji,
-    HelpDetail,
     Netabare,
   },
 }
