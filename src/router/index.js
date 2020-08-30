@@ -4,6 +4,7 @@ import Home from '../views/Home'
 import WhatIsAddOn from '../views/WhatIsAddOn'
 import StretchGoals from '../views/StretchGoals'
 import NotFound from '../views/NotFound'
+import RewardsGyakuhiki from '../views/RewardsGyakuhiki'
 
 Vue.use(VueRouter)
 
@@ -22,6 +23,11 @@ const routes = [
     path: '/stretch-goals',
     name: 'StretchGoals',
     component: StretchGoals,
+  },
+  {
+    path: '/rewards-gyakuhiki',
+    name: 'RewardsGyakuhiki',
+    component: RewardsGyakuhiki,
   },
   {
     path: '*',

@@ -4,9 +4,9 @@
       <div class="columns">
         <div class="column is-full">
           <img
-            src="/images/hyaku_eiyuden_shinsho_title.png"
-            alt="百英雄伝攻略真書"
-            title="百英雄伝攻略真書"
+            src="/images/reward_gyakuhiki.png"
+            alt="リワード逆引き"
+            title="リワード逆引き"
           />
         </div>
       </div>
