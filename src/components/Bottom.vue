@@ -65,15 +65,6 @@
           <p>当サイトはリンクフリーです☆彡</p>
 
           <br />
-
-          <p class="more-margin">
-            選択項目を初期化したい場合は
-            <a href="#" @click="initializeState">
-              こちら
-            </a>
-            をクリック (^^)/
-          </p>
-
           <br />
 
           <p>
@@ -89,24 +80,7 @@
   </section>
 </template>
 
-<script>
-export default {
-  methods: {
-    initializeState: function () {
-      const initialState = {
-        rewards: {},
-        pledges: {},
-      }
-
-      localStorage.setItem('vuex', JSON.stringify(initialState))
-      this.reloadCurrentPage()
-    },
-    reloadCurrentPage: function () {
-      this.$router.go({ path: this.$router.currentRoute.path, force: true })
-    },
-  },
-}
-</script>
+<script></script>
 
 <style scoped>
 .columns {
