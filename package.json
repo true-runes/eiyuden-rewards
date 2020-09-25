@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "watch": "vue-cli-service serve",
-    "test": "jest"
+    "serve": "vue-cli-service serve",
+    "test": "jest",
+    "test:unit": "vue-cli-service test:unit",
+    "watch": "vue-cli-service serve"
   },
   "dependencies": {
     "buefy": ">=0.9.3",
