@@ -38,7 +38,7 @@
     "eslint-plugin-vue": ">=7.1.0",
     "prettier": ">=2.2.0",
     "prettier-eslint": ">=11.0.0",
-    "stylelint": ">=13.7.2",
+    "stylelint": ">=13.8.0",
     "stylelint-config-standard": ">=20.0.0",
     "textlint": ">=11.7.6",
     "vue-eslint-parser": ">=7.1.1",
