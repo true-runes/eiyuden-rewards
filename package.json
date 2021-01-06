@@ -13,7 +13,7 @@
   "dependencies": {
     "buefy": ">=0.9.4",
     "core-js": ">=3.8.2",
-    "dayjs": ">=1.10.1",
+    "dayjs": ">=1.10.2",
     "jquery": ">=3.5.1",
     "vue": ">=2.6.12",
     "vue-router": ">=3.4.9",
