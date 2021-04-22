@@ -11,7 +11,7 @@
     "watch": "vue-cli-service serve"
   },
   "dependencies": {
-    "buefy": ">=0.9.6",
+    "buefy": ">=0.9.7",
     "core-js": ">=3.10.1",
     "dayjs": ">=1.10.4",
     "jquery": ">=3.6.0",
