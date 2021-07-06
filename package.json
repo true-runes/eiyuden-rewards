@@ -41,7 +41,7 @@
     "stylelint": ">=13.13.1",
     "stylelint-config-standard": ">=22.0.0",
     "textlint": ">=11.9.1",
-    "vue-eslint-parser": ">=7.7.2",
+    "vue-eslint-parser": ">=7.8.0",
     "vue-template-compiler": ">=2.6.14"
   }
 }
